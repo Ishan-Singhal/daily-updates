@@ -1,0 +1,54 @@
+{
+  "2026-04-07": {
+    "trade_ideas": [
+      {
+        "ticker": "GLD",
+        "direction": "Buy",
+        "raw": "Buy at 468-470"
+      },
+      {
+        "ticker": "WBD",
+        "direction": "Buy",
+        "raw": "Buy at market open ~9-10"
+      },
+      {
+        "ticker": "TSLA",
+        "direction": "Short",
+        "raw": "Short at 340-342"
+      },
+      {
+        "ticker": "TLT",
+        "direction": "Sell",
+        "raw": "Sell/Short at ~86-87"
+      },
+      {
+        "ticker": "LMT",
+        "direction": "Buy",
+        "raw": "Buy at ~470-475"
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Technology",
+        "etf": "XLK",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-04-07"
+  }
+}

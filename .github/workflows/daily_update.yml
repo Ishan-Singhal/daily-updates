@@ -1,0 +1,44 @@
+name: Daily Market Brief
+
+on:
+  schedule:
+    # Runs at 7:00 AM Central Time (12:00 UTC during CDT, 13:00 UTC during CST)
+    - cron: '0 12 * * *'
+  workflow_dispatch:  # Allow manual trigger from GitHub UI
+
+permissions:
+  contents: write  # Needed to commit updated predictions/track_record
+
+jobs:
+  send-daily-brief:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run daily update agent
+        env:
+          PHONE_NUMBER: ${{ secrets.PHONE_NUMBER }}
+          OPENWEATHER_API_KEY: ${{ secrets.OPENWEATHER_API_KEY }}
+          TEXTBELT_KEY: ${{ secrets.TEXTBELT_KEY }}
+          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+          PUTER_TOKEN: ${{ secrets.PUTER_TOKEN }}
+        run: python daily_update.py
+
+      - name: Commit updated predictions & track record
+        run: |
+          git config user.name "Daily Update Bot"
+          git config user.email "bot@daily-updates.local"
+          git add data/predictions.json data/track_record.json || true
+          git diff --staged --quiet || git commit -m "Update predictions & track record $(date +%Y-%m-%d)"
+          git push || true
