@@ -91,7 +91,7 @@ def analyze_news(articles):
     # Build article summaries for the prompt
     article_text = ""
     for i, a in enumerate(articles, 1):
-        content = a.get("summary") or a.get("text", "")[:800]
+        content = a.get("summary") or (a.get("text") or "")[:800]
         article_text += f"\n{i}. {a['title']}\n{content}\n"
 
     try:
