@@ -187,10 +187,9 @@ def main():
     # Always print full report to console/log
     print(full_report)
 
-    # Send the compact SMS version
-    print("\nSending SMS...")
-    sms = build_sms_message(full_report)
-    send_sms(sms)
+    # Send the FULL report via email (no need to truncate like SMS)
+    print("\nSending email...")
+    send_sms(full_report)
     print("Done.")
 
 

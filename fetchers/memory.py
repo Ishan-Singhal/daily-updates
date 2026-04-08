@@ -101,12 +101,18 @@ def grade_yesterdays_predictions():
 
         try:
             t = yf.Ticker(ticker)
-            hist = t.history(period="2d")
+            hist = t.history(period="5d")
             if len(hist) < 2:
                 continue
 
             prev_close = hist.iloc[-2]["Close"]
             today_close = hist.iloc[-1]["Close"]
+
+            # Skip if prices are NaN or zero
+            import math
+            if math.isnan(prev_close) or math.isnan(today_close) or prev_close == 0:
+                continue
+
             actual_pct = ((today_close - prev_close) / prev_close) * 100
 
             # Determine if prediction was correct
@@ -151,12 +157,17 @@ def grade_yesterdays_predictions():
 
         try:
             t = yf.Ticker(etf)
-            hist = t.history(period="2d")
+            hist = t.history(period="5d")
             if len(hist) < 2:
                 continue
 
             prev_close = hist.iloc[-2]["Close"]
             today_close = hist.iloc[-1]["Close"]
+
+            import math
+            if math.isnan(prev_close) or math.isnan(today_close) or prev_close == 0:
+                continue
+
             actual_pct = ((today_close - prev_close) / prev_close) * 100
 
             predicted_up = direction in ["bullish", "favor", "buy"]
