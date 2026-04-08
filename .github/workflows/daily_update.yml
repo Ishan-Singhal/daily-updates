@@ -6,6 +6,9 @@ on:
     - cron: '0 12 * * *'
   workflow_dispatch:  # Allow manual trigger from GitHub UI
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 permissions:
   contents: write  # Needed to commit updated predictions/track_record
 
@@ -15,7 +18,7 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Python
         uses: actions/setup-python@v5
