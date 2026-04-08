@@ -31,11 +31,11 @@ jobs:
 
       - name: Run daily update agent
         env:
-          PHONE_NUMBER: ${{ secrets.PHONE_NUMBER }}
           OPENWEATHER_API_KEY: ${{ secrets.OPENWEATHER_API_KEY }}
-          TEXTBELT_KEY: ${{ secrets.TEXTBELT_KEY }}
           NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
           PUTER_TOKEN: ${{ secrets.PUTER_TOKEN }}
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
         run: python daily_update.py
 
       - name: Commit updated predictions & track record

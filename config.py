@@ -3,11 +3,11 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-PHONE_NUMBER = os.getenv("PHONE_NUMBER")
 OPENWEATHER_API_KEY = os.getenv("OPENWEATHER_API_KEY")
-TEXTBELT_KEY = os.getenv("TEXTBELT_KEY", "textbelt")
 NEWSAPI_KEY = os.getenv("NEWSAPI_KEY")
 PUTER_TOKEN = os.getenv("PUTER_TOKEN")
+GMAIL_ADDRESS = os.getenv("GMAIL_ADDRESS")
+GMAIL_APP_PASSWORD = os.getenv("GMAIL_APP_PASSWORD")
 
 # Weather location
 WEATHER_CITY = "Round Rock"
