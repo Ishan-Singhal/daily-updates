@@ -205,5 +205,74 @@
     "total_correct": 3,
     "total_calls": 9,
     "accuracy": 33.3
+  },
+  "2026-04-11": {
+    "prediction_date": "2026-04-07",
+    "graded_date": "2026-04-11",
+    "trade_grades": [
+      {
+        "ticker": "GLD",
+        "predicted": "buy",
+        "actual_move": "-0.18%",
+        "correct": false
+      },
+      {
+        "ticker": "WBD",
+        "predicted": "buy",
+        "actual_move": "-0.33%",
+        "correct": false
+      },
+      {
+        "ticker": "TSLA",
+        "predicted": "short",
+        "actual_move": "+0.96%",
+        "correct": "False"
+      },
+      {
+        "ticker": "TLT",
+        "predicted": "sell",
+        "actual_move": "-0.24%",
+        "correct": "True"
+      },
+      {
+        "ticker": "LMT",
+        "predicted": "buy",
+        "actual_move": "-1.63%",
+        "correct": false
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bullish",
+        "actual_move": "-0.68%",
+        "correct": false
+      },
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "predicted": "bullish",
+        "actual_move": "-0.40%",
+        "correct": false
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "+0.13%",
+        "correct": "False"
+      },
+      {
+        "sector": "Technology",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "+0.39%",
+        "correct": "False"
+      }
+    ],
+    "total_correct": 1,
+    "total_calls": 9,
+    "accuracy": 11.1
   }
 }
