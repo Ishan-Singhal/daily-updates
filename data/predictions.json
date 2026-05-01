@@ -50,5 +50,57 @@
       }
     ],
     "date": "2026-04-07"
+  },
+  "2026-05-01": {
+    "trade_ideas": [
+      {
+        "ticker": "XLE",
+        "direction": "Buy",
+        "raw": "1. **XLE** - Buy at market open (~$97-98) - Iran standoff with no diplomatic off-ramp is keeping crude above $103 and Fed officials are explicitly citing Strait of Hormuz closure as an inflation catal"
+      },
+      {
+        "ticker": "META",
+        "direction": "Short",
+        "raw": "2. **META** - Short at $610-615 - Selling off 8.6% on 2.4x volume *despite beating estimates* is the clearest signal the market has flipped from rewarding AI capex to punishing it; the $38-40B capex g"
+      },
+      {
+        "ticker": "GOOGL",
+        "direction": "Buy",
+        "raw": "3. **GOOGL** - Buy at $380-385 (near 52w high breakout) - Cloud/AI revenue acceleration is exactly what the market is now demanding \u2014 GOOGL is the \"right kind\" of AI spender with monetization proof, a"
+      },
+      {
+        "ticker": "TLT",
+        "direction": "Buy",
+        "raw": "4. **TLT** - Buy May puts (short duration) at market open - Kashkari and Hammack openly discussing rate *hikes* while Fed funds futures still price cuts is a massive mispricing; oil above $103 feeds d"
+      },
+      {
+        "ticker": "MARA",
+        "direction": "Watch",
+        "raw": "5. **MARA** - Watch at $12.00 (do NOT chase) - Bitcoin +2.5% and MARA +11.8% on 1.8x volume is tempting, but this is a momentum chase into a name that gets destroyed if the Fed hike narrative gains tr"
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Consumer Staples",
+        "etf": "XLP",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Healthcare",
+        "etf": "XLV",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-05-01"
   }
 }
