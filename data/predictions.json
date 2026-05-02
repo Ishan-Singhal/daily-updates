@@ -102,5 +102,21 @@
       }
     ],
     "date": "2026-05-01"
+  },
+  "2026-05-02": {
+    "trade_ideas": [
+      {
+        "ticker": "RBLX",
+        "direction": "Watch",
+        "raw": "1. **RBLX** - Watch at $45.13 - Down 18.3% on 2.7x volume, this is a post-earnings washout that could present a bounce opportunity, but I want to see stabilization and a hold of $44 support before com"
+      },
+      {
+        "ticker": "ROKU",
+        "direction": "Sell",
+        "raw": "2. **ROKU** - Sell/Take Profit at $123.58 - Up 6% on 2x volume with +8% over 5 days; this is a momentum exhaustion setup near resistance at $125 where sellers have historically stepped in. If you're"
+      }
+    ],
+    "sector_calls": [],
+    "date": "2026-05-02"
   }
 }
