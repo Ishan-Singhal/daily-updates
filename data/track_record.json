@@ -369,5 +369,21 @@
     "total_correct": 0,
     "total_calls": 1,
     "accuracy": 0.0
+  },
+  "2026-05-06": {
+    "prediction_date": "2026-05-02",
+    "graded_date": "2026-05-06",
+    "trade_grades": [
+      {
+        "ticker": "ROKU",
+        "predicted": "sell",
+        "actual_move": "-0.21%",
+        "correct": "True"
+      }
+    ],
+    "sector_grades": [],
+    "total_correct": 1,
+    "total_calls": 1,
+    "accuracy": 100.0
   }
 }
