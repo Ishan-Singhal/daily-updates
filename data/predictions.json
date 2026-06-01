@@ -118,5 +118,57 @@
     ],
     "sector_calls": [],
     "date": "2026-05-02"
+  },
+  "2026-06-01": {
+    "trade_ideas": [
+      {
+        "ticker": "AVGO",
+        "direction": "Buy",
+        "raw": "2. **AVGO** - Buy at $458-462 - AI hardware bottleneck thesis is accelerating with AVGO +9.2% over 5 days and sitting within 0.6% of 52-week highs; the specific catalyst is the custom ASIC demand surg"
+      },
+      {
+        "ticker": "MRK",
+        "direction": "Short",
+        "raw": "3. **MRK** - Short at ~$105-107 (current levels) - Akeso's ivonescimab showing 34% OS reduction vs. PD-1 monotherapy at ASCO is a direct shot at Keytruda's $25B+ franchise, and with the 2028 patent cl"
+      },
+      {
+        "ticker": "META",
+        "direction": "Watch",
+        "raw": "5. **META** - Watch at $609 (do NOT buy the dip yet) - Down 3.59% yesterday while NVDA rallied 4.37%, signaling rotation OUT of AI consumers and INTO AI suppliers; with breadth deteriorating and only "
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-06-01"
   }
 }
