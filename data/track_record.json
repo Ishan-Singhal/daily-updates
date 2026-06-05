@@ -580,5 +580,70 @@
     "total_correct": 1,
     "total_calls": 8,
     "accuracy": 12.5
+  },
+  "2026-06-05": {
+    "prediction_date": "2026-06-01",
+    "graded_date": "2026-06-05",
+    "trade_grades": [
+      {
+        "ticker": "AVGO",
+        "predicted": "buy",
+        "actual_move": "-4.34%",
+        "correct": false
+      },
+      {
+        "ticker": "MRK",
+        "predicted": "short",
+        "actual_move": "+1.65%",
+        "correct": "False"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bullish",
+        "actual_move": "-0.82%",
+        "correct": false
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bullish",
+        "actual_move": "-3.35%",
+        "correct": false
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "predicted": "bullish",
+        "actual_move": "+0.31%",
+        "correct": "True"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "-0.15%",
+        "correct": "True"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "-0.15%",
+        "correct": "True"
+      },
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "predicted": "bearish",
+        "actual_move": "+0.77%",
+        "correct": "False"
+      }
+    ],
+    "total_correct": 3,
+    "total_calls": 8,
+    "accuracy": 37.5
   }
 }
