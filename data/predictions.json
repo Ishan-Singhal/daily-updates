@@ -170,5 +170,52 @@
       }
     ],
     "date": "2026-06-01"
+  },
+  "2026-07-01": {
+    "trade_ideas": [
+      {
+        "ticker": "TLT",
+        "direction": "Short",
+        "raw": "1. **TLT** - Short at market open (~$88-89 range) - Warsh's rate hike language is a paradigm shift the bond market has NOT priced in; the front end was positioned for cuts and must now reprice even a "
+      },
+      {
+        "ticker": "META",
+        "direction": "Sell",
+        "raw": "2. **META** - Sell/Trim at $612 - After a +9% single-day rip and +13% over 5 days, this is extended into a session where Warsh's hawkish pivot directly pressures high-multiple growth names via higher "
+      },
+      {
+        "ticker": "GLD",
+        "direction": "Buy",
+        "raw": "3. **GLD** - Buy at market open (~$410 area, reflecting ~$4,100 gold) - Gold holding firm near $4,000+ despite hawkish Fed rhetoric is the tell \u2014 the market is pricing fiscal/sovereign risk that trans"
+      },
+      {
+        "ticker": "GM",
+        "direction": "Short",
+        "raw": "4. **GM** - Short at market open (~$48-50 range) - USMCA review deadline passing without extension is a slow-motion supply chain grenade for the most North America-integrated automaker; a single vehic"
+      },
+      {
+        "ticker": "KTOS",
+        "direction": "Buy",
+        "raw": "5. **KTOS** - Buy at $28-29 range - AVAV's backlog doubling validates the defense drone procurement thesis, and Kratos is the most direct read-through beneficiary as a tactical drone/unmanned systems "
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-07-01"
   }
 }
