@@ -217,5 +217,31 @@
       }
     ],
     "date": "2026-07-01"
+  },
+  "2026-07-02": {
+    "trade_ideas": [
+      {
+        "ticker": "GM",
+        "direction": "Short",
+        "raw": "1. **GM** - Short at $52-53 range - USMCA non-renewal is a structural catalyst that directly threatens auto supply chains with ~40% of US vehicle content crossing borders; cut loss above $55, take pro"
+      },
+      {
+        "ticker": "HOOD",
+        "direction": "Watch",
+        "raw": "3. **HOOD** - Watch (no entry) - Up 19.5% over 5 days and 8.5% yesterday on crypto/BTC momentum \u2014 this is extended and chasing here is dangerous despite the crypto tailwind; would only enter on a pull"
+      },
+      {
+        "ticker": "TLT",
+        "direction": "Buy",
+        "raw": "4. **TLT** - Buy at market open (~$91) - Weak June hiring + Powell's dovish tone + Warsh refusing to endorse hikes removes hawkish tail risk and clears the path for rate cuts; take profit at $94, stop"
+      },
+      {
+        "ticker": "AAL",
+        "direction": "Short",
+        "raw": "5. **AAL** - Short at market open (~$17.50) - Iran"
+      }
+    ],
+    "sector_calls": [],
+    "date": "2026-07-02"
   }
 }

@@ -645,5 +645,67 @@
     "total_correct": 3,
     "total_calls": 8,
     "accuracy": 37.5
+  },
+  "2026-07-02": {
+    "prediction_date": "2026-07-01",
+    "graded_date": "2026-07-02",
+    "trade_grades": [
+      {
+        "ticker": "TLT",
+        "predicted": "short",
+        "actual_move": "-0.01%",
+        "correct": "False"
+      },
+      {
+        "ticker": "META",
+        "predicted": "sell",
+        "actual_move": "-2.74%",
+        "correct": "True"
+      },
+      {
+        "ticker": "GLD",
+        "predicted": "buy",
+        "actual_move": "+2.43%",
+        "correct": "True"
+      },
+      {
+        "ticker": "GM",
+        "predicted": "short",
+        "actual_move": "+1.24%",
+        "correct": "False"
+      },
+      {
+        "ticker": "KTOS",
+        "predicted": "buy",
+        "actual_move": "+9.75%",
+        "correct": "True"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "predicted": "bullish",
+        "actual_move": "+0.91%",
+        "correct": "True"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "+0.39%",
+        "correct": "False"
+      },
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "predicted": "bearish",
+        "actual_move": "+0.78%",
+        "correct": "False"
+      }
+    ],
+    "total_correct": 4,
+    "total_calls": 8,
+    "accuracy": 50.0
   }
 }
