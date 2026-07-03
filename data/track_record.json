@@ -707,5 +707,33 @@
     "total_correct": 4,
     "total_calls": 8,
     "accuracy": 50.0
+  },
+  "2026-07-03": {
+    "prediction_date": "2026-07-02",
+    "graded_date": "2026-07-03",
+    "trade_grades": [
+      {
+        "ticker": "GM",
+        "predicted": "short",
+        "actual_move": "+0.64%",
+        "correct": "False"
+      },
+      {
+        "ticker": "TLT",
+        "predicted": "buy",
+        "actual_move": "-0.01%",
+        "correct": false
+      },
+      {
+        "ticker": "AAL",
+        "predicted": "short",
+        "actual_move": "-1.27%",
+        "correct": "True"
+      }
+    ],
+    "sector_grades": [],
+    "total_correct": 1,
+    "total_calls": 3,
+    "accuracy": 33.3
   }
 }
