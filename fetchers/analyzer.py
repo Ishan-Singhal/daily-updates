@@ -1,12 +1,19 @@
 """AI-powered market insight analyzer using Claude Opus 4.6 via Puter.com's free API."""
 
 import json
+import os
 import re
+import time
+from datetime import datetime
+
 from openai import OpenAI
 from config import PUTER_TOKEN
-from fetchers.memory import get_learning_context, save_predictions
+from fetchers.memory import DATA_DIR, get_learning_context, save_predictions
 
 MODEL = "claude-opus-4-6"
+RETRY_ATTEMPTS = 3
+RETRY_BACKOFF_SECONDS = 5
+FAILURE_LOG = os.path.join(DATA_DIR, "generation_failures.log")
 
 _client = None
 
@@ -19,6 +26,31 @@ def _get_client():
             api_key=PUTER_TOKEN,
         )
     return _client
+
+
+def _log_failure(step, error):
+    """Persist AI-call failures so silent outages (e.g. a dead PUTER_TOKEN)
+    are visible after the fact, not just lost in a print() nobody reads."""
+    os.makedirs(DATA_DIR, exist_ok=True)
+    with open(FAILURE_LOG, "a") as f:
+        f.write(f"{datetime.now().isoformat()}  [{step}]  {error}\n")
+
+
+def _call_with_retries(step, **kwargs):
+    """Call the AI with retries on transient failures. Raises the last
+    exception if every attempt fails."""
+    client = _get_client()
+    last_error = None
+    for attempt in range(1, RETRY_ATTEMPTS + 1):
+        try:
+            return client.chat.completions.create(**kwargs)
+        except Exception as e:
+            last_error = e
+            print(f"  [{step}] attempt {attempt}/{RETRY_ATTEMPTS} failed: {e}")
+            if attempt < RETRY_ATTEMPTS:
+                time.sleep(RETRY_BACKOFF_SECONDS)
+    _log_failure(step, last_error)
+    raise last_error
 
 
 ANALYSIS_PROMPT = """You are a world-class market strategist at a top hedge fund, writing the morning intelligence brief that portfolio managers read before the opening bell.
@@ -95,8 +127,8 @@ def analyze_news(articles):
         article_text += f"\n{i}. {a['title']}\n{content}\n"
 
     try:
-        client = _get_client()
-        response = client.chat.completions.create(
+        response = _call_with_retries(
+            "analyze_news",
             model=MODEL,
             messages=[
                 {"role": "user", "content": ANALYSIS_PROMPT.format(
@@ -108,7 +140,7 @@ def analyze_news(articles):
         )
         return response.choices[0].message.content
     except Exception as e:
-        print(f"  AI analysis failed ({e}), using fallback")
+        print(f"  AI analysis failed after retries ({e}), using fallback")
         return _fallback_analysis(articles)
 
 
@@ -120,8 +152,8 @@ def generate_ai_watchlist(news_context):
     learning = get_learning_context()
 
     try:
-        client = _get_client()
-        response = client.chat.completions.create(
+        response = _call_with_retries(
+            "generate_ai_watchlist",
             model=MODEL,
             messages=[
                 {"role": "user", "content": WATCHLIST_PROMPT.format(
@@ -138,8 +170,12 @@ def generate_ai_watchlist(news_context):
 
         return watchlist_text
     except Exception as e:
-        print(f"  AI watchlist generation failed: {e}")
-        return ""
+        print(f"  AI watchlist generation failed after retries: {e}")
+        return (
+            "⚠️ AI ACTION PLAN GENERATION FAILED — no new trade ideas were "
+            f"recorded today.\nError: {e}\nCheck PUTER_TOKEN and Puter API status; "
+            f"see {FAILURE_LOG} for the full history."
+        )
 
 
 def _extract_and_save_predictions(watchlist_text):
@@ -175,7 +211,7 @@ def _extract_and_save_predictions(watchlist_text):
             predictions["trade_ideas"].append({
                 "ticker": ticker,
                 "direction": direction,
-                "raw": line[:200],
+                "raw": line,
             })
 
         # Track which section we're in (OVERWEIGHT or UNDERWEIGHT)

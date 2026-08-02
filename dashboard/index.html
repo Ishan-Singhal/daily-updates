@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trading Desk — AI Track Record</title>
+<style>
+  :root {
+    color-scheme: light;
+    --surface-1:      #fcfcfb;
+    --page:           #f9f9f7;
+    --text-primary:   #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted:     #898781;
+    --grid:           #e1e0d9;
+    --baseline:       #c3c2b7;
+    --border:         rgba(11,11,11,0.10);
+    --series-1:       #2a78d6;
+    --good:           #0ca30c;
+    --good-text:      #006300;
+    --critical:       #d03b3b;
+    --warning:        #fab219;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) {
+      color-scheme: dark;
+      --surface-1:      #1a1a19;
+      --page:           #0d0d0d;
+      --text-primary:   #ffffff;
+      --text-secondary: #c3c2b7;
+      --text-muted:     #898781;
+      --grid:           #2c2c2a;
+      --baseline:       #383835;
+      --border:         rgba(255,255,255,0.10);
+      --series-1:       #3987e5;
+      --good:           #0ca30c;
+      --good-text:      #0ca30c;
+      --critical:       #e66767;
+      --warning:        #fab219;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --surface-1:      #1a1a19;
+    --page:           #0d0d0d;
+    --text-primary:   #ffffff;
+    --text-secondary: #c3c2b7;
+    --text-muted:     #898781;
+    --grid:           #2c2c2a;
+    --baseline:       #383835;
+    --border:         rgba(255,255,255,0.10);
+    --series-1:       #3987e5;
+    --good:           #0ca30c;
+    --good-text:      #0ca30c;
+    --critical:       #e66767;
+    --warning:        #fab219;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--page);
+    color: var(--text-primary);
+    font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 32px 20px 64px; }
+
+  header.page-header { margin-bottom: 28px; }
+  header.page-header h1 { font-size: 22px; font-weight: 650; margin: 0 0 4px; }
+  header.page-header p { color: var(--text-secondary); margin: 0; font-size: 13.5px; }
+
+  .stat-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  .stat-tile {
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px 18px;
+  }
+  .stat-tile .label { color: var(--text-secondary); font-size: 12.5px; margin-bottom: 6px; }
+  .stat-tile .value { font-size: 26px; font-weight: 650; }
+  .stat-tile .sub { color: var(--text-muted); font-size: 12px; margin-top: 4px; }
+  .value.pos { color: var(--good-text); }
+  .value.neg { color: var(--critical); }
+
+  .panel {
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 20px 12px;
+    margin-bottom: 20px;
+  }
+  .panel h2 { font-size: 15px; font-weight: 650; margin: 0 0 2px; }
+  .panel .panel-sub { color: var(--text-muted); font-size: 12.5px; margin: 0 0 14px; }
+
+  .chart-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  @media (max-width: 760px) { .chart-grid { grid-template-columns: 1fr; } }
+
+  svg.chart { width: 100%; height: auto; overflow: visible; touch-action: none; }
+  .chart-line { fill: none; stroke: var(--series-1); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+  .chart-grid-line { stroke: var(--grid); stroke-width: 1; }
+  .chart-baseline { stroke: var(--baseline); stroke-width: 1; stroke-dasharray: 3 3; }
+  .chart-axis-label { fill: var(--text-muted); font-size: 10px; }
+  .chart-endpoint { fill: var(--series-1); stroke: var(--surface-1); stroke-width: 2; }
+  .crosshair { stroke: var(--text-muted); stroke-width: 1; opacity: 0; pointer-events: none; }
+  .hover-dot { fill: var(--series-1); stroke: var(--surface-1); stroke-width: 2; opacity: 0; pointer-events: none; }
+
+  .tooltip {
+    position: absolute;
+    pointer-events: none;
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 6px 10px;
+    font-size: 12px;
+    color: var(--text-primary);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    opacity: 0;
+    transition: opacity 0.08s;
+    white-space: nowrap;
+    z-index: 10;
+  }
+  .tooltip .t-date { color: var(--text-muted); }
+
+  .chart-wrap { position: relative; }
+
+  .badge-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+  .badge {
+    display: inline-flex; align-items: center; gap: 5px;
+    background: var(--page); border: 1px solid var(--border);
+    border-radius: 999px; padding: 4px 10px; font-size: 12px; color: var(--text-secondary);
+  }
+  .badge .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--critical); }
+
+  pre.learning-note {
+    white-space: pre-wrap;
+    font: 12.5px/1.6 ui-monospace, SFMono-Regular, Menlo, monospace;
+    color: var(--text-secondary);
+    background: var(--page);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 14px 16px;
+    margin: 0;
+    max-height: 340px;
+    overflow-y: auto;
+  }
+
+  .table-scroll { overflow-x: auto; }
+  table.trades { width: 100%; border-collapse: collapse; font-size: 13px; }
+  table.trades th, table.trades td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--grid); white-space: nowrap; }
+  table.trades td.reasoning { white-space: normal; min-width: 280px; color: var(--text-secondary); }
+  table.trades th { color: var(--text-muted); font-weight: 600; font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.02em; }
+  .dir-pill { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 11.5px; font-weight: 600; }
+  .dir-long { background: color-mix(in srgb, var(--good) 16%, transparent); color: var(--good-text); }
+  .dir-short { background: color-mix(in srgb, var(--critical) 16%, transparent); color: var(--critical); }
+  .result-icon { font-weight: 700; }
+  .result-icon.win { color: var(--good-text); }
+  .result-icon.loss { color: var(--critical); }
+  td.pnl.pos { color: var(--good-text); font-variant-numeric: tabular-nums; }
+  td.pnl.neg { color: var(--critical); font-variant-numeric: tabular-nums; }
+
+  footer { color: var(--text-muted); font-size: 11.5px; margin-top: 24px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="page-header">
+    <h1>Trading Desk — AI Track Record</h1>
+    <p>Simulated $1,000-per-trade paper trading from the daily AI action plan. Not real money, not investment advice.</p>
+  </header>
+
+  <div class="stat-row" id="stat-row"></div>
+
+  <div class="chart-grid">
+    <div class="panel">
+      <h2>Simulated P&amp;L over time</h2>
+      <p class="panel-sub">Cumulative $, equal-weighted $1,000 per trade idea, graded next-day</p>
+      <div class="chart-wrap" id="equity-wrap"></div>
+    </div>
+    <div class="panel">
+      <h2>Prediction accuracy over time</h2>
+      <p class="panel-sub">Daily grading accuracy, dashed line marks 50% (coin flip)</p>
+      <div class="chart-wrap" id="accuracy-wrap"></div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <h2>Self-correction notes</h2>
+    <p class="panel-sub">The exact track-record context fed back into the AI before each day's calls</p>
+    <pre class="learning-note" id="learning-note"></pre>
+    <div class="badge-row" id="miss-badges"></div>
+  </div>
+
+  <div class="panel">
+    <h2>Trade log</h2>
+    <p class="panel-sub">Every graded trade idea, newest first, with the AI's stated reasoning</p>
+    <div class="table-scroll">
+      <table class="trades">
+        <thead>
+          <tr>
+            <th>Date</th><th>Ticker</th><th>Call</th><th>Reasoning</th>
+            <th>Actual move</th><th>Result</th><th>Sim. P&amp;L</th>
+          </tr>
+        </thead>
+        <tbody id="trades-body"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <footer id="footer"></footer>
+</div>
+
+<div class="tooltip" id="tooltip"></div>
+
+<script>
+const DATA = {"generated_at": "2026-08-02", "notional_per_trade": 1000, "summary": {"total_pnl": 160.1, "total_trades": 20, "win_rate": 55.0, "best_trade": {"graded_date": "2026-08-02", "prediction_date": "2026-07-01", "ticker": "META", "direction": "sell", "actual_move": "-4.90%", "correct": true, "pnl_pct": 4.9, "pnl_dollars": 49.0, "reasoning": "/Trim at $612 - After a +9% single-day rip and +13% over 5 days, this is extended into a session where Warsh's hawkish pivot directly pressures high-multiple growth names via higher"}, "worst_trade": {"graded_date": "2026-08-02", "prediction_date": "2026-07-02", "ticker": "GM", "direction": "short", "actual_move": "+2.43%", "correct": false, "pnl_pct": -2.43, "pnl_dollars": -24.3, "reasoning": "at $52-53 range - USMCA non-renewal is a structural catalyst that directly threatens auto supply chains with ~40% of US vehicle content crossing borders; cut loss above $55, take pro"}}, "equity_curve": [{"date": "2026-08-02", "cumulative": 6.3}, {"date": "2026-08-02", "cumulative": 12.9}, {"date": "2026-08-02", "cumulative": 22.7}, {"date": "2026-08-02", "cumulative": 19.5}, {"date": "2026-08-02", "cumulative": 20.8}, {"date": "2026-08-02", "cumulative": 30.0}, {"date": "2026-08-02", "cumulative": 27.3}, {"date": "2026-08-02", "cumulative": 21.0}, {"date": "2026-08-02", "cumulative": 13.4}, {"date": "2026-08-02", "cumulative": 26.2}, {"date": "2026-08-02", "cumulative": 73.2}, {"date": "2026-08-02", "cumulative": 69.0}, {"date": "2026-08-02", "cumulative": 69.1}, {"date": "2026-08-02", "cumulative": 118.1}, {"date": "2026-08-02", "cumulative": 138.4}, {"date": "2026-08-02", "cumulative": 132.0}, {"date": "2026-08-02", "cumulative": 175.6}, {"date": "2026-08-02", "cumulative": 151.3}, {"date": "2026-08-02", "cumulative": 150.6}, {"date": "2026-08-02", "cumulative": 160.1}], "accuracy_curve": [{"date": "2026-08-02", "accuracy": 55.6}, {"date": "2026-08-02", "accuracy": 37.5}, {"date": "2026-08-02", "accuracy": 100.0}, {"date": "2026-08-02", "accuracy": 62.5}, {"date": "2026-08-02", "accuracy": 62.5}, {"date": "2026-08-02", "accuracy": 33.3}], "trades": [{"graded_date": "2026-08-02", "prediction_date": "2026-07-02", "ticker": "AAL", "direction": "short", "actual_move": "-0.95%", "correct": true, "pnl_pct": 0.95, "pnl_dollars": 9.5, "reasoning": "at market open (~$17.50) - Iran"}, {"graded_date": "2026-08-02", "prediction_date": "2026-07-02", "ticker": "TLT", "direction": "buy", "actual_move": "-0.07%", "correct": false, "pnl_pct": -0.07, "pnl_dollars": -0.7, "reasoning": "at market open (~$91) - Weak June hiring + Powell's dovish tone + Warsh refusing to endorse hikes removes hawkish tail risk and clears the path for rate cuts; take profit at $94, stop"}, {"graded_date": "2026-08-02", "prediction_date": "2026-07-02", "ticker": "GM", "direction": "short", "actual_move": "+2.43%", "correct": false, "pnl_pct": -2.43, "pnl_dollars": -24.3, "reasoning": "at $52-53 range - USMCA non-renewal is a structural catalyst that directly threatens auto supply chains with ~40% of US vehicle content crossing borders; cut loss above $55, take pro"}, {"graded_date": "2026-08-02", "prediction_date": "2026-07-01", "ticker": "KTOS", "direction": "buy", "actual_move": "+4.36%", "correct": true, "pnl_pct": 4.36, "pnl_dollars": 43.6, "reasoning": "at $28-29 range - AVAV's backlog doubling validates the defense drone procurement thesis, and Kratos is the most direct read-through beneficiary as a tactical drone/unmanned systems"}, {"graded_date": "2026-08-02", "prediction_date": "2026-07-01", "ticker": "GM", "direction": "short", "actual_move": "+0.64%", "correct": false, "pnl_pct": -0.64, "pnl_dollars": -6.4, "reasoning": "at market open (~$48-50 range) - USMCA review deadline passing without extension is a slow-motion supply chain grenade for the most North America-integrated automaker; a single vehic"}, {"graded_date": "2026-08-02", "prediction_date": "2026-07-01", "ticker": "GLD", "direction": "buy", "actual_move": "+2.03%", "correct": true, "pnl_pct": 2.03, "pnl_dollars": 20.3, "reasoning": "at market open (~$410 area, reflecting ~$4,100 gold) - Gold holding firm near $4,000+ despite hawkish Fed rhetoric is the tell \u2014 the market is pricing fiscal/sovereign risk that trans"}, {"graded_date": "2026-08-02", "prediction_date": "2026-07-01", "ticker": "META", "direction": "sell", "actual_move": "-4.90%", "correct": true, "pnl_pct": 4.9, "pnl_dollars": 49.0, "reasoning": "/Trim at $612 - After a +9% single-day rip and +13% over 5 days, this is extended into a session where Warsh's hawkish pivot directly pressures high-multiple growth names via higher"}, {"graded_date": "2026-08-02", "prediction_date": "2026-07-01", "ticker": "TLT", "direction": "short", "actual_move": "-0.01%", "correct": false, "pnl_pct": 0.01, "pnl_dollars": 0.1, "reasoning": "at market open (~$88-89 range) - Warsh's rate hike language is a paradigm shift the bond market has NOT priced in; the front end was positioned for cuts and must now reprice even a"}, {"graded_date": "2026-08-02", "prediction_date": "2026-06-01", "ticker": "MRK", "direction": "short", "actual_move": "+0.42%", "correct": false, "pnl_pct": -0.42, "pnl_dollars": -4.2, "reasoning": "at ~$105-107 (current levels) - Akeso's ivonescimab showing 34% OS reduction vs. PD-1 monotherapy at ASCO is a direct shot at Keytruda's $25B+ franchise, and with the 2028 patent cl"}, {"graded_date": "2026-08-02", "prediction_date": "2026-06-01", "ticker": "AVGO", "direction": "buy", "actual_move": "+4.70%", "correct": true, "pnl_pct": 4.7, "pnl_dollars": 47.0, "reasoning": "at $458-462 - AI hardware bottleneck thesis is accelerating with AVGO +9.2% over 5 days and sitting within 0.6% of 52-week highs; the specific catalyst is the custom ASIC demand surg"}, {"graded_date": "2026-08-02", "prediction_date": "2026-05-02", "ticker": "ROKU", "direction": "sell", "actual_move": "-1.28%", "correct": true, "pnl_pct": 1.28, "pnl_dollars": 12.8, "reasoning": "/Take Profit at $123.58 - Up 6% on 2x volume with +8% over 5 days; this is a momentum exhaustion setup near resistance at $125 where sellers have historically stepped in. If you're"}, {"graded_date": "2026-08-02", "prediction_date": "2026-05-01", "ticker": "TLT", "direction": "buy", "actual_move": "-0.76%", "correct": false, "pnl_pct": -0.76, "pnl_dollars": -7.6, "reasoning": "May puts (short duration) at market open - Kashkari and Hammack openly discussing rate *hikes* while Fed funds futures still price cuts is a massive mispricing; oil above $103 feeds d"}, {"graded_date": "2026-08-02", "prediction_date": "2026-05-01", "ticker": "GOOGL", "direction": "buy", "actual_move": "-0.63%", "correct": false, "pnl_pct": -0.63, "pnl_dollars": -6.3, "reasoning": "at $380-385 (near 52w high breakout) - Cloud/AI revenue acceleration is exactly what the market is now demanding \u2014 GOOGL is the \"right kind\" of AI spender with monetization proof, a"}, {"graded_date": "2026-08-02", "prediction_date": "2026-05-01", "ticker": "META", "direction": "short", "actual_move": "+0.27%", "correct": false, "pnl_pct": -0.27, "pnl_dollars": -2.7, "reasoning": "at $610-615 - Selling off 8.6% on 2.4x volume *despite beating estimates* is the clearest signal the market has flipped from rewarding AI capex to punishing it; the $38-40B capex g"}, {"graded_date": "2026-08-02", "prediction_date": "2026-05-01", "ticker": "XLE", "direction": "buy", "actual_move": "+0.92%", "correct": true, "pnl_pct": 0.92, "pnl_dollars": 9.2, "reasoning": "at market open (~$97-98) - Iran standoff with no diplomatic off-ramp is keeping crude above $103 and Fed officials are explicitly citing Strait of Hormuz closure as an inflation catal"}, {"graded_date": "2026-08-02", "prediction_date": "2026-04-07", "ticker": "LMT", "direction": "buy", "actual_move": "+0.13%", "correct": true, "pnl_pct": 0.13, "pnl_dollars": 1.3, "reasoning": "Buy at ~470-475"}, {"graded_date": "2026-08-02", "prediction_date": "2026-04-07", "ticker": "TLT", "direction": "sell", "actual_move": "+0.32%", "correct": false, "pnl_pct": -0.32, "pnl_dollars": -3.2, "reasoning": "Sell/Short at ~86-87"}, {"graded_date": "2026-08-02", "prediction_date": "2026-04-07", "ticker": "TSLA", "direction": "short", "actual_move": "-0.98%", "correct": true, "pnl_pct": 0.98, "pnl_dollars": 9.8, "reasoning": "Short at 340-342"}, {"graded_date": "2026-08-02", "prediction_date": "2026-04-07", "ticker": "WBD", "direction": "buy", "actual_move": "+0.66%", "correct": true, "pnl_pct": 0.66, "pnl_dollars": 6.6, "reasoning": "Buy at market open ~9-10"}, {"graded_date": "2026-08-02", "prediction_date": "2026-04-07", "ticker": "GLD", "direction": "buy", "actual_move": "+0.63%", "correct": true, "pnl_pct": 0.63, "pnl_dollars": 6.3, "reasoning": "Buy at 468-470"}], "learning_context": "", "misses": {"tickers": [{"name": "TLT", "count": 4}, {"name": "GM", "count": 2}, {"name": "META", "count": 1}, {"name": "GOOGL", "count": 1}, {"name": "MRK", "count": 1}], "sectors": [{"name": "Financials", "count": 2}, {"name": "Utilities", "count": 2}, {"name": "Energy", "count": 1}, {"name": "Consumer Disc", "count": 1}, {"name": "Technology", "count": 1}]}};
+
+function fmtMoney(n) {
+  const sign = n < 0 ? "-" : "";
+  return sign + "$" + Math.abs(n).toLocaleString(undefined, {maximumFractionDigits: 0});
+}
+function fmtDate(iso) {
+  const d = new Date(iso + "T00:00:00");
+  return d.toLocaleDateString(undefined, {month: "short", day: "numeric"});
+}
+
+function renderStats(data) {
+  const s = data.summary;
+  const pnlClass = s.total_pnl > 0 ? "pos" : s.total_pnl < 0 ? "neg" : "";
+  const tiles = [
+    {label: "Total simulated P&L", value: fmtMoney(s.total_pnl), cls: pnlClass,
+     sub: `$${data.notional_per_trade.toLocaleString()} per trade idea`},
+    {label: "Win rate", value: s.win_rate !== null ? s.win_rate + "%" : "—",
+     sub: `${s.total_trades} graded trade${s.total_trades === 1 ? "" : "s"}`},
+    {label: "Best call", value: s.best_trade ? s.best_trade.ticker : "—",
+     sub: s.best_trade ? fmtMoney(s.best_trade.pnl_dollars) + " · " + fmtDate(s.best_trade.graded_date) : ""},
+    {label: "Worst call", value: s.worst_trade ? s.worst_trade.ticker : "—",
+     sub: s.worst_trade ? fmtMoney(s.worst_trade.pnl_dollars) + " · " + fmtDate(s.worst_trade.graded_date) : ""},
+  ];
+  const row = document.getElementById("stat-row");
+  row.innerHTML = tiles.map(t => `
+    <div class="stat-tile">
+      <div class="label">${t.label}</div>
+      <div class="value ${t.cls || ""}">${t.value}</div>
+      <div class="sub">${t.sub}</div>
+    </div>
+  `).join("");
+}
+
+// Minimal SVG line chart with hover crosshair + tooltip. viewBox-based so it's fluid.
+function lineChart({container, points, valueKey, formatValue, refLine}) {
+  const W = 560, H = 220, padL = 44, padR = 12, padT = 12, padB = 24;
+  const plotW = W - padL - padR, plotH = H - padT - padB;
+
+  if (!points.length) {
+    container.innerHTML = `<p style="color:var(--text-muted); font-size:13px;">No graded data yet.</p>`;
+    return;
+  }
+
+  const values = points.map(p => p[valueKey]);
+  let min = Math.min(...values, refLine !== undefined ? refLine : Infinity);
+  let max = Math.max(...values, refLine !== undefined ? refLine : -Infinity);
+  if (min === max) { min -= 1; max += 1; }
+  const pad = (max - min) * 0.1;
+  min -= pad; max += pad;
+
+  const x = i => padL + (points.length === 1 ? plotW / 2 : (i / (points.length - 1)) * plotW);
+  const y = v => padT + plotH - ((v - min) / (max - min)) * plotH;
+
+  const path = points.map((p, i) => `${i === 0 ? "M" : "L"}${x(i).toFixed(1)},${y(p[valueKey]).toFixed(1)}`).join(" ");
+
+  const gridLines = [];
+  const steps = 4;
+  for (let i = 0; i <= steps; i++) {
+    const v = min + (max - min) * (i / steps);
+    gridLines.push({y: y(v), v});
+  }
+
+  let refSvg = "";
+  if (refLine !== undefined) {
+    refSvg = `<line class="chart-baseline" x1="${padL}" x2="${W - padR}" y1="${y(refLine).toFixed(1)}" y2="${y(refLine).toFixed(1)}" />`;
+  }
+
+  const last = points[points.length - 1];
+
+  container.innerHTML = `
+    <svg class="chart" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none">
+      ${gridLines.map(g => `
+        <line class="chart-grid-line" x1="${padL}" x2="${W - padR}" y1="${g.y.toFixed(1)}" y2="${g.y.toFixed(1)}" />
+        <text class="chart-axis-label" x="${padL - 6}" y="${(g.y + 3).toFixed(1)}" text-anchor="end">${formatValue(g.v, true)}</text>
+      `).join("")}
+      ${refSvg}
+      <path class="chart-line" d="${path}" />
+      <circle class="chart-endpoint" cx="${x(points.length - 1).toFixed(1)}" cy="${y(last[valueKey]).toFixed(1)}" r="4" />
+      <text class="chart-axis-label" x="${padL}" y="${H - 4}">${fmtDate(points[0].date)}</text>
+      <text class="chart-axis-label" x="${W - padR}" y="${H - 4}" text-anchor="end">${fmtDate(last.date)}</text>
+      <line class="crosshair" id="crosshair-${container.id}" y1="${padT}" y2="${padT + plotH}" />
+      <circle class="hover-dot" id="hoverdot-${container.id}" r="4" />
+      <rect x="${padL}" y="${padT}" width="${plotW}" height="${plotH}" fill="transparent" id="overlay-${container.id}" />
+    </svg>
+  `;
+
+  const svg = container.querySelector("svg");
+  const overlay = container.querySelector(`#overlay-${container.id}`);
+  const crosshair = container.querySelector(`#crosshair-${container.id}`);
+  const hoverDot = container.querySelector(`#hoverdot-${container.id}`);
+  const tooltip = document.getElementById("tooltip");
+
+  function pointerMove(evt) {
+    const rect = svg.getBoundingClientRect();
+    const clientX = evt.touches ? evt.touches[0].clientX : evt.clientX;
+    const relX = (clientX - rect.left) / rect.width * W;
+    let idx = Math.round(((relX - padL) / plotW) * (points.length - 1));
+    idx = Math.max(0, Math.min(points.length - 1, idx));
+    const p = points[idx];
+    const px = x(idx), py = y(p[valueKey]);
+
+    crosshair.setAttribute("x1", px); crosshair.setAttribute("x2", px);
+    crosshair.style.opacity = 1;
+    hoverDot.setAttribute("cx", px); hoverDot.setAttribute("cy", py);
+    hoverDot.style.opacity = 1;
+
+    tooltip.innerHTML = `<span class="t-date">${fmtDate(p.date)}</span> &nbsp; <strong>${formatValue(p[valueKey])}</strong>`;
+    tooltip.style.opacity = 1;
+    tooltip.style.left = (evt.clientX + window.scrollX + 14) + "px";
+    tooltip.style.top = (evt.clientY + window.scrollY - 12) + "px";
+  }
+  function pointerLeave() {
+    crosshair.style.opacity = 0;
+    hoverDot.style.opacity = 0;
+    tooltip.style.opacity = 0;
+  }
+  overlay.addEventListener("mousemove", pointerMove);
+  overlay.addEventListener("mouseleave", pointerLeave);
+  overlay.addEventListener("touchmove", pointerMove, {passive: true});
+  overlay.addEventListener("touchend", pointerLeave);
+}
+
+function renderCharts(data) {
+  let idc = 0;
+  const equityWrap = document.getElementById("equity-wrap");
+  equityWrap.id = "equity-wrap-" + (idc++);
+  lineChart({
+    container: equityWrap,
+    points: data.equity_curve,
+    valueKey: "cumulative",
+    formatValue: (v) => fmtMoney(v),
+  });
+
+  const accuracyWrap = document.getElementById("accuracy-wrap");
+  accuracyWrap.id = "accuracy-wrap-" + (idc++);
+  lineChart({
+    container: accuracyWrap,
+    points: data.accuracy_curve,
+    valueKey: "accuracy",
+    formatValue: (v, axis) => (axis ? Math.round(v) : v.toFixed(1)) + "%",
+    refLine: 50,
+  });
+}
+
+function renderLearning(data) {
+  const note = document.getElementById("learning-note");
+  note.textContent = data.learning_context && data.learning_context.trim()
+    ? data.learning_context.trim()
+    : "Not enough graded history yet — check back after a few days of trades.";
+
+  const badges = [];
+  data.misses.tickers.forEach(m => badges.push(`<span class="badge"><span class="dot"></span>${m.name} wrong ${m.count}×</span>`));
+  data.misses.sectors.forEach(m => badges.push(`<span class="badge"><span class="dot"></span>${m.name} wrong ${m.count}×</span>`));
+  document.getElementById("miss-badges").innerHTML = badges.join("");
+}
+
+function renderTable(data) {
+  const rows = data.trades.map(t => {
+    const isLong = t.direction && ["buy", "bullish", "long"].includes(t.direction.toLowerCase());
+    const pnlCls = t.pnl_dollars >= 0 ? "pos" : "neg";
+    return `
+      <tr>
+        <td>${fmtDate(t.graded_date)}</td>
+        <td><strong>${t.ticker}</strong></td>
+        <td><span class="dir-pill ${isLong ? "dir-long" : "dir-short"}">${t.direction}</span></td>
+        <td class="reasoning">${t.reasoning || "—"}</td>
+        <td>${t.actual_move}</td>
+        <td class="result-icon ${t.correct ? "win" : "loss"}">${t.correct ? "✓" : "✕"}</td>
+        <td class="pnl ${pnlCls}">${fmtMoney(t.pnl_dollars)}</td>
+      </tr>
+    `;
+  }).join("");
+  document.getElementById("trades-body").innerHTML = rows || `<tr><td colspan="7">No graded trades yet.</td></tr>`;
+}
+
+if (DATA) {
+  renderStats(DATA);
+  renderCharts(DATA);
+  renderLearning(DATA);
+  renderTable(DATA);
+  document.getElementById("footer").textContent = "Generated " + DATA.generated_at + " · regenerates automatically after each daily brief run";
+} else {
+  document.querySelector(".wrap").innerHTML = "<p>No dashboard data found. Run <code>python3 scripts/build_dashboard.py</code>.</p>";
+}
+</script>
+</body>
+</html>

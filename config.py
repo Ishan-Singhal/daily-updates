@@ -4,10 +4,14 @@ from dotenv import load_dotenv
 load_dotenv()
 
 OPENWEATHER_API_KEY = os.getenv("OPENWEATHER_API_KEY")
-NEWSAPI_KEY = os.getenv("NEWSAPI_KEY")
 PUTER_TOKEN = os.getenv("PUTER_TOKEN")
 GMAIL_ADDRESS = os.getenv("GMAIL_ADDRESS")
 GMAIL_APP_PASSWORD = os.getenv("GMAIL_APP_PASSWORD")
+
+# Phone number (e.g. +15551234567) or Apple ID email to iMessage the daily brief to.
+# Leave blank to send to yourself at the Mac's own Apple ID (Messages will prompt
+# for a chat with no recipient set, so this should normally be your own number).
+IMESSAGE_RECIPIENT = os.getenv("IMESSAGE_RECIPIENT")
 
 # Weather location
 WEATHER_CITY = "Round Rock"

@@ -49,7 +49,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-04-07"
+    "date": "2026-04-07",
+    "graded": true
   },
   "2026-05-01": {
     "trade_ideas": [
@@ -101,7 +102,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-05-01"
+    "date": "2026-05-01",
+    "graded": true
   },
   "2026-05-02": {
     "trade_ideas": [
@@ -117,7 +119,8 @@
       }
     ],
     "sector_calls": [],
-    "date": "2026-05-02"
+    "date": "2026-05-02",
+    "graded": true
   },
   "2026-06-01": {
     "trade_ideas": [
@@ -169,7 +172,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-06-01"
+    "date": "2026-06-01",
+    "graded": true
   },
   "2026-07-01": {
     "trade_ideas": [
@@ -216,7 +220,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-07-01"
+    "date": "2026-07-01",
+    "graded": true
   },
   "2026-07-02": {
     "trade_ideas": [
@@ -242,6 +247,7 @@
       }
     ],
     "sector_calls": [],
-    "date": "2026-07-02"
+    "date": "2026-07-02",
+    "graded": true
   }
 }

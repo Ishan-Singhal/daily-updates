@@ -26,7 +26,8 @@ from fetchers.events import format_events_section
 from fetchers.watchlist import format_watchlist_section
 from fetchers.analyzer import analyze_news, generate_ai_watchlist
 from fetchers.memory import format_grading_section
-from fetchers.sender import send_sms
+from fetchers.sender import send_daily_brief
+from fetchers.dashboard import build_dashboard
 
 
 def fetch_section(fn, fallback_label):
@@ -184,12 +185,20 @@ def main():
         print(full_report)
         return
 
+    # Rebuild the trading-desk dashboard with the latest predictions/track record
+    try:
+        dashboard_path = build_dashboard()
+        print(f"  Dashboard updated: {dashboard_path}")
+    except Exception as e:
+        print(f"  Dashboard build failed: {e}")
+
     # Always print full report to console/log
     print(full_report)
 
-    # Send the FULL report via email (no need to truncate like SMS)
-    print("\nSending email...")
-    send_sms(full_report)
+    # Send via iMessage (condensed), falling back to email (full report) if that fails
+    print("\nSending daily brief...")
+    sms_message = build_sms_message(full_report)
+    send_daily_brief(sms_message, full_report)
     print("Done.")
 
 

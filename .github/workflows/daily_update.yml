@@ -1,9 +1,9 @@
 name: Daily Market Brief
 
 on:
-  schedule:
-    # Runs at 7:00 AM Central Time (12:00 UTC during CDT, 13:00 UTC during CST)
-    - cron: '0 12 * * *'
+  # Automatic daily runs now happen locally on macOS via launchd (see scripts/),
+  # since iMessage delivery requires Messages.app on the Mac. This workflow is
+  # kept for manual/backup runs (emails only, since iMessage isn't available here).
   workflow_dispatch:  # Allow manual trigger from GitHub UI
 
 env:
@@ -32,7 +32,6 @@ jobs:
       - name: Run daily update agent
         env:
           OPENWEATHER_API_KEY: ${{ secrets.OPENWEATHER_API_KEY }}
-          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
           PUTER_TOKEN: ${{ secrets.PUTER_TOKEN }}
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}

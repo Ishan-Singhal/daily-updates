@@ -60,148 +60,172 @@ def save_predictions(predictions):
     print(f"  Saved {len(predictions.get('trade_ideas', []))} predictions for grading tomorrow")
 
 
-def grade_yesterdays_predictions():
-    """Compare yesterday's predictions against actual market outcomes.
+SECTOR_ETFS = {
+    "energy": "XLE", "tech": "XLK", "technology": "XLK",
+    "financials": "XLF", "healthcare": "XLV",
+    "consumer disc": "XLY", "consumer discretionary": "XLY",
+    "consumer staples": "XLP", "industrials": "XLI",
+    "utilities": "XLU", "real estate": "XLRE", "materials": "XLB",
+}
 
-    Returns:
-        dict: grading results with hits, misses, and accuracy stats
-        None: if no predictions to grade
+MAX_DAYS_TO_WAIT_FOR_GRADING = 10  # give up grading an idea (skip, don't block) after this many days
+
+
+def _price_move_since(ticker, pred_date_str):
+    """Return the close-to-close move from the first trading day on/after
+    pred_date_str to the NEXT trading day after that (i.e. the actual
+    one-day move the call was making a bet on, anchored to when the call
+    was made rather than to whenever the grading code happens to run).
+
+    Returns (entry_close, entry_date, exit_close, exit_date, actual_pct) or
+    None if there isn't yet a second trading day of data available.
     """
-    all_preds = _load_json(PREDICTIONS_FILE)
-    yesterday = (date.today() - timedelta(days=1)).isoformat()
+    import math
 
-    # Try yesterday, or the last weekday if yesterday was weekend
-    pred = all_preds.get(yesterday)
-    if not pred:
-        # Check last 3 days for most recent prediction
-        for i in range(2, 5):
-            check_date = (date.today() - timedelta(days=i)).isoformat()
-            pred = all_preds.get(check_date)
-            if pred:
-                yesterday = check_date
-                break
-    if not pred:
+    pred_date = datetime.strptime(pred_date_str, "%Y-%m-%d").date()
+    t = yf.Ticker(ticker)
+    hist = t.history(start=pred_date.isoformat(), end=(pred_date + timedelta(days=21)).isoformat())
+    if hist.empty:
         return None
 
-    results = {
-        "prediction_date": yesterday,
-        "graded_date": date.today().isoformat(),
-        "trade_grades": [],
-        "sector_grades": [],
-        "total_correct": 0,
-        "total_calls": 0,
-    }
+    hist.index = hist.index.date
+    trading_days = sorted(d for d in hist.index if d >= pred_date)
+    if len(trading_days) < 2:
+        return None
 
-    # Grade individual trade ideas
-    for idea in pred.get("trade_ideas", []):
-        ticker = idea.get("ticker", "")
-        direction = idea.get("direction", "").lower()
-        if not ticker:
+    entry_date, exit_date = trading_days[0], trading_days[1]
+    entry_close = hist.loc[entry_date]["Close"]
+    exit_close = hist.loc[exit_date]["Close"]
+
+    if math.isnan(entry_close) or math.isnan(exit_close) or entry_close == 0:
+        return None
+
+    actual_pct = ((exit_close - entry_close) / entry_close) * 100
+    return entry_close, entry_date, exit_close, exit_date, actual_pct
+
+
+def grade_pending_predictions():
+    """Grade every not-yet-graded prediction, exactly once each, anchored to
+    the trading day the call was actually made (not to whatever day the
+    grading code happens to run). Predictions that can't be resolved yet
+    (not enough trading days have passed) are left pending for a future run;
+    predictions stuck for more than MAX_DAYS_TO_WAIT_FOR_GRADING days are
+    finalized with whichever ideas *could* be resolved, dropping the rest so
+    a single bad ticker can't block a prediction from ever closing out.
+
+    Returns: list of prediction_date strings that were newly graded this run.
+    """
+    all_preds = _load_json(PREDICTIONS_FILE)
+    track = _load_json(TRACK_RECORD_FILE)
+    today = date.today()
+    newly_graded = []
+
+    for pred_date_str, pred in sorted(all_preds.items()):
+        if pred.get("graded"):
             continue
-
         try:
-            t = yf.Ticker(ticker)
-            hist = t.history(period="5d")
-            if len(hist) < 2:
+            pred_date = datetime.strptime(pred_date_str, "%Y-%m-%d").date()
+        except ValueError:
+            continue
+        if pred_date >= today:
+            continue  # can't grade same-day/future predictions yet
+
+        days_old = (today - pred_date).days
+        give_up = days_old > MAX_DAYS_TO_WAIT_FOR_GRADING
+        still_pending = False
+
+        result = {
+            "prediction_date": pred_date_str,
+            "graded_date": today.isoformat(),
+            "trade_grades": [],
+            "sector_grades": [],
+            "total_correct": 0,
+            "total_calls": 0,
+        }
+
+        for idea in pred.get("trade_ideas", []):
+            ticker = idea.get("ticker", "")
+            direction = idea.get("direction", "").lower()
+            if not ticker or direction == "watch":
+                continue
+            try:
+                move = _price_move_since(ticker, pred_date_str)
+            except Exception:
+                move = None
+            if move is None:
+                if not give_up:
+                    still_pending = True
                 continue
 
-            prev_close = hist.iloc[-2]["Close"]
-            today_close = hist.iloc[-1]["Close"]
-
-            # Skip if prices are NaN or zero
-            import math
-            if math.isnan(prev_close) or math.isnan(today_close) or prev_close == 0:
-                continue
-
-            actual_pct = ((today_close - prev_close) / prev_close) * 100
-
-            # Determine if prediction was correct
+            _, _, _, exit_date, actual_pct = move
             predicted_up = direction in ["buy", "bullish", "long"]
             predicted_down = direction in ["sell", "short", "bearish"]
-            actual_up = actual_pct > 0.1   # >0.1% counts as up
+            actual_up = actual_pct > 0.1
             actual_down = actual_pct < -0.1
-
             correct = (predicted_up and actual_up) or (predicted_down and actual_down)
-            # "Watch" is always neutral - neither right nor wrong
-            if direction == "watch":
-                continue
 
-            results["total_calls"] += 1
+            result["total_calls"] += 1
             if correct:
-                results["total_correct"] += 1
-
-            results["trade_grades"].append({
+                result["total_correct"] += 1
+            result["trade_grades"].append({
                 "ticker": ticker,
                 "predicted": direction,
                 "actual_move": f"{actual_pct:+.2f}%",
                 "correct": correct,
+                "graded_against": exit_date.isoformat(),
             })
-        except Exception:
-            continue
 
-    # Grade sector calls
-    sector_etfs = {
-        "energy": "XLE", "tech": "XLK", "technology": "XLK",
-        "financials": "XLF", "healthcare": "XLV",
-        "consumer disc": "XLY", "consumer discretionary": "XLY",
-        "consumer staples": "XLP", "industrials": "XLI",
-        "utilities": "XLU", "real estate": "XLRE", "materials": "XLB",
-    }
-
-    for call in pred.get("sector_calls", []):
-        sector = call.get("sector", "").lower()
-        direction = call.get("direction", "").lower()
-        etf = sector_etfs.get(sector, call.get("etf", ""))
-        if not etf:
-            continue
-
-        try:
-            t = yf.Ticker(etf)
-            hist = t.history(period="5d")
-            if len(hist) < 2:
+        for call in pred.get("sector_calls", []):
+            sector = call.get("sector", "").lower()
+            direction = call.get("direction", "").lower()
+            etf = SECTOR_ETFS.get(sector, call.get("etf", ""))
+            if not etf:
+                continue
+            try:
+                move = _price_move_since(etf, pred_date_str)
+            except Exception:
+                move = None
+            if move is None:
+                if not give_up:
+                    still_pending = True
                 continue
 
-            prev_close = hist.iloc[-2]["Close"]
-            today_close = hist.iloc[-1]["Close"]
-
-            import math
-            if math.isnan(prev_close) or math.isnan(today_close) or prev_close == 0:
-                continue
-
-            actual_pct = ((today_close - prev_close) / prev_close) * 100
-
+            _, _, _, exit_date, actual_pct = move
             predicted_up = direction in ["bullish", "favor", "buy"]
             predicted_down = direction in ["bearish", "avoid", "sell"]
             actual_up = actual_pct > 0.1
             actual_down = actual_pct < -0.1
-
             correct = (predicted_up and actual_up) or (predicted_down and actual_down)
-            results["total_calls"] += 1
-            if correct:
-                results["total_correct"] += 1
 
-            results["sector_grades"].append({
+            result["total_calls"] += 1
+            if correct:
+                result["total_correct"] += 1
+            result["sector_grades"].append({
                 "sector": call.get("sector", sector),
                 "etf": etf,
                 "predicted": direction,
                 "actual_move": f"{actual_pct:+.2f}%",
                 "correct": correct,
+                "graded_against": exit_date.isoformat(),
             })
-        except Exception:
-            continue
 
-    # Calculate accuracy
-    if results["total_calls"] > 0:
-        results["accuracy"] = round(results["total_correct"] / results["total_calls"] * 100, 1)
-    else:
-        results["accuracy"] = None
+        if still_pending:
+            continue  # not enough trading days have elapsed yet; try again next run
 
-    # Save to track record
-    track = _load_json(TRACK_RECORD_FILE)
-    track[results["graded_date"]] = results
-    _save_json(TRACK_RECORD_FILE, track)
+        result["accuracy"] = (
+            round(result["total_correct"] / result["total_calls"] * 100, 1)
+            if result["total_calls"] > 0 else None
+        )
 
-    return results
+        track[pred_date_str] = result
+        pred["graded"] = True
+        newly_graded.append(pred_date_str)
+
+    if newly_graded:
+        _save_json(PREDICTIONS_FILE, all_preds)
+        _save_json(TRACK_RECORD_FILE, track)
+
+    return newly_graded
 
 
 def get_learning_context(lookback_days=14):
@@ -307,29 +331,40 @@ def get_learning_context(lookback_days=14):
 
 
 def format_grading_section():
-    """Format yesterday's prediction grades for the daily brief."""
-    results = grade_yesterdays_predictions()
-    if not results:
+    """Format newly-resolved prediction grades for the daily brief.
+
+    Grades every prediction that just became resolvable (each graded exactly
+    once, ever) rather than re-scoring old calls against unrelated days.
+    """
+    newly_graded = grade_pending_predictions()
+    if not newly_graded:
         return ""
 
-    lines = ["\U0001F4CA YESTERDAY'S SCORECARD"]
+    track = _load_json(TRACK_RECORD_FILE)
+    lines = ["\U0001F4CA SCORECARD"]
 
-    if results["accuracy"] is not None:
-        emoji = "\u2705" if results["accuracy"] >= 60 else "\u26A0\uFE0F" if results["accuracy"] >= 40 else "\u274C"
-        lines.append(f"  {emoji} Accuracy: {results['accuracy']}% ({results['total_correct']}/{results['total_calls']} correct)")
+    for pred_date_str in newly_graded:
+        results = track.get(pred_date_str)
+        if not results:
+            continue
 
-    for grade in results.get("trade_grades", []):
-        icon = "\u2705" if grade["correct"] else "\u274C"
-        lines.append(
-            f"  {icon} {grade['ticker']}: called {grade['predicted'].upper()}, "
-            f"moved {grade['actual_move']}"
-        )
+        lines.append(f"\n  Grading {pred_date_str}'s calls:")
+        if results["accuracy"] is not None:
+            emoji = "\u2705" if results["accuracy"] >= 60 else "\u26A0\uFE0F" if results["accuracy"] >= 40 else "\u274C"
+            lines.append(f"  {emoji} Accuracy: {results['accuracy']}% ({results['total_correct']}/{results['total_calls']} correct)")
 
-    for grade in results.get("sector_grades", []):
-        icon = "\u2705" if grade["correct"] else "\u274C"
-        lines.append(
-            f"  {icon} {grade['sector']} ({grade['etf']}): called {grade['predicted'].upper()}, "
-            f"moved {grade['actual_move']}"
-        )
+        for grade in results.get("trade_grades", []):
+            icon = "\u2705" if grade["correct"] else "\u274C"
+            lines.append(
+                f"  {icon} {grade['ticker']}: called {grade['predicted'].upper()}, "
+                f"moved {grade['actual_move']}"
+            )
+
+        for grade in results.get("sector_grades", []):
+            icon = "\u2705" if grade["correct"] else "\u274C"
+            lines.append(
+                f"  {icon} {grade['sector']} ({grade['etf']}): called {grade['predicted'].upper()}, "
+                f"moved {grade['actual_move']}"
+            )
 
     return "\n".join(lines)
