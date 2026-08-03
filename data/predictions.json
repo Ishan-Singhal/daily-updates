@@ -300,37 +300,32 @@
   "2026-08-03": {
     "trade_ideas": [
       {
-        "ticker": "AMD",
+        "ticker": "DAL",
+        "direction": "Buy",
+        "raw": "1. DAL - Buy at market open (~$48.50) - Crude oil collapsing over 6% overnight following de-escalated military tensions with Iran provides immediate, significant jet fuel margin expansion starting today. Take profit at $52.50 (+8%) and cut loss if the stock falls below $46.80 (-3.5%)."
+      },
+      {
+        "ticker": "MSFT",
         "direction": "Short",
-        "raw": "1. AMD - Short at $476.15 (market open) - Forced margin-call liquidations from Aschenbrenner's $45B fund are flooding prime broker order books with non-fundamental supply today. Take profit at $440.00, cut loss at $492.00."
+        "raw": "2. MSFT - Short at $487.00 - While tech momentum caught us off-guard on the recent run-up, today's enforcement of the EU AI Act alongside three hawkish Fed dissents creates an immediate valuation cap on high-multiple tech. Target profit taking down at $460.00 (-5.5%) and set a strict stop-loss at $496.00 (+1.8%)."
+      },
+      {
+        "ticker": "GS",
+        "direction": "Buy",
+        "raw": "3. GS - Buy at market open (~$515.00) - Management officially confirmed today that their equities trading desk is pacing for a record financial year, guaranteeing elevated market-making fee generation amid current volatility. Take profit at $545.00 (+5.8%) and set a protective stop-loss at $502.00 (-2.5%)."
       },
       {
         "ticker": "XLE",
-        "direction": "Buy",
-        "raw": "2. XLE - Buy at market open ($93.50) - Headline-driven paper algorithms mispriced crude's 6% plunge following suspended Iran strikes, ignoring the physical supply failure caused by drone attacks on Damietta's Red Sea bypass. Take profit at $99.00 on the impending physical spot squeeze, cut loss at $91.00."
-      },
-      {
-        "ticker": "AAPL",
-        "direction": "Buy",
-        "raw": "3. AAPL - Buy at $308.91 - We were caught flat-footed on mega-cap tech weakness last week, but today's historic US-BOJ joint intervention caps yield spike risks, providing mechanical relief to this oversold 7.4% dip. Take profit at $325.00, cut loss at $300.00."
-      },
-      {
-        "ticker": "KRE",
         "direction": "Short",
-        "raw": "4. KRE - Short at market open ($58.20) - Three formal hawkish dissents at the Fed favoring immediate 25bps rate hikes destroy easing expectations while 3.3% Core PCE stagflation pressures regional balance sheets. Take profit at $54.00, cut loss at $60.10."
+        "raw": "4. XLE - Short at $91.50 - Today's 6.1% drop in WTI crude following canceled US military strikes on Iran directly strips out the geopolitical risk premium that was propping up energy producer valuations. Cover shorts for profit at $86.00 (-6.0%) and cut losses if XLE reclaims $93.50 (+2.2%)."
       },
       {
-        "ticker": "COPX",
-        "direction": "Short",
-        "raw": "5. COPX - Short at market open ($41.10) - China's unexpected July PMI contraction to 49.4 confirms the exhaustion of export front-loading and an immediate drop in physical metal demand. Take profit at $38.00, cut loss at $42.50."
+        "ticker": "V",
+        "direction": "Buy",
+        "raw": "5. V - Buy at market open (~$275.00) - Visa's $2.4B all-cash acquisition of BioCatch announced today expands its high-margin Value-Added Services segment without diluting equity or stretching balance sheet leverage. Look to take profit at $288.00 (+4.7%) while setting a strict stop-loss at $269.00 (-2.2%)."
       }
     ],
     "sector_calls": [
-      {
-        "sector": "Energy",
-        "etf": "XLE",
-        "direction": "Bullish"
-      },
       {
         "sector": "Financials",
         "etf": "XLF",
@@ -347,8 +342,13 @@
         "direction": "Bullish"
       },
       {
-        "sector": "Real Estate",
-        "etf": "XLRE",
+        "sector": "Industrials",
+        "etf": "XLI",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Energy",
+        "etf": "XLE",
         "direction": "Bearish"
       }
     ],
