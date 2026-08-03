@@ -296,5 +296,62 @@
       }
     ],
     "date": "2026-08-02"
+  },
+  "2026-08-03": {
+    "trade_ideas": [
+      {
+        "ticker": "AMD",
+        "direction": "Short",
+        "raw": "1. AMD - Short at $476.15 (market open) - Forced margin-call liquidations from Aschenbrenner's $45B fund are flooding prime broker order books with non-fundamental supply today. Take profit at $440.00, cut loss at $492.00."
+      },
+      {
+        "ticker": "XLE",
+        "direction": "Buy",
+        "raw": "2. XLE - Buy at market open ($93.50) - Headline-driven paper algorithms mispriced crude's 6% plunge following suspended Iran strikes, ignoring the physical supply failure caused by drone attacks on Damietta's Red Sea bypass. Take profit at $99.00 on the impending physical spot squeeze, cut loss at $91.00."
+      },
+      {
+        "ticker": "AAPL",
+        "direction": "Buy",
+        "raw": "3. AAPL - Buy at $308.91 - We were caught flat-footed on mega-cap tech weakness last week, but today's historic US-BOJ joint intervention caps yield spike risks, providing mechanical relief to this oversold 7.4% dip. Take profit at $325.00, cut loss at $300.00."
+      },
+      {
+        "ticker": "KRE",
+        "direction": "Short",
+        "raw": "4. KRE - Short at market open ($58.20) - Three formal hawkish dissents at the Fed favoring immediate 25bps rate hikes destroy easing expectations while 3.3% Core PCE stagflation pressures regional balance sheets. Take profit at $54.00, cut loss at $60.10."
+      },
+      {
+        "ticker": "COPX",
+        "direction": "Short",
+        "raw": "5. COPX - Short at market open ($41.10) - China's unexpected July PMI contraction to 49.4 confirms the exhaustion of export front-loading and an immediate drop in physical metal demand. Take profit at $38.00, cut loss at $42.50."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Real Estate",
+        "etf": "XLRE",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-08-03"
   }
 }
