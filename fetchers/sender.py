@@ -4,7 +4,7 @@ import subprocess
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-from config import GMAIL_ADDRESS, GMAIL_APP_PASSWORD, IMESSAGE_RECIPIENT
+from config import GMAIL_ADDRESS, GMAIL_APP_PASSWORD, IMESSAGE_RECIPIENT, EXTRA_EMAIL_RECIPIENTS
 
 
 def send_imessage(message, recipient=None):
@@ -50,10 +50,12 @@ def send_email(message):
         print("Email not configured: GMAIL_ADDRESS or GMAIL_APP_PASSWORD missing")
         return {"success": False, "error": "Not configured"}
 
+    recipients = [GMAIL_ADDRESS] + EXTRA_EMAIL_RECIPIENTS
+
     msg = MIMEMultipart("alternative")
     msg["Subject"] = message.split("\n")[0][:80]  # First line as subject
     msg["From"] = GMAIL_ADDRESS
-    msg["To"] = GMAIL_ADDRESS
+    msg["To"] = ", ".join(recipients)
 
     # Plain text version
     msg.attach(MIMEText(message, "plain", "utf-8"))
@@ -61,8 +63,8 @@ def send_email(message):
     try:
         with smtplib.SMTP_SSL("smtp.gmail.com", 465, timeout=15) as server:
             server.login(GMAIL_ADDRESS, GMAIL_APP_PASSWORD)
-            server.sendmail(GMAIL_ADDRESS, GMAIL_ADDRESS, msg.as_string())
-        print("Email sent successfully!")
+            server.sendmail(GMAIL_ADDRESS, recipients, msg.as_string())
+        print(f"Email sent successfully to {', '.join(recipients)}!")
         return {"success": True}
     except Exception as e:
         print(f"Email failed: {e}")

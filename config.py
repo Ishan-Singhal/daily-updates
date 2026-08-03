@@ -4,9 +4,15 @@ from dotenv import load_dotenv
 load_dotenv()
 
 OPENWEATHER_API_KEY = os.getenv("OPENWEATHER_API_KEY")
-PUTER_TOKEN = os.getenv("PUTER_TOKEN")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 GMAIL_ADDRESS = os.getenv("GMAIL_ADDRESS")
 GMAIL_APP_PASSWORD = os.getenv("GMAIL_APP_PASSWORD")
+
+# Additional email recipients for the daily brief (e.g. family members without
+# iMessage), comma-separated. Always sent alongside GMAIL_ADDRESS.
+EXTRA_EMAIL_RECIPIENTS = [
+    addr.strip() for addr in os.getenv("EXTRA_EMAIL_RECIPIENTS", "").split(",") if addr.strip()
+]
 
 # Phone number (e.g. +15551234567) or Apple ID email to iMessage the daily brief to.
 # Leave blank to send to yourself at the Mac's own Apple ID (Messages will prompt

@@ -249,5 +249,52 @@
     "sector_calls": [],
     "date": "2026-07-02",
     "graded": true
+  },
+  "2026-08-02": {
+    "trade_ideas": [
+      {
+        "ticker": "NVDA",
+        "direction": "Buy",
+        "raw": "1. NVDA - Buy at market open ($118.50) - Today's forced prime broker deleveraging from Aschenbrenner\u2019s $45B Situational Awareness fund implosion is driving a non-fundamental, flow-driven price dislocation across core AI leaders. I am taking profit at $127.00 and cutting losses strictly at $114.50 once clearing flow subsides over the next 48 hours."
+      },
+      {
+        "ticker": "DAL",
+        "direction": "Buy",
+        "raw": "2. DAL - Buy at market open ($44.20) - WTI crude collapsing over 5% to $79.79 following the cancellation of US-Iran strikes provides immediate, unpriced fuel cost relief for air carriers today. I am targeting profit-taking at $47.00 and cutting losses if price falls below $43.00."
+      },
+      {
+        "ticker": "FCX",
+        "direction": "Short",
+        "raw": "3. FCX - Short at market open ($42.10) - China\u2019s unexpected July PMI contraction into sub-50 territory triggers an immediate demand shock and downside earnings revisions for bulk industrial miners today. I will take profit at $39.20 and cut losses at $43.30 to protect against potential post-stimulus headline whipsaws."
+      },
+      {
+        "ticker": "SNOW",
+        "direction": "Short",
+        "raw": "4. SNOW - Short at market open ($126.50) - Clear Street\u2019s launch of a $188B private allocation venue for Databricks today drains institutional growth capital directly away from high-multiple public software peers. I am taking profit at $118.00 and stopping out at $130.50 if cloud momentum rebounds."
+      },
+      {
+        "ticker": "XLE",
+        "direction": "Short",
+        "raw": "5. XLE - Short at market open ($88.40) - Acknowledging our desk was wrong to hold long E&P exposure during last week's geopolitical escalation, today's US-Iran strike cancellation and 5% crude dump demand an immediate pivot to short energy producers. I will target profit-taking at $84.50 as the geopolitical risk premium unwinds, while cutting losses strictly at $90.20."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-08-02"
   }
 }

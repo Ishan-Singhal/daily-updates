@@ -1,16 +1,15 @@
-"""AI-powered market insight analyzer using Claude Opus 4.6 via Puter.com's free API."""
+"""AI-powered market insight analyzer using Gemini 3.6 Flash (free tier)."""
 
-import json
 import os
 import re
 import time
 from datetime import datetime
 
 from openai import OpenAI
-from config import PUTER_TOKEN
+from config import GEMINI_API_KEY
 from fetchers.memory import DATA_DIR, get_learning_context, save_predictions
 
-MODEL = "claude-opus-4-6"
+MODEL = "gemini-3.6-flash"
 RETRY_ATTEMPTS = 3
 RETRY_BACKOFF_SECONDS = 5
 FAILURE_LOG = os.path.join(DATA_DIR, "generation_failures.log")
@@ -22,14 +21,14 @@ def _get_client():
     global _client
     if _client is None:
         _client = OpenAI(
-            base_url="https://api.puter.com/puterai/openai/v1/",
-            api_key=PUTER_TOKEN,
+            base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
+            api_key=GEMINI_API_KEY,
         )
     return _client
 
 
 def _log_failure(step, error):
-    """Persist AI-call failures so silent outages (e.g. a dead PUTER_TOKEN)
+    """Persist AI-call failures so silent outages (e.g. a dead GEMINI_API_KEY)
     are visible after the fact, not just lost in a print() nobody reads."""
     os.makedirs(DATA_DIR, exist_ok=True)
     with open(FAILURE_LOG, "a") as f:
@@ -43,7 +42,16 @@ def _call_with_retries(step, **kwargs):
     last_error = None
     for attempt in range(1, RETRY_ATTEMPTS + 1):
         try:
-            return client.chat.completions.create(**kwargs)
+            response = client.chat.completions.create(**kwargs)
+            if response.choices[0].finish_reason == "length":
+                # Response got cut off mid-output (e.g. max_tokens too small
+                # for this model's reasoning-token overhead) — visible but
+                # not treated as a hard failure, since partial output may
+                # still parse fine.
+                msg = f"response truncated (finish_reason=length, max_tokens={kwargs.get('max_tokens')})"
+                print(f"  [{step}] warning: {msg}")
+                _log_failure(step, msg)
+            return response
         except Exception as e:
             last_error = e
             print(f"  [{step}] attempt {attempt}/{RETRY_ATTEMPTS} failed: {e}")
@@ -114,8 +122,8 @@ Here is today's complete market intelligence:
 
 
 def analyze_news(articles):
-    """Send articles to Claude Opus 4.6 for deep market impact analysis."""
-    if not PUTER_TOKEN:
+    """Send articles to Gemini 3.6 Flash for deep market impact analysis."""
+    if not GEMINI_API_KEY:
         return _fallback_analysis(articles)
 
     learning = get_learning_context()
@@ -130,13 +138,14 @@ def analyze_news(articles):
         response = _call_with_retries(
             "analyze_news",
             model=MODEL,
+            reasoning_effort="high",
             messages=[
                 {"role": "user", "content": ANALYSIS_PROMPT.format(
                     articles=article_text,
                     learning_context=learning,
                 )},
             ],
-            max_tokens=4000,
+            max_tokens=36000,
         )
         return response.choices[0].message.content
     except Exception as e:
@@ -146,7 +155,7 @@ def analyze_news(articles):
 
 def generate_ai_watchlist(news_context):
     """Generate AI-powered actionable watchlist and save predictions for grading."""
-    if not PUTER_TOKEN:
+    if not GEMINI_API_KEY:
         return ""
 
     learning = get_learning_context()
@@ -155,13 +164,14 @@ def generate_ai_watchlist(news_context):
         response = _call_with_retries(
             "generate_ai_watchlist",
             model=MODEL,
+            reasoning_effort="high",
             messages=[
                 {"role": "user", "content": WATCHLIST_PROMPT.format(
                     context=news_context,
                     learning_context=learning,
                 )},
             ],
-            max_tokens=1500,
+            max_tokens=30000,
         )
         watchlist_text = response.choices[0].message.content
 
@@ -173,7 +183,7 @@ def generate_ai_watchlist(news_context):
         print(f"  AI watchlist generation failed after retries: {e}")
         return (
             "⚠️ AI ACTION PLAN GENERATION FAILED — no new trade ideas were "
-            f"recorded today.\nError: {e}\nCheck PUTER_TOKEN and Puter API status; "
+            f"recorded today.\nError: {e}\nCheck GEMINI_API_KEY and Gemini API status; "
             f"see {FAILURE_LOG} for the full history."
         )
 

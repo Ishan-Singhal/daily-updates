@@ -1,9 +1,12 @@
 name: Daily Market Brief
 
 on:
-  # Automatic daily runs now happen locally on macOS via launchd (see scripts/),
-  # since iMessage delivery requires Messages.app on the Mac. This workflow is
-  # kept for manual/backup runs (emails only, since iMessage isn't available here).
+  # This cloud run always falls back to email (iMessage isn't available on
+  # ubuntu), which is what delivers the brief to email-only recipients (e.g.
+  # family on Android) via EXTRA_EMAIL_RECIPIENTS. The Mac's own local
+  # launchd run (see scripts/) handles iMessage delivery separately.
+  schedule:
+    - cron: '0 12 * * *'  # 7:00 AM Central (CDT); adjust for CST if needed
   workflow_dispatch:  # Allow manual trigger from GitHub UI
 
 env:
@@ -32,9 +35,10 @@ jobs:
       - name: Run daily update agent
         env:
           OPENWEATHER_API_KEY: ${{ secrets.OPENWEATHER_API_KEY }}
-          PUTER_TOKEN: ${{ secrets.PUTER_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          EXTRA_EMAIL_RECIPIENTS: ${{ secrets.EXTRA_EMAIL_RECIPIENTS }}
         run: python daily_update.py
 
       - name: Commit updated predictions & track record

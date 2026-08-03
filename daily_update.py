@@ -1,6 +1,6 @@
 """
 Daily Updates Agent (v2 - Learning Edition)
-Powered by Claude Opus 4.6 via Puter.com
+Powered by Gemini 3.6 Flash (free tier)
 
 Features:
 - AI-analyzed news with deep market impact analysis
@@ -45,7 +45,7 @@ def build_full_report():
     sections = [
         f"{'='*50}",
         f"  DAILY MARKET BRIEF - {now.strftime('%A, %B %d, %Y %I:%M %p')}",
-        f"  Powered by Claude Opus 4.6",
+        f"  Powered by Gemini 3.6 Flash",
         f"{'='*50}",
     ]
 
@@ -101,19 +101,19 @@ def build_full_report():
             seen.add(title)
             unique_articles.append(a)
 
-    # === SECTION 3: AI Deep Analysis (Opus 4.6) ===
+    # === SECTION 3: AI Deep Analysis (Gemini 3.6 Flash) ===
     ai_analysis = ""
-    print(f"  Opus 4.6 analyzing {len(unique_articles)} articles...")
+    print(f"  Gemini analyzing {len(unique_articles)} articles...")
     if unique_articles:
         ai_analysis = analyze_news(unique_articles[:15])
         sections.append("")
         sections.append(f"{'='*50}")
-        sections.append("  \U0001F9E0 AI MARKET ANALYSIS (Claude Opus 4.6)")
+        sections.append("  \U0001F9E0 AI MARKET ANALYSIS (Gemini 3.6 Flash)")
         sections.append(f"{'='*50}")
         sections.append(ai_analysis)
 
     # === SECTION 4: AI Action Plan (with learning context) ===
-    print("  Opus 4.6 generating trade ideas (learning from past calls)...")
+    print("  Gemini generating trade ideas (learning from past calls)...")
     context_parts = [premarket, market, quant_watchlist]
     if ai_analysis:
         context_parts.append(ai_analysis)
@@ -123,7 +123,7 @@ def build_full_report():
     if ai_watchlist:
         sections.append("")
         sections.append(f"{'='*50}")
-        sections.append("  \U0001F3AF AI ACTION PLAN (Claude Opus 4.6)")
+        sections.append("  \U0001F3AF AI ACTION PLAN (Gemini 3.6 Flash)")
         sections.append(f"{'='*50}")
         sections.append(ai_watchlist)
 
@@ -176,7 +176,7 @@ def build_sms_message(full_report):
 
 
 def main():
-    print(f"[{datetime.now()}] Building daily market brief (Opus 4.6)...\n")
+    print(f"[{datetime.now()}] Building daily market brief (Gemini 3.6 Flash)...\n")
 
     full_report = build_full_report()
 
