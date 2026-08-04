@@ -295,7 +295,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-08-02"
+    "date": "2026-08-02",
+    "graded": true
   },
   "2026-08-03": {
     "trade_ideas": [
@@ -352,6 +353,59 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-08-03"
+    "date": "2026-08-03",
+    "graded": true
+  },
+  "2026-08-04": {
+    "trade_ideas": [
+      {
+        "ticker": "PLTR",
+        "direction": "Buy",
+        "raw": "1. PLTR - Buy at $156.50 (market open) - Palantir's blowout Q2 revenue crush (+93% YoY to $1.94B vs $1.0B est) driven by AIP enterprise and sovereign AI demand confirms software monetization is rapidly accelerating. Take profit at $175.00 (+11.8%) and cut loss if price breaks below $148.00 (-5.4%)."
+      },
+      {
+        "ticker": "USO",
+        "direction": "Short",
+        "raw": "2. USO - Short at market open (~$70.50 equivalent) - Crude oil is crashing -6.44% today as U.S.-Iran diplomatic talks progress toward reopening the Strait of Hormuz, stripping out a $10\u2013$15/bbl geopolitical risk premium. Take profit on a further 5.5% downside target in crude, and cut loss if crude reclaims $78.50 on talk collapse headlines."
+      },
+      {
+        "ticker": "IWM",
+        "direction": "Short",
+        "raw": "3. IWM - Short at market open - U.S. Q2 GDP slowing to 1.5% alongside sticky 3.3% Core PCE and surging ISM input prices creates a stagflationary environment that severely pressures highly leveraged small caps. Take profit at a 2.5% drop from entry, and cut loss at 1.2% above entry if broad market momentum overpowers macro fundamentals."
+      },
+      {
+        "ticker": "JETS",
+        "direction": "Buy",
+        "raw": "4. JETS - Buy at market open - The 6.44% overnight collapse in crude oil prices directly drops airline operating expenses, driving an immediate margin boost across global carriers. Take profit at +4.5% from entry, and cut loss at -2.0% if Hormuz reopening negotiations hit an unexpected wall."
+      },
+      {
+        "ticker": "AMZN",
+        "direction": "Watch",
+        "raw": "5. AMZN - Watch at $280.30 - Adjusting for our recent wrong calls on Consumer Discretionary (XLY), we downgrade AMZN to a 'Watch' as Jeff Bezos files a $4.1B 10b5-1 liquidation plan creating supply overhang near 52-week highs. Watch $285.00 for a clean high-volume breakout trigger, or $270.00 for support failure before committing capital."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Real Estate",
+        "etf": "XLRE",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-08-04"
   }
 }
