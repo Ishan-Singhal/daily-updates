@@ -77,6 +77,23 @@ def build_dashboard_data():
             key = (pred_date, idea.get("ticker", ""))
             reasoning_lookup[key] = _clean_reasoning(idea.get("raw", ""))
 
+    # Pending calls: predictions not yet graded (e.g. today's), so they're
+    # visible immediately instead of waiting until tomorrow's grading run.
+    pending_calls = []
+    for pred_date, pred in sorted(predictions.items(), reverse=True):
+        if pred.get("graded"):
+            continue
+        for idea in pred.get("trade_ideas", []):
+            direction = idea.get("direction", "")
+            if direction.lower() == "watch":
+                continue
+            pending_calls.append({
+                "prediction_date": pred_date,
+                "ticker": idea.get("ticker", ""),
+                "direction": direction,
+                "reasoning": reasoning_lookup.get((pred_date, idea.get("ticker", "")), ""),
+            })
+
     trades = []
     ticker_misses = {}
     sector_misses = {}
@@ -153,6 +170,7 @@ def build_dashboard_data():
         },
         "equity_curve": equity_curve,
         "accuracy_curve": accuracy_curve,
+        "pending_calls": pending_calls,
         "trades": list(reversed(trades)),  # newest first for the table
         "learning_context": get_learning_context(lookback_days=30),
         "misses": {

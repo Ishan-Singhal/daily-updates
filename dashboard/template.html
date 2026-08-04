@@ -196,6 +196,21 @@
     <div class="badge-row" id="miss-badges"></div>
   </div>
 
+  <div class="panel" id="pending-panel">
+    <h2>Pending calls</h2>
+    <p class="panel-sub">Today's (and any not-yet-resolved) trade ideas — not graded yet, so they're excluded from P&amp;L/accuracy above until tomorrow</p>
+    <div class="table-scroll">
+      <table class="trades">
+        <thead>
+          <tr>
+            <th>Date</th><th>Ticker</th><th>Call</th><th>Reasoning</th>
+          </tr>
+        </thead>
+        <tbody id="pending-body"></tbody>
+      </table>
+    </div>
+  </div>
+
   <div class="panel">
     <h2>Trade log</h2>
     <p class="panel-sub">Every graded trade idea, newest first, with the AI's stated reasoning</p>
@@ -375,6 +390,27 @@ function renderLearning(data) {
   document.getElementById("miss-badges").innerHTML = badges.join("");
 }
 
+function renderPending(data) {
+  const panel = document.getElementById("pending-panel");
+  const calls = data.pending_calls || [];
+  if (!calls.length) {
+    panel.style.display = "none";
+    return;
+  }
+  const rows = calls.map(c => {
+    const isLong = c.direction && ["buy", "bullish", "long"].includes(c.direction.toLowerCase());
+    return `
+      <tr>
+        <td>${fmtDate(c.prediction_date)}</td>
+        <td><strong>${c.ticker}</strong></td>
+        <td><span class="dir-pill ${isLong ? "dir-long" : "dir-short"}">${c.direction}</span></td>
+        <td class="reasoning">${c.reasoning || "—"}</td>
+      </tr>
+    `;
+  }).join("");
+  document.getElementById("pending-body").innerHTML = rows;
+}
+
 function renderTable(data) {
   const rows = data.trades.map(t => {
     const isLong = t.direction && ["buy", "bullish", "long"].includes(t.direction.toLowerCase());
@@ -398,6 +434,7 @@ if (DATA) {
   renderStats(DATA);
   renderCharts(DATA);
   renderLearning(DATA);
+  renderPending(DATA);
   renderTable(DATA);
   document.getElementById("footer").textContent = "Generated " + DATA.generated_at + " · regenerates automatically after each daily brief run";
 } else {
