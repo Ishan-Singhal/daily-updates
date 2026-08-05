@@ -494,5 +494,76 @@
     "total_correct": 6,
     "total_calls": 10,
     "accuracy": 60.0
+  },
+  "2026-08-04": {
+    "prediction_date": "2026-08-04",
+    "graded_date": "2026-08-05",
+    "trade_grades": [
+      {
+        "ticker": "PLTR",
+        "predicted": "buy",
+        "actual_move": "-0.06%",
+        "correct": false,
+        "graded_against": "2026-08-05"
+      },
+      {
+        "ticker": "USO",
+        "predicted": "short",
+        "actual_move": "-1.07%",
+        "correct": "True",
+        "graded_against": "2026-08-05"
+      },
+      {
+        "ticker": "IWM",
+        "predicted": "short",
+        "actual_move": "+0.30%",
+        "correct": "False",
+        "graded_against": "2026-08-05"
+      },
+      {
+        "ticker": "JETS",
+        "predicted": "buy",
+        "actual_move": "+1.47%",
+        "correct": "True",
+        "graded_against": "2026-08-05"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bullish",
+        "actual_move": "+0.63%",
+        "correct": "True",
+        "graded_against": "2026-08-05"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "predicted": "bullish",
+        "actual_move": "+0.67%",
+        "correct": "True",
+        "graded_against": "2026-08-05"
+      },
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bearish",
+        "actual_move": "-1.14%",
+        "correct": "True",
+        "graded_against": "2026-08-05"
+      },
+      {
+        "sector": "Real Estate",
+        "etf": "XLRE",
+        "predicted": "bearish",
+        "actual_move": "-0.73%",
+        "correct": "True",
+        "graded_against": "2026-08-05"
+      }
+    ],
+    "total_correct": 6,
+    "total_calls": 8,
+    "accuracy": 75.0
   }
 }
