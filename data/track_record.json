@@ -565,5 +565,83 @@
     "total_correct": 6,
     "total_calls": 8,
     "accuracy": 75.0
+  },
+  "2026-08-05": {
+    "prediction_date": "2026-08-05",
+    "graded_date": "2026-08-06",
+    "trade_grades": [
+      {
+        "ticker": "TTWO",
+        "predicted": "buy",
+        "actual_move": "-1.79%",
+        "correct": false,
+        "graded_against": "2026-08-06"
+      },
+      {
+        "ticker": "XLE",
+        "predicted": "buy",
+        "actual_move": "+0.54%",
+        "correct": "True",
+        "graded_against": "2026-08-06"
+      },
+      {
+        "ticker": "PLTR",
+        "predicted": "short",
+        "actual_move": "-0.81%",
+        "correct": "True",
+        "graded_against": "2026-08-06"
+      },
+      {
+        "ticker": "UNH",
+        "predicted": "short",
+        "actual_move": "-1.49%",
+        "correct": "True",
+        "graded_against": "2026-08-06"
+      },
+      {
+        "ticker": "GS",
+        "predicted": "buy",
+        "actual_move": "+0.34%",
+        "correct": "True",
+        "graded_against": "2026-08-06"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bullish",
+        "actual_move": "+0.54%",
+        "correct": "True",
+        "graded_against": "2026-08-06"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "-0.04%",
+        "correct": "False",
+        "graded_against": "2026-08-06"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "-0.04%",
+        "correct": "False",
+        "graded_against": "2026-08-06"
+      },
+      {
+        "sector": "Industrials",
+        "etf": "XLI",
+        "predicted": "bearish",
+        "actual_move": "+0.45%",
+        "correct": "False",
+        "graded_against": "2026-08-06"
+      }
+    ],
+    "total_correct": 5,
+    "total_calls": 9,
+    "accuracy": 55.6
   }
 }

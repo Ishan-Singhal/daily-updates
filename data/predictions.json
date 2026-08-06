@@ -459,6 +459,64 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-08-05"
+    "date": "2026-08-05",
+    "graded": true
+  },
+  "2026-08-06": {
+    "trade_ideas": [
+      {
+        "ticker": "RKLB",
+        "direction": "Short",
+        "raw": "1. RKLB - Short at market open (~$13.50) - Today's lockup expiration releasing 911 million SpaceX insider shares into secondary markets will flood institutional supply and drag down valuation multiples across space proxies. Take profit at $12.20 (-9.6%); cut loss if price breaks above $14.20 (+5.2%)."
+      },
+      {
+        "ticker": "USO",
+        "direction": "Short",
+        "raw": "2. USO - Short at market open (~$77.50) - The market is mispricing crude futures overnight (+1.57%) ahead of today's finalized U.S.-Iran agreement securing toll-free Strait of Hormuz transit, which immediately unwinds geopolitical risk premia. Take profit at $74.80 (-3.5%); cut loss if USO breaches $78.80 (+1.7%)."
+      },
+      {
+        "ticker": "LLY",
+        "direction": "Buy",
+        "raw": "3. LLY - Buy at market open (~$950.00) - Bank of America's corporate disclosure today revealing $250M in annual GLP-1 spend confirms Eli Lilly's widening supply execution and market share lead over Novo Nordisk. Take profit at $988.00 (+4.0%); cut loss below $930.00 (-2.1%)."
+      },
+      {
+        "ticker": "FOXA",
+        "direction": "Buy",
+        "raw": "4. FOXA - Buy at market open (~$38.50) - CEO Lachlan Murdoch's formal refusal today to renegotiate NFL media rights prior to 2030 caps sports broadcasting inflation and protects free cash flow generation through the decade. Take profit at $41.20 (+7.0%); cut loss if price drops below $37.30 (-3.1%)."
+      },
+      {
+        "ticker": "F",
+        "direction": "Watch",
+        "raw": "5. F - Watch at market open (~$11.20) - While today's $28k 'Fathom' EV launch targets mass-market share, our recent track record failures in Consumer Discretionary dictate downgrading to Watch to evaluate Model e division margin compression. Observe price action between $10.80 support and $11.60 resistance before taking directional exposure."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Healthcare",
+        "etf": "XLV",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Real Estate",
+        "etf": "XLRE",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-08-06"
   }
 }
