@@ -643,5 +643,84 @@
     "total_correct": 5,
     "total_calls": 9,
     "accuracy": 55.6
+  },
+  "2026-08-06": {
+    "prediction_date": "2026-08-06",
+    "graded_date": "2026-08-08",
+    "trade_grades": [
+      {
+        "ticker": "RKLB",
+        "predicted": "short",
+        "actual_move": "+9.46%",
+        "correct": "False",
+        "graded_against": "2026-08-07"
+      },
+      {
+        "ticker": "USO",
+        "predicted": "short",
+        "actual_move": "-0.75%",
+        "correct": "True",
+        "graded_against": "2026-08-07"
+      },
+      {
+        "ticker": "LLY",
+        "predicted": "buy",
+        "actual_move": "-0.52%",
+        "correct": false,
+        "graded_against": "2026-08-07"
+      },
+      {
+        "ticker": "FOXA",
+        "predicted": "buy",
+        "actual_move": "+3.63%",
+        "correct": "True",
+        "graded_against": "2026-08-07"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "predicted": "bullish",
+        "actual_move": "-0.36%",
+        "correct": false,
+        "graded_against": "2026-08-07"
+      },
+      {
+        "sector": "Healthcare",
+        "etf": "XLV",
+        "predicted": "bullish",
+        "actual_move": "+0.75%",
+        "correct": "True",
+        "graded_against": "2026-08-07"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "+1.49%",
+        "correct": "False",
+        "graded_against": "2026-08-07"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "+1.49%",
+        "correct": "False",
+        "graded_against": "2026-08-07"
+      },
+      {
+        "sector": "Real Estate",
+        "etf": "XLRE",
+        "predicted": "bearish",
+        "actual_move": "+0.38%",
+        "correct": "False",
+        "graded_against": "2026-08-07"
+      }
+    ],
+    "total_correct": 3,
+    "total_calls": 9,
+    "accuracy": 33.3
   }
 }

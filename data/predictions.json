@@ -517,7 +517,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-08-06"
+    "date": "2026-08-06",
+    "graded": true
   },
   "2026-08-07": {
     "trade_ideas": [
@@ -580,5 +581,62 @@
       }
     ],
     "date": "2026-08-07"
+  },
+  "2026-08-08": {
+    "trade_ideas": [
+      {
+        "ticker": "FCX",
+        "direction": "Buy",
+        "raw": "1. FCX - Buy at market open ($52.00) - Copper's breakout to an all-time high today driven by AI data center grid expansion and supply deficits provides immediate margin expansion for pure-play miners. Take profit at $56.50; cut loss at $49.80."
+      },
+      {
+        "ticker": "XOM",
+        "direction": "Buy",
+        "raw": "2. XOM - Buy at market open ($117.50) - Crude oil's drop below $80 represents an algorithmic mispricing driven by false U.S.-Iran peace headlines already explicitly denied by Iranian officials. Take profit at $123.00; cut loss at $114.80."
+      },
+      {
+        "ticker": "SG",
+        "direction": "Short",
+        "raw": "3. SG - Short at market open ($24.50) - Sweetgreen's 600 bps guidance cut today following an FDA-announced Cyclospora outbreak triggers immediate foot-traffic degradation, offering a high-conviction short play aligned with our 100% bearish track record discipline. Take profit at $20.50; cut loss at $26.20."
+      },
+      {
+        "ticker": "CRWD",
+        "direction": "Buy",
+        "raw": "4. CRWD - Buy at market open ($214.42) - Today's Hugging Face breach headline accelerates enterprise security budget reallocation toward agentic defense, driving momentum as the stock breaks toward 52-week highs. Take profit at $228.00; cut loss at $207.50."
+      },
+      {
+        "ticker": "PLTR",
+        "direction": "Watch",
+        "raw": "5. PLTR - Watch at $172.01 - Adjusting for our recent failed bullish call on PLTR, we refuse to chase today's +9.6% headline-driven surge at all-time highs into broader labor market contraction. Look to take profits on existing positions near $175.00; re-evaluate entry only on a pull-back to $158.00."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Materials",
+        "etf": "XLB",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-08-08"
   }
 }
