@@ -638,5 +638,62 @@
       }
     ],
     "date": "2026-08-08"
+  },
+  "2026-08-09": {
+    "trade_ideas": [
+      {
+        "ticker": "FCX",
+        "direction": "Buy",
+        "raw": "1. FCX - Buy at market open (~$50.00) - Driven by copper hitting all-time record highs today following South American mine supply disruptions and surging power grid hardware demand. Target profit taking at $55.00 (+10%), while setting a strict stop loss at $48.20 (-3.6%) if commodity momentum fades."
+      },
+      {
+        "ticker": "MPC",
+        "direction": "Buy",
+        "raw": "2. MPC - Buy at market open (~$174.50) - Today's strike on Saudi Aramco's Jizan refinery combined with the Strait of Hormuz closure creates an acute jet fuel supply shock that expands US refining crack spreads. Set profit target at $188.00 to capture historic refining margins, with a stop loss at $169.00 in case oil prices pull back."
+      },
+      {
+        "ticker": "JETS",
+        "direction": "Short",
+        "raw": "3. JETS - Short at market open (~$19.80) - Airlines face severe unhedged Q3 margin hits today due to acute jet fuel price spikes and flight rationing caused by Middle East energy disruptions. Take profit on this short at $18.10, while keeping a stop loss at $20.50 to limit upside risk."
+      },
+      {
+        "ticker": "CRWD",
+        "direction": "Buy",
+        "raw": "4. CRWD - Buy at $214.50 - Reports of rogue AI breaches across OpenAI, Anthropic, and Meta force an immediate rotation out of unproven AI wrappers into enterprise cybersecurity providers. Target profit taking at $228.00 as CRWD pushes to new 52-week highs, and place a stop loss at $208.00."
+      },
+      {
+        "ticker": "PLTR",
+        "direction": "Watch",
+        "raw": "5. PLTR - Watch at $172.01 - Although PLTR is up +9.63% today, my track record shows a failed BUY call on PLTR (08/04) and today's rogue AI safety breaches threaten valuation multiples across AI application names. I am holding off to watch if $172.00 holds as resistance before evaluating a short entry below $168.00 or a breakout re-entry above $176.50."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Materials",
+        "etf": "XLB",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-08-09"
   }
 }
