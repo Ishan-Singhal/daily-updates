@@ -695,5 +695,57 @@
       }
     ],
     "date": "2026-08-09"
+  },
+  "2026-08-10": {
+    "trade_ideas": [
+      {
+        "ticker": "INTC",
+        "direction": "Short",
+        "raw": "1. INTC - Short at market open - Intel announced a massive $15 billion secondary common stock offering today to fund AI CapEx, creating an immediate 8-10% share dilution and severe supply overhang. I would take profit at a -7% drop toward $28.80 and cut losses if the stock reclaims +2.5% above the opening price."
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "Buy",
+        "raw": "2. NVDA - Buy at market open - TSMC's July revenue surged 44.7% YoY to $14.5B today, providing hard transactional proof that downstream hyperscaler demand for Nvidia's AI architectures remains in hyper-growth mode. I would take profit at a +4% gain on morning momentum and cut losses if the price falls -2% below entry."
+      },
+      {
+        "ticker": "FCX",
+        "direction": "Buy",
+        "raw": "3. FCX - Buy at market open - Copper hit record highs today driven by structural AI data center power grid expansion and South American mining bottlenecks, expanding operational cash flow for Freeport-McMoRan. I would take profit at a +5% gain and cut losses if copper spot prices reverse and push FCX down -2.5%."
+      },
+      {
+        "ticker": "USO",
+        "direction": "Short",
+        "raw": "4. USO - Short at market open - The U.S. pivot today toward economic sanctions over direct military strikes against Iran is deflating the acute geopolitical risk premium previously priced into crude benchmarks. I would take profit at a -4% price drop and cut losses at +2% if Middle East geopolitical headlines abruptly re-escalate."
+      },
+      {
+        "ticker": "PLTR",
+        "direction": "Watch",
+        "raw": "5. PLTR - Watch at market open - Having been wrong on PLTR recently on 2026-08-04 and with Meta open-sourcing its frontier AI model today, I am stripping directional bias to avoid chasing software momentum at elevated levels ($172.01). I will take profit on existing length or watch for a pullback toward $160 before considering fresh entry, maintaining a strict risk exit below $155."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Materials",
+        "etf": "XLB",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-08-10"
   }
 }
