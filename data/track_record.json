@@ -722,5 +722,92 @@
     "total_correct": 3,
     "total_calls": 9,
     "accuracy": 33.3
+  },
+  "2026-08-07": {
+    "prediction_date": "2026-08-07",
+    "graded_date": "2026-08-11",
+    "trade_grades": [
+      {
+        "ticker": "QQQ",
+        "predicted": "short",
+        "actual_move": "-0.30%",
+        "correct": "True",
+        "graded_against": "2026-08-10"
+      },
+      {
+        "ticker": "FCX",
+        "predicted": "buy",
+        "actual_move": "+1.28%",
+        "correct": "True",
+        "graded_against": "2026-08-10"
+      },
+      {
+        "ticker": "FSLR",
+        "predicted": "buy",
+        "actual_move": "-4.29%",
+        "correct": false,
+        "graded_against": "2026-08-10"
+      },
+      {
+        "ticker": "UWMC",
+        "predicted": "short",
+        "actual_move": "+10.16%",
+        "correct": "False",
+        "graded_against": "2026-08-10"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "predicted": "bullish",
+        "actual_move": "+0.36%",
+        "correct": "True",
+        "graded_against": "2026-08-10"
+      },
+      {
+        "sector": "Materials",
+        "etf": "XLB",
+        "predicted": "bullish",
+        "actual_move": "+0.61%",
+        "correct": "True",
+        "graded_against": "2026-08-10"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "-0.88%",
+        "correct": "True",
+        "graded_against": "2026-08-10"
+      },
+      {
+        "sector": "Technology",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "-0.88%",
+        "correct": "True",
+        "graded_against": "2026-08-10"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "-0.16%",
+        "correct": "True",
+        "graded_against": "2026-08-10"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "-0.16%",
+        "correct": "True",
+        "graded_against": "2026-08-10"
+      }
+    ],
+    "total_correct": 8,
+    "total_calls": 10,
+    "accuracy": 80.0
   }
 }

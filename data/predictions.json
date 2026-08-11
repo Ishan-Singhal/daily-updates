@@ -580,7 +580,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-08-07"
+    "date": "2026-08-07",
+    "graded": true
   },
   "2026-08-08": {
     "trade_ideas": [
@@ -747,5 +748,57 @@
       }
     ],
     "date": "2026-08-10"
+  },
+  "2026-08-11": {
+    "trade_ideas": [
+      {
+        "ticker": "INTC",
+        "direction": "Short",
+        "raw": "1. INTC - Short at market open (~$97.50) - Intel's $20B upsized equity offering at a deep $95 discount floor creates immediate equity dilution and severe price overhang today. Take profit near $95.20 close to the offering floor, and set a strict stop-loss at $99.80."
+      },
+      {
+        "ticker": "OXY",
+        "direction": "Buy",
+        "raw": "2. OXY - Buy at market open (~$60.50) - Strait of Hormuz tanker traffic collapsed 45% today following stalled US-Iran talks, physically locking up 8-10 million bpd of crude throughput. Take profit at $64.50 as the geopolitical risk premium expands, and cut losses at $58.80 if diplomatic talks unexpectedly resume."
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "Buy",
+        "raw": "3. NVDA - Buy at market open (~$122.00) - Nvidia is coordinating a massive $500B private debt framework with KKR and Apollo to securitize enterprise GPU compute clusters off hyperscaler balance sheets. Take profit at $127.50 on structural demand backstop expansion, and set a stop-loss at $119.20 to protect against macro drag."
+      },
+      {
+        "ticker": "TLT",
+        "direction": "Buy",
+        "raw": "4. TLT - Buy at market open (~$98.50) - July Nonfarm Payrolls unexpectedly contracted by 23,000 jobs, triggering an aggressive market repricing toward a 50 bps September Fed rate cut. Take profit at $102.00 as yield curve bull-steepening drives duration demand, and cut losses at $97.10 if labor data is dismissed as seasonal noise."
+      },
+      {
+        "ticker": "XLF",
+        "direction": "Short",
+        "raw": "5. XLF - Short at market open (~$44.20) - Course-correcting from our failed Aug 6 bullish call, today's negative -23k NFP contraction signals a late-cycle labor freeze that will compress net interest margins and elevate loan default risks. Take profit at $42.80 and set a tight stop-loss at $44.90."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-08-11"
   }
 }
