@@ -809,5 +809,76 @@
     "total_correct": 8,
     "total_calls": 10,
     "accuracy": 80.0
+  },
+  "2026-08-10": {
+    "prediction_date": "2026-08-10",
+    "graded_date": "2026-08-12",
+    "trade_grades": [
+      {
+        "ticker": "INTC",
+        "predicted": "short",
+        "actual_move": "+0.19%",
+        "correct": "False",
+        "graded_against": "2026-08-11"
+      },
+      {
+        "ticker": "NVDA",
+        "predicted": "buy",
+        "actual_move": "-0.02%",
+        "correct": false,
+        "graded_against": "2026-08-11"
+      },
+      {
+        "ticker": "FCX",
+        "predicted": "buy",
+        "actual_move": "-2.33%",
+        "correct": false,
+        "graded_against": "2026-08-11"
+      },
+      {
+        "ticker": "USO",
+        "predicted": "short",
+        "actual_move": "+1.34%",
+        "correct": "False",
+        "graded_against": "2026-08-11"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Materials",
+        "etf": "XLB",
+        "predicted": "bullish",
+        "actual_move": "+0.11%",
+        "correct": "True",
+        "graded_against": "2026-08-11"
+      },
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bearish",
+        "actual_move": "+1.25%",
+        "correct": "False",
+        "graded_against": "2026-08-11"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "-0.36%",
+        "correct": "True",
+        "graded_against": "2026-08-11"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "-0.36%",
+        "correct": "True",
+        "graded_against": "2026-08-11"
+      }
+    ],
+    "total_correct": 3,
+    "total_calls": 8,
+    "accuracy": 37.5
   }
 }

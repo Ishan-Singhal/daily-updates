@@ -747,7 +747,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-08-10"
+    "date": "2026-08-10",
+    "graded": true
   },
   "2026-08-11": {
     "trade_ideas": [
@@ -800,5 +801,62 @@
       }
     ],
     "date": "2026-08-11"
+  },
+  "2026-08-12": {
+    "trade_ideas": [
+      {
+        "ticker": "ZIM",
+        "direction": "Buy",
+        "raw": "1. ZIM - Buy at market open (~$19.50) - Lethal Red Sea attacks in the Bab el-Mandeb Strait guarantee extended circum-African transit routes and force ocean container spot rates higher today. Take profit at $21.50 (+10%) and cut loss at $18.50 (-5%)."
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "Short",
+        "raw": "2. NVDA - Short at $217.50 - Adjusting for our recent failed long call, today's report detailing rapid GPU depreciation risks threatening $500B in collateralized debt vehicles creates an immediate valuation headwind. Take profit at $205.00 (-5.7%) and cut loss at $222.00 (+2.1%)."
+      },
+      {
+        "ticker": "DAL",
+        "direction": "Short",
+        "raw": "3. DAL - Short at market open (~$42.00) - The IEA's massive 4.3M bpd global supply downgrade and projected 1.8M bpd Q3 deficit force crude higher, creating an immediate fuel input cost shock for airlines today. Take profit at $39.50 (-6.0%) and cut loss at $43.25 (+3.0%)."
+      },
+      {
+        "ticker": "ETN",
+        "direction": "Buy",
+        "raw": "4. ETN - Buy at market open (~$310.00) - Surging AI hyperscaler CapEx demand combined with acute European grid strain from heatwaves gives electrical equipment manufacturers immediate pricing leverage today. Take profit at $328.00 (+5.8%) and cut loss at $301.00 (-2.9%)."
+      },
+      {
+        "ticker": "PLTR",
+        "direction": "Watch",
+        "raw": "5. PLTR - Watch at $174.94 - Reflecting on our recent wrong call on this ticker, we downgrade PLTR to Watch to confirm if premarket AI momentum can overcome broader tech valuation friction today. Stand aside unless the price cleanly breaks above $178.00 or fails below $168.00 key support."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Industrials",
+        "etf": "XLI",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-08-12"
   }
 }
