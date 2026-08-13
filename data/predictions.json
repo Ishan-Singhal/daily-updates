@@ -638,7 +638,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-08-08"
+    "date": "2026-08-08",
+    "graded": true
   },
   "2026-08-09": {
     "trade_ideas": [
@@ -695,7 +696,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-08-09"
+    "date": "2026-08-09",
+    "graded": true
   },
   "2026-08-10": {
     "trade_ideas": [
@@ -800,7 +802,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-08-11"
+    "date": "2026-08-11",
+    "graded": true
   },
   "2026-08-12": {
     "trade_ideas": [
@@ -858,5 +861,57 @@
       }
     ],
     "date": "2026-08-12"
+  },
+  "2026-08-13": {
+    "trade_ideas": [
+      {
+        "ticker": "TLT",
+        "direction": "Short",
+        "raw": "1. TLT - Short at market open (~$92.50) - The US July budget deficit surging 48% YoY to $432B creates a massive Treasury supply overhang that completely negates the soft PPI print. Recalibrating after my recent failed bullish call, I would take profit at $89.50 and cut losses if price breaks above $94.00."
+      },
+      {
+        "ticker": "MU",
+        "direction": "Short",
+        "raw": "2. MU - Short at market open (~$96.00) - Chinese NAND flash producers are rapidly taking global market share from Micron in standard flash, creating severe margin compression outside of high-bandwidth memory. I am taking profit at $90.50 and cutting losses if the stock reclaims $99.20."
+      },
+      {
+        "ticker": "NTR",
+        "direction": "Buy",
+        "raw": "3. NTR - Buy at market open (~$52.50) - Ukrainian strikes damaging Russia's key Novorossiysk export port have bottlenecked ~30% of Russian grain shipments, instantly restoring global fertilizer pricing power. I am targeting profit at $56.50 while placing a stop loss at $50.70."
+      },
+      {
+        "ticker": "HOOD",
+        "direction": "Short",
+        "raw": "4. HOOD - Short at market open (~$19.50) - A new NYC Council regulatory probe targeting prediction market platforms introduces immediate compliance friction and user-growth risks for retail fintechs. I look to take profit at $17.80 and cut losses if price exceeds $20.60."
+      },
+      {
+        "ticker": "CRWD",
+        "direction": "Watch",
+        "raw": "5. CRWD - Watch at $221.78 - Cybersecurity is near 52-week highs on dovish PPI data, but given my two recent wrong BUY calls on this exact ticker, I am downgrading to Watch to avoid repeating previous missteps. I will monitor $212.00 support for stabilization or a clear breakout past $225.00 before allocating capital."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Materials",
+        "etf": "XLB",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-08-13"
   }
 }

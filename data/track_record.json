@@ -880,5 +880,241 @@
     "total_correct": 3,
     "total_calls": 8,
     "accuracy": 37.5
+  },
+  "2026-08-08": {
+    "prediction_date": "2026-08-08",
+    "graded_date": "2026-08-13",
+    "trade_grades": [
+      {
+        "ticker": "FCX",
+        "predicted": "buy",
+        "actual_move": "-2.33%",
+        "correct": false,
+        "graded_against": "2026-08-11"
+      },
+      {
+        "ticker": "XOM",
+        "predicted": "buy",
+        "actual_move": "+0.01%",
+        "correct": false,
+        "graded_against": "2026-08-11"
+      },
+      {
+        "ticker": "SG",
+        "predicted": "short",
+        "actual_move": "-1.10%",
+        "correct": "True",
+        "graded_against": "2026-08-11"
+      },
+      {
+        "ticker": "CRWD",
+        "predicted": "buy",
+        "actual_move": "-1.45%",
+        "correct": false,
+        "graded_against": "2026-08-11"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bullish",
+        "actual_move": "-0.12%",
+        "correct": false,
+        "graded_against": "2026-08-11"
+      },
+      {
+        "sector": "Materials",
+        "etf": "XLB",
+        "predicted": "bullish",
+        "actual_move": "+0.11%",
+        "correct": "True",
+        "graded_against": "2026-08-11"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "predicted": "bearish",
+        "actual_move": "-0.02%",
+        "correct": "False",
+        "graded_against": "2026-08-11"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "-0.36%",
+        "correct": "True",
+        "graded_against": "2026-08-11"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "-0.36%",
+        "correct": "True",
+        "graded_against": "2026-08-11"
+      }
+    ],
+    "total_correct": 4,
+    "total_calls": 9,
+    "accuracy": 44.4
+  },
+  "2026-08-09": {
+    "prediction_date": "2026-08-09",
+    "graded_date": "2026-08-13",
+    "trade_grades": [
+      {
+        "ticker": "FCX",
+        "predicted": "buy",
+        "actual_move": "-2.33%",
+        "correct": false,
+        "graded_against": "2026-08-11"
+      },
+      {
+        "ticker": "MPC",
+        "predicted": "buy",
+        "actual_move": "+5.03%",
+        "correct": "True",
+        "graded_against": "2026-08-11"
+      },
+      {
+        "ticker": "JETS",
+        "predicted": "short",
+        "actual_move": "+0.83%",
+        "correct": "False",
+        "graded_against": "2026-08-11"
+      },
+      {
+        "ticker": "CRWD",
+        "predicted": "buy",
+        "actual_move": "-1.45%",
+        "correct": false,
+        "graded_against": "2026-08-11"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bullish",
+        "actual_move": "+1.25%",
+        "correct": "True",
+        "graded_against": "2026-08-11"
+      },
+      {
+        "sector": "Materials",
+        "etf": "XLB",
+        "predicted": "bullish",
+        "actual_move": "+0.11%",
+        "correct": "True",
+        "graded_against": "2026-08-11"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "predicted": "bearish",
+        "actual_move": "-0.02%",
+        "correct": "False",
+        "graded_against": "2026-08-11"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "-0.36%",
+        "correct": "True",
+        "graded_against": "2026-08-11"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "-0.36%",
+        "correct": "True",
+        "graded_against": "2026-08-11"
+      }
+    ],
+    "total_correct": 5,
+    "total_calls": 9,
+    "accuracy": 55.6
+  },
+  "2026-08-11": {
+    "prediction_date": "2026-08-11",
+    "graded_date": "2026-08-13",
+    "trade_grades": [
+      {
+        "ticker": "INTC",
+        "predicted": "short",
+        "actual_move": "+3.32%",
+        "correct": "False",
+        "graded_against": "2026-08-12"
+      },
+      {
+        "ticker": "OXY",
+        "predicted": "buy",
+        "actual_move": "-0.86%",
+        "correct": false,
+        "graded_against": "2026-08-12"
+      },
+      {
+        "ticker": "NVDA",
+        "predicted": "buy",
+        "actual_move": "+3.03%",
+        "correct": "True",
+        "graded_against": "2026-08-12"
+      },
+      {
+        "ticker": "TLT",
+        "predicted": "buy",
+        "actual_move": "-0.10%",
+        "correct": false,
+        "graded_against": "2026-08-12"
+      },
+      {
+        "ticker": "XLF",
+        "predicted": "short",
+        "actual_move": "+0.21%",
+        "correct": "False",
+        "graded_against": "2026-08-12"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bullish",
+        "actual_move": "+0.16%",
+        "correct": "True",
+        "graded_against": "2026-08-12"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "predicted": "bearish",
+        "actual_move": "+0.21%",
+        "correct": "False",
+        "graded_against": "2026-08-12"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "-1.13%",
+        "correct": "True",
+        "graded_against": "2026-08-12"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "-1.13%",
+        "correct": "True",
+        "graded_against": "2026-08-12"
+      }
+    ],
+    "total_correct": 4,
+    "total_calls": 9,
+    "accuracy": 44.4
   }
 }
