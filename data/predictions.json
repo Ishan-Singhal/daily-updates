@@ -860,7 +860,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-08-12"
+    "date": "2026-08-12",
+    "graded": true
   },
   "2026-08-13": {
     "trade_ideas": [
@@ -913,5 +914,52 @@
       }
     ],
     "date": "2026-08-13"
+  },
+  "2026-08-14": {
+    "trade_ideas": [
+      {
+        "ticker": "CMG",
+        "direction": "Short",
+        "raw": "1. CMG - Short at market open (~$52.00) - Wholesale lettuce prices plunged a record 16.4% today due to a multi-state Cyclospora contamination outbreak, which historically triggers a 3% to 6% decline in fast-casual foot traffic over subsequent quarters. Take profit at $49.40 (-5.0%), and cut losses if price breaks above $53.30 (+2.5%)."
+      },
+      {
+        "ticker": "FRO",
+        "direction": "Buy",
+        "raw": "2. FRO - Buy at market open (~$22.50) - U.S. naval operations blocking the Strait of Hormuz are actively forcing Asian refiners into long-haul trans-Pacific spot cargoes today, driving tanker rates (BDTI) sharply higher. Take profit at $24.30 (+8.0%), with a stop-loss at $21.60 (-4.0%)."
+      },
+      {
+        "ticker": "SMCI",
+        "direction": "Short",
+        "raw": "3. SMCI - Short at $39.16 - Fresh intelligence highlighting $500B in off-balance-sheet AI data center debt and counterparty concentration risks leaves SMCI highly vulnerable after a parabolic +25.8% 5-day run. Take profit at $36.00 (-8.1%), and cut loss at $40.50 (+3.4%)."
+      },
+      {
+        "ticker": "FCX",
+        "direction": "Watch",
+        "raw": "4. FCX - Watch at $48.50 - Adjusting for three recent wrong calls on FCX, we are stepping aside as the record $6.90/lb COMEX-LME copper spread poses extreme mean-reversion risk if U.S. tariff implementation is delayed. Re-evaluate only if the stock tests key support near $46.00."
+      },
+      {
+        "ticker": "CRWD",
+        "direction": "Watch",
+        "raw": "5. CRWD - Watch at $225.53 - Calibrating for two recent wrong calls on CRWD, we downgrade to Watch near its 52-week high despite record H1 data compromises driving sector tailwinds. Wait for a valuation pull-back toward $212.00 before considering new long exposure."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-08-14"
   }
 }

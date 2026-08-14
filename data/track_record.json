@@ -1116,5 +1116,84 @@
     "total_correct": 4,
     "total_calls": 9,
     "accuracy": 44.4
+  },
+  "2026-08-12": {
+    "prediction_date": "2026-08-12",
+    "graded_date": "2026-08-14",
+    "trade_grades": [
+      {
+        "ticker": "ZIM",
+        "predicted": "buy",
+        "actual_move": "+6.13%",
+        "correct": "True",
+        "graded_against": "2026-08-13"
+      },
+      {
+        "ticker": "NVDA",
+        "predicted": "short",
+        "actual_move": "+0.54%",
+        "correct": "False",
+        "graded_against": "2026-08-13"
+      },
+      {
+        "ticker": "DAL",
+        "predicted": "short",
+        "actual_move": "+1.53%",
+        "correct": "False",
+        "graded_against": "2026-08-13"
+      },
+      {
+        "ticker": "ETN",
+        "predicted": "buy",
+        "actual_move": "-1.44%",
+        "correct": false,
+        "graded_against": "2026-08-13"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bullish",
+        "actual_move": "+0.05%",
+        "correct": false,
+        "graded_against": "2026-08-13"
+      },
+      {
+        "sector": "Industrials",
+        "etf": "XLI",
+        "predicted": "bullish",
+        "actual_move": "-0.05%",
+        "correct": false,
+        "graded_against": "2026-08-13"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "predicted": "bearish",
+        "actual_move": "+0.59%",
+        "correct": "False",
+        "graded_against": "2026-08-13"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "+0.48%",
+        "correct": "False",
+        "graded_against": "2026-08-13"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "+0.48%",
+        "correct": "False",
+        "graded_against": "2026-08-13"
+      }
+    ],
+    "total_correct": 1,
+    "total_calls": 9,
+    "accuracy": 11.1
   }
 }
