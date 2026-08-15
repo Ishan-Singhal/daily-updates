@@ -1195,5 +1195,76 @@
     "total_correct": 1,
     "total_calls": 9,
     "accuracy": 11.1
+  },
+  "2026-08-13": {
+    "prediction_date": "2026-08-13",
+    "graded_date": "2026-08-15",
+    "trade_grades": [
+      {
+        "ticker": "TLT",
+        "predicted": "short",
+        "actual_move": "-0.67%",
+        "correct": "True",
+        "graded_against": "2026-08-14"
+      },
+      {
+        "ticker": "MU",
+        "predicted": "short",
+        "actual_move": "+2.30%",
+        "correct": "False",
+        "graded_against": "2026-08-14"
+      },
+      {
+        "ticker": "NTR",
+        "predicted": "buy",
+        "actual_move": "+1.14%",
+        "correct": "True",
+        "graded_against": "2026-08-14"
+      },
+      {
+        "ticker": "HOOD",
+        "predicted": "short",
+        "actual_move": "-3.83%",
+        "correct": "True",
+        "graded_against": "2026-08-14"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bullish",
+        "actual_move": "-0.40%",
+        "correct": false,
+        "graded_against": "2026-08-14"
+      },
+      {
+        "sector": "Materials",
+        "etf": "XLB",
+        "predicted": "bullish",
+        "actual_move": "+0.44%",
+        "correct": "True",
+        "graded_against": "2026-08-14"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "-0.21%",
+        "correct": "True",
+        "graded_against": "2026-08-14"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "-0.21%",
+        "correct": "True",
+        "graded_against": "2026-08-14"
+      }
+    ],
+    "total_correct": 6,
+    "total_calls": 8,
+    "accuracy": 75.0
   }
 }

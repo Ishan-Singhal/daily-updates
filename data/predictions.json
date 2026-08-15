@@ -913,7 +913,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-08-13"
+    "date": "2026-08-13",
+    "graded": true
   },
   "2026-08-14": {
     "trade_ideas": [
@@ -961,5 +962,62 @@
       }
     ],
     "date": "2026-08-14"
+  },
+  "2026-08-15": {
+    "trade_ideas": [
+      {
+        "ticker": "TLT",
+        "direction": "Short",
+        "raw": "1. TLT - Short at market open - The U.S. budget deficit surging 48% YoY to $432B forces a massive Treasury issuance overhang that spikes long-end yields, creating an unmanageable headwind for long bonds. Take profit at $87.50, cut loss at $91.20 (flipping bias from our failed Aug 11 bullish call to capitalize on our 100% bearish call accuracy)."
+      },
+      {
+        "ticker": "FRO",
+        "direction": "Buy",
+        "raw": "2. FRO - Buy at market open - Iran's effective blockade of the Strait of Hormuz forces maritime traffic around the Cape of Good Hope, creating an immediate structural tanker shortage that spikes daily Suezmax/VLCC charter rates and crude prices (+1.29%). Take profit at $26.50 (+8%), cut loss at $23.75 (-3%)."
+      },
+      {
+        "ticker": "CAVA",
+        "direction": "Short",
+        "raw": "3. CAVA - Short at market open - A record 16.4% collapse in lettuce prices driven by a multi-state cyclospora outbreak threatens immediate foot-traffic degradation and menu disruption for fast-casual operators today. Take profit at $48.50 (-6%), cut loss at $53.30 (+3%) (keeping tight risk controls given past Consumer Discretionary forecast errors)."
+      },
+      {
+        "ticker": "GS",
+        "direction": "Buy",
+        "raw": "4. GS - Buy at market open - Goldman Sachs is directly monetizing the hyper-scale AI buildout by capturing lucrative lead-underwriting fee streams on private credit and debt syndications. Take profit at $502.00 (+3.5%), cut loss at $475.00 (-2.0%)."
+      },
+      {
+        "ticker": "GOOGL",
+        "direction": "Watch",
+        "raw": "5. GOOGL - Watch at market open ($180.00 region) - Berkshire Hathaway's Q2 13F revealed a massive $37.9B expansion into GOOGL, providing institutional flow support; however, following recent wrong calls in Tech (XLK, NVDA, CRWD), we downgrade Tech longs to 'Watch' until price breaks key resistance."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Industrials",
+        "etf": "XLI",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-08-15"
   }
 }
