@@ -1076,5 +1076,57 @@
       }
     ],
     "date": "2026-08-16"
+  },
+  "2026-08-17": {
+    "trade_ideas": [
+      {
+        "ticker": "META",
+        "direction": "Short",
+        "raw": "1. META - Short at market open ($515.00) - Opening arguments begin today in California state court seeking injunctive operational changes to Instagram/Facebook algorithms over youth addiction, creating asymmetric downside risk for ad yields. Take profit at $498.00 (-3.3%), cut loss if price breaks above $523.00 (+1.5%)."
+      },
+      {
+        "ticker": "CMG",
+        "direction": "Short",
+        "raw": "2. CMG - Short at market open ($54.50) - A record 16.4% collapse in wholesale lettuce prices stems from a multi-state Cyclospora outbreak that severely threatens fresh-focused fast-casual foot traffic and near-term same-store sales comps. Take profit at $52.20 (-4.2%), cut loss at $55.60 (+2.0%)."
+      },
+      {
+        "ticker": "TLT",
+        "direction": "Short",
+        "raw": "3. TLT - Short at market open ($92.20) - Flipping my prior bullish bias to bearish due to today's news showing a 48% surge in the July U.S. budget deficit ($432B), forcing a massive deluge of Treasury auction supply that pushes 10Y yields higher (4.71%). Take profit at $90.50 (-1.8%), cut loss at $93.10 (+1.0%)."
+      },
+      {
+        "ticker": "GS",
+        "direction": "Buy",
+        "raw": "4. GS - Buy at market open ($510.00) - Goldman secured exclusive mandates to structure private credit and off-balance-sheet debt facilities for Nvidia and Intel's AI compute infrastructure, unlocking immediate high-margin fee revenue. Take profit at $524.00 (+2.7%), cut loss at $503.00 (-1.4%)."
+      },
+      {
+        "ticker": "GOOGL",
+        "direction": "Watch",
+        "raw": "5. GOOGL - Watch at $345.90 - Berkshire Hathaway revealed a massive $37.9B top-3 stake in 13F filings, but given my recent losses call-side in Tech (XLK failed Aug 13), I am holding off on an aggressive long until pre-market tech weakness stabilizes. Key levels to watch for entry are a pull-back to $342.00 or a high-volume breakout above $348.00."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-08-17"
   }
 }
