@@ -1128,5 +1128,62 @@
       }
     ],
     "date": "2026-08-17"
+  },
+  "2026-08-18": {
+    "trade_ideas": [
+      {
+        "ticker": "TLT",
+        "direction": "Short",
+        "raw": "1. TLT - Short at market open (~$88.50) - Driven by today's macro signal showing the 30-year Treasury yield surging to a 19-year high of 5.33% following a massive $432.3B July US deficit report and stalled Iran talks. Flipping my bias from my failed Aug 11 BUY call to lean into my 100% bearish track record, I will take profit at $86.00 and cut losses if TLT reclaims $89.80."
+      },
+      {
+        "ticker": "GOOGL",
+        "direction": "Buy",
+        "raw": "2. GOOGL - Buy at market open (~$180.00) - Driven by Berkshire Hathaway's 13F disclosure today revealing a new $38B position, providing an institutional valuation floor that the market is underappreciating amid broader market turbulence. Given my weak 39.1% bullish call accuracy, I am sizing down tightly with a take-profit target at $186.00 and a strict stop-loss below $176.50."
+      },
+      {
+        "ticker": "WBD",
+        "direction": "Short",
+        "raw": "3. WBD - Short at market open (~$7.80) - Driven by 12 state attorneys general filing antitrust lawsuits today, pushing prediction market merger failure odds to 25% and stripping away the deal arbitrage premium. I am setting a take-profit target at $7.00 and cutting losses at $8.25 if legal pushback clears."
+      },
+      {
+        "ticker": "LOW",
+        "direction": "Short",
+        "raw": "4. LOW - Short at market open (~$235.00) - Driven by competitor Home Depot's Q2 earnings call today explicitly warning of a 'frozen' housing market as 30-year Treasury yields above 5.33% keep mortgage rates spiked above 7.2%. I will target a take-profit level at $226.00 and cut losses if the stock breaks above $240.00."
+      },
+      {
+        "ticker": "PLTR",
+        "direction": "Watch",
+        "raw": "5. PLTR - Watch at $172.55 - Despite ticking up +0.62% pre-market, my track record shows repeat missteps on PLTR and high-multiple tech; I am stepping aside to evaluate whether the 30-year yield spike triggers a broader tech valuation derating today. I will watch $168.00 as key downside support and $175.00 for potential resistance."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Consumer Staples",
+        "etf": "XLP",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-08-18"
   }
 }
