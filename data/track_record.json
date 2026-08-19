@@ -1266,5 +1266,297 @@
     "total_correct": 6,
     "total_calls": 8,
     "accuracy": 75.0
+  },
+  "2026-08-14": {
+    "prediction_date": "2026-08-14",
+    "graded_date": "2026-08-19",
+    "trade_grades": [
+      {
+        "ticker": "CMG",
+        "predicted": "short",
+        "actual_move": "+0.78%",
+        "correct": "False",
+        "graded_against": "2026-08-17"
+      },
+      {
+        "ticker": "FRO",
+        "predicted": "buy",
+        "actual_move": "+2.35%",
+        "correct": "True",
+        "graded_against": "2026-08-17"
+      },
+      {
+        "ticker": "SMCI",
+        "predicted": "short",
+        "actual_move": "-3.92%",
+        "correct": "True",
+        "graded_against": "2026-08-17"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bullish",
+        "actual_move": "+1.08%",
+        "correct": "True",
+        "graded_against": "2026-08-17"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "-1.23%",
+        "correct": "True",
+        "graded_against": "2026-08-17"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "-1.23%",
+        "correct": "True",
+        "graded_against": "2026-08-17"
+      }
+    ],
+    "total_correct": 5,
+    "total_calls": 6,
+    "accuracy": 83.3
+  },
+  "2026-08-15": {
+    "prediction_date": "2026-08-15",
+    "graded_date": "2026-08-19",
+    "trade_grades": [
+      {
+        "ticker": "TLT",
+        "predicted": "short",
+        "actual_move": "+0.38%",
+        "correct": "False",
+        "graded_against": "2026-08-18"
+      },
+      {
+        "ticker": "FRO",
+        "predicted": "buy",
+        "actual_move": "+3.13%",
+        "correct": "True",
+        "graded_against": "2026-08-18"
+      },
+      {
+        "ticker": "CAVA",
+        "predicted": "short",
+        "actual_move": "-3.91%",
+        "correct": "True",
+        "graded_against": "2026-08-18"
+      },
+      {
+        "ticker": "GS",
+        "predicted": "buy",
+        "actual_move": "-1.03%",
+        "correct": false,
+        "graded_against": "2026-08-18"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bullish",
+        "actual_move": "+1.76%",
+        "correct": "True",
+        "graded_against": "2026-08-18"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "predicted": "bullish",
+        "actual_move": "+0.45%",
+        "correct": "True",
+        "graded_against": "2026-08-18"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "-0.33%",
+        "correct": "True",
+        "graded_against": "2026-08-18"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "-0.33%",
+        "correct": "True",
+        "graded_against": "2026-08-18"
+      },
+      {
+        "sector": "Industrials",
+        "etf": "XLI",
+        "predicted": "bearish",
+        "actual_move": "-1.48%",
+        "correct": "True",
+        "graded_against": "2026-08-18"
+      }
+    ],
+    "total_correct": 7,
+    "total_calls": 9,
+    "accuracy": 77.8
+  },
+  "2026-08-16": {
+    "prediction_date": "2026-08-16",
+    "graded_date": "2026-08-19",
+    "trade_grades": [
+      {
+        "ticker": "TLT",
+        "predicted": "short",
+        "actual_move": "+0.38%",
+        "correct": "False",
+        "graded_against": "2026-08-18"
+      },
+      {
+        "ticker": "GOOGL",
+        "predicted": "buy",
+        "actual_move": "+0.06%",
+        "correct": false,
+        "graded_against": "2026-08-18"
+      },
+      {
+        "ticker": "CCJ",
+        "predicted": "buy",
+        "actual_move": "-2.59%",
+        "correct": false,
+        "graded_against": "2026-08-18"
+      },
+      {
+        "ticker": "GS",
+        "predicted": "buy",
+        "actual_move": "-1.03%",
+        "correct": false,
+        "graded_against": "2026-08-18"
+      },
+      {
+        "ticker": "HOOD",
+        "predicted": "short",
+        "actual_move": "-4.90%",
+        "correct": "True",
+        "graded_against": "2026-08-18"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bullish",
+        "actual_move": "+1.76%",
+        "correct": "True",
+        "graded_against": "2026-08-18"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "predicted": "bullish",
+        "actual_move": "+0.45%",
+        "correct": "True",
+        "graded_against": "2026-08-18"
+      },
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "predicted": "bullish",
+        "actual_move": "-0.36%",
+        "correct": false,
+        "graded_against": "2026-08-18"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "-0.33%",
+        "correct": "True",
+        "graded_against": "2026-08-18"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "-0.33%",
+        "correct": "True",
+        "graded_against": "2026-08-18"
+      }
+    ],
+    "total_correct": 5,
+    "total_calls": 10,
+    "accuracy": 50.0
+  },
+  "2026-08-17": {
+    "prediction_date": "2026-08-17",
+    "graded_date": "2026-08-19",
+    "trade_grades": [
+      {
+        "ticker": "META",
+        "predicted": "short",
+        "actual_move": "-4.45%",
+        "correct": "True",
+        "graded_against": "2026-08-18"
+      },
+      {
+        "ticker": "CMG",
+        "predicted": "short",
+        "actual_move": "-1.18%",
+        "correct": "True",
+        "graded_against": "2026-08-18"
+      },
+      {
+        "ticker": "TLT",
+        "predicted": "short",
+        "actual_move": "+0.38%",
+        "correct": "False",
+        "graded_against": "2026-08-18"
+      },
+      {
+        "ticker": "GS",
+        "predicted": "buy",
+        "actual_move": "-1.03%",
+        "correct": false,
+        "graded_against": "2026-08-18"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bullish",
+        "actual_move": "+1.76%",
+        "correct": "True",
+        "graded_against": "2026-08-18"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "predicted": "bullish",
+        "actual_move": "+0.45%",
+        "correct": "True",
+        "graded_against": "2026-08-18"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "-0.33%",
+        "correct": "True",
+        "graded_against": "2026-08-18"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "-0.33%",
+        "correct": "True",
+        "graded_against": "2026-08-18"
+      }
+    ],
+    "total_correct": 6,
+    "total_calls": 8,
+    "accuracy": 75.0
   }
 }

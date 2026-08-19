@@ -961,7 +961,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-08-14"
+    "date": "2026-08-14",
+    "graded": true
   },
   "2026-08-15": {
     "trade_ideas": [
@@ -1018,7 +1019,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-08-15"
+    "date": "2026-08-15",
+    "graded": true
   },
   "2026-08-16": {
     "trade_ideas": [
@@ -1075,7 +1077,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-08-16"
+    "date": "2026-08-16",
+    "graded": true
   },
   "2026-08-17": {
     "trade_ideas": [
@@ -1127,7 +1130,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-08-17"
+    "date": "2026-08-17",
+    "graded": true
   },
   "2026-08-18": {
     "trade_ideas": [
@@ -1185,5 +1189,47 @@
       }
     ],
     "date": "2026-08-18"
+  },
+  "2026-08-19": {
+    "trade_ideas": [
+      {
+        "ticker": "MRK",
+        "direction": "Buy",
+        "raw": "1. MRK - Buy at market open (~$128.00) - Phase 3 trial success for mRNA-4157 combined with Keytruda provides critical clinical validation and extends Keytruda's revenue moat beyond its 2028 loss of exclusivity. Given my weak historical track record on bullish calls (35.7%), I am keeping sizing disciplined; set a price target at $136.00 (+6.2%) and a strict stop-loss at $124.00 (-3.1%)."
+      },
+      {
+        "ticker": "TLT",
+        "direction": "Short",
+        "raw": "2. TLT - Short at market open (~$92.50) - The explosive $432B July federal budget deficit (+48% YoY) creates a massive Treasury supply overhang that anchors 10-year yields near 4.70%, completely neutralizing flat PPI inflation data. Backed by a 100% historical accuracy on bearish calls, set take-profit at $89.50 (-3.2%) and stop-loss at $94.00 (+1.6%)."
+      },
+      {
+        "ticker": "TGT",
+        "direction": "Buy",
+        "raw": "3. TGT - Buy at market open (~$156.00) - Q2 comparable sales beat expectations at 3.8% alongside raised full-year guidance and cash margin relief from federal tariff refunds. Take profit at $167.00 (+7.0%) and cut losses if the stock breaks below operational support at $150.50 (-3.5%)."
+      },
+      {
+        "ticker": "KWEB",
+        "direction": "Short",
+        "raw": "4. KWEB - Short at market open (~$26.80) - An unexpected net profit drop from high-end liquor titan Kweichow Moutai confirms real estate wealth destruction has spread to high-net-worth mainland consumers, signaling deepening Chinese deflation. Target take-profit at $24.80 (-7.5%) with a stop-loss set at $27.80 (+3.7%)."
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "Watch",
+        "raw": "5. NVDA - Watch at $219.74 - Washington's draft rules closing the Southeast Asia cloud data center export loophole threaten 5-10% of indirect AI compute demand as retail sentiment weakens. Due to recent sector miscalls in Tech (XLK), I am downgrading from a directional call to Watch, looking for a confirmed breakdown below $215.00 or a reclaim of $225.00 before allocating capital."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Healthcare",
+        "etf": "XLV",
+        "direction": "Bullish"
+      }
+    ],
+    "date": "2026-08-19"
   }
 }
