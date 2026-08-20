@@ -1558,5 +1558,84 @@
     "total_correct": 6,
     "total_calls": 8,
     "accuracy": 75.0
+  },
+  "2026-08-18": {
+    "prediction_date": "2026-08-18",
+    "graded_date": "2026-08-20",
+    "trade_grades": [
+      {
+        "ticker": "TLT",
+        "predicted": "short",
+        "actual_move": "+1.67%",
+        "correct": "False",
+        "graded_against": "2026-08-19"
+      },
+      {
+        "ticker": "GOOGL",
+        "predicted": "buy",
+        "actual_move": "+0.15%",
+        "correct": "True",
+        "graded_against": "2026-08-19"
+      },
+      {
+        "ticker": "WBD",
+        "predicted": "short",
+        "actual_move": "+0.18%",
+        "correct": "False",
+        "graded_against": "2026-08-19"
+      },
+      {
+        "ticker": "LOW",
+        "predicted": "short",
+        "actual_move": "+2.02%",
+        "correct": "False",
+        "graded_against": "2026-08-19"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Consumer Staples",
+        "etf": "XLP",
+        "predicted": "bullish",
+        "actual_move": "+1.12%",
+        "correct": "True",
+        "graded_against": "2026-08-19"
+      },
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "predicted": "bullish",
+        "actual_move": "+0.00%",
+        "correct": false,
+        "graded_against": "2026-08-19"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "-1.07%",
+        "correct": "True",
+        "graded_against": "2026-08-19"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "+1.92%",
+        "correct": "False",
+        "graded_against": "2026-08-19"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "+1.92%",
+        "correct": "False",
+        "graded_against": "2026-08-19"
+      }
+    ],
+    "total_correct": 3,
+    "total_calls": 9,
+    "accuracy": 33.3
   }
 }

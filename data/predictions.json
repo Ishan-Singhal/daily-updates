@@ -1188,7 +1188,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-08-18"
+    "date": "2026-08-18",
+    "graded": true
   },
   "2026-08-19": {
     "trade_ideas": [
@@ -1231,5 +1232,62 @@
       }
     ],
     "date": "2026-08-19"
+  },
+  "2026-08-20": {
+    "trade_ideas": [
+      {
+        "ticker": "COIN",
+        "direction": "Buy",
+        "raw": "1. COIN - Buy at market open ($160.20) - President Trump explicitly demanding Congress pass the Crypto Clarity Act combined with Bitcoin breaking $71,800 provides powerful policy momentum today. Take profit at $175.00, and cut loss if price drops below key support at $152.00."
+      },
+      {
+        "ticker": "CVNA",
+        "direction": "Short",
+        "raw": "2. CVNA - Short at market open ($310.00) - A regulatory investigation into key backer Mark Walter creates acute liquidation and collateral call risks, threatening forced insider selling cascades. Target profit at $270.00 on liquidity gap down, and cut loss if shares reclaim $325.00."
+      },
+      {
+        "ticker": "WMT",
+        "direction": "Buy",
+        "raw": "3. WMT - Buy at market open ($102.50) - Q2 revenue beat, raised full-year guidance, and strategic deployment of tariff refunds into price cuts position Walmart to capture aggressive retail market share. Take profit at $107.50, and cut loss if price breaks below $99.50."
+      },
+      {
+        "ticker": "QQQ",
+        "direction": "Short",
+        "raw": "4. QQQ - Short at market open ($575.00) - A 30-year yield surge to 5.25% combined with FOMC minutes revealing rate-hike contingencies severely compress high-duration tech multiples while retail put buying forces short-gamma dealer selling. (Flipping my recent failed bullish tech calls to capitalize on my 100% bearish call win rate). Take profit at $562.00, and cut loss if the 10-year yield falls back below 4.65%."
+      },
+      {
+        "ticker": "AAL",
+        "direction": "Short",
+        "raw": "5. AAL - Short at market open ($11.50) - Crude oil jumping over 3% to $86.12/bbl following Trump's 'Economic D-Day' threat against Iran imposes immediate, unhedged fuel expense pressure on airlines. Target profit at $10.80, and cut loss if WTI crude drops back below $84.50."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Consumer Staples",
+        "etf": "XLP",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Technology",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-08-20"
   }
 }
