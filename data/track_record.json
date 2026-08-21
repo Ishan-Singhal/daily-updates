@@ -1637,5 +1637,60 @@
     "total_correct": 3,
     "total_calls": 9,
     "accuracy": 33.3
+  },
+  "2026-08-19": {
+    "prediction_date": "2026-08-19",
+    "graded_date": "2026-08-21",
+    "trade_grades": [
+      {
+        "ticker": "MRK",
+        "predicted": "buy",
+        "actual_move": "-2.11%",
+        "correct": false,
+        "graded_against": "2026-08-20"
+      },
+      {
+        "ticker": "TLT",
+        "predicted": "short",
+        "actual_move": "-0.82%",
+        "correct": "True",
+        "graded_against": "2026-08-20"
+      },
+      {
+        "ticker": "TGT",
+        "predicted": "buy",
+        "actual_move": "-0.47%",
+        "correct": false,
+        "graded_against": "2026-08-20"
+      },
+      {
+        "ticker": "KWEB",
+        "predicted": "short",
+        "actual_move": "-1.95%",
+        "correct": "True",
+        "graded_against": "2026-08-20"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bullish",
+        "actual_move": "-0.29%",
+        "correct": false,
+        "graded_against": "2026-08-20"
+      },
+      {
+        "sector": "Healthcare",
+        "etf": "XLV",
+        "predicted": "bullish",
+        "actual_move": "-1.87%",
+        "correct": false,
+        "graded_against": "2026-08-20"
+      }
+    ],
+    "total_correct": 2,
+    "total_calls": 6,
+    "accuracy": 33.3
   }
 }
