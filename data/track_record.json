@@ -1692,5 +1692,91 @@
     "total_correct": 2,
     "total_calls": 6,
     "accuracy": 33.3
+  },
+  "2026-08-20": {
+    "prediction_date": "2026-08-20",
+    "graded_date": "2026-08-22",
+    "trade_grades": [
+      {
+        "ticker": "COIN",
+        "predicted": "buy",
+        "actual_move": "+8.20%",
+        "correct": "True",
+        "graded_against": "2026-08-21"
+      },
+      {
+        "ticker": "CVNA",
+        "predicted": "short",
+        "actual_move": "-2.25%",
+        "correct": "True",
+        "graded_against": "2026-08-21"
+      },
+      {
+        "ticker": "WMT",
+        "predicted": "buy",
+        "actual_move": "+0.10%",
+        "correct": "True",
+        "graded_against": "2026-08-21"
+      },
+      {
+        "ticker": "QQQ",
+        "predicted": "short",
+        "actual_move": "+0.35%",
+        "correct": "False",
+        "graded_against": "2026-08-21"
+      },
+      {
+        "ticker": "AAL",
+        "predicted": "short",
+        "actual_move": "+2.22%",
+        "correct": "False",
+        "graded_against": "2026-08-21"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bullish",
+        "actual_move": "-0.17%",
+        "correct": false,
+        "graded_against": "2026-08-21"
+      },
+      {
+        "sector": "Consumer Staples",
+        "etf": "XLP",
+        "predicted": "bullish",
+        "actual_move": "+0.79%",
+        "correct": "True",
+        "graded_against": "2026-08-21"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "+0.11%",
+        "correct": "False",
+        "graded_against": "2026-08-21"
+      },
+      {
+        "sector": "Technology",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "+0.11%",
+        "correct": "False",
+        "graded_against": "2026-08-21"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "predicted": "bearish",
+        "actual_move": "+0.93%",
+        "correct": "False",
+        "graded_against": "2026-08-21"
+      }
+    ],
+    "total_correct": 4,
+    "total_calls": 10,
+    "accuracy": 40.0
   }
 }

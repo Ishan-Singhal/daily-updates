@@ -1289,7 +1289,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-08-20"
+    "date": "2026-08-20",
+    "graded": true
   },
   "2026-08-21": {
     "trade_ideas": [
@@ -1342,5 +1343,52 @@
       }
     ],
     "date": "2026-08-21"
+  },
+  "2026-08-22": {
+    "trade_ideas": [
+      {
+        "ticker": "TLT",
+        "direction": "Short",
+        "raw": "1. TLT - Short at market open - Treasury Secretary Bessent's expansion of debt buybacks past $4B is widening inflation breakevens and pushing the 10Y yield to 4.738%, driving persistent selling pressure in long-duration debt. Take profit at $90.50 and cut losses with a stop at $93.20."
+      },
+      {
+        "ticker": "META",
+        "direction": "Short",
+        "raw": "2. META - Short at market open - Antitrust proceedings beginning today under Judge Gonzalez Rogers create immediate structural risk for Meta's high-margin ad-targeting ecosystem and valuation multiple. Take profit at a 3.5% downside drop from open and cut losses if price moves +1.5% above entry."
+      },
+      {
+        "ticker": "HAS",
+        "direction": "Short",
+        "raw": "3. HAS - Short at market open - Pop Mart's sharp H1 international sales slowdown confirms systemic global consumer spending decay for non-essential discretionary toy and collectible brands. Take profit on a 4.0% decline from entry and cut losses at a +1.5% stop."
+      },
+      {
+        "ticker": "MU",
+        "direction": "Watch",
+        "raw": "4. MU - Watch at market open - Although Samsung's $80B+ capital return program provides a structural floor for memory, my 3 recent incorrect calls on Tech mandate a neutral stance until technical momentum confirms. I will watch for price stabilization around $108 before considering entry, while keeping a downside re-evaluation trigger at $104."
+      },
+      {
+        "ticker": "XLE",
+        "direction": "Watch",
+        "raw": "5. XLE - Watch at market open - Imminent U.S. sanctions on Iranian crude offer potential fundamental supply tightness, but my 2 recent losses in Energy alongside XLE's -0.32% intraday decline warrant standing down. I will watch for WTI crude to hold above $87.50 for a clean setup, with a re-evaluation level below $85.50."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Healthcare",
+        "etf": "XLV",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-08-22"
   }
 }
