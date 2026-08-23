@@ -1390,5 +1390,52 @@
       }
     ],
     "date": "2026-08-22"
+  },
+  "2026-08-23": {
+    "trade_ideas": [
+      {
+        "ticker": "F",
+        "direction": "Short",
+        "raw": "1. F - Short at $10.45 - The breakdown of US-Canada trade negotiations and scheduled 50% retaliatory tariffs taking effect Sept. 8 directly penalizes cross-border automotive supply chains and margin structures. Take profit at $9.70, stop-loss at $10.85."
+      },
+      {
+        "ticker": "TLT",
+        "direction": "Short",
+        "raw": "2. TLT - Short at $92.20 - Treasury Secretary Bessent's expanded long-end debt buybacks triggered an immediate feedback loop into higher inflation breakevens and curve steepening as bondholders reject debt monetization. Take profit at $89.50, stop-loss at $93.50."
+      },
+      {
+        "ticker": "DOW",
+        "direction": "Buy",
+        "raw": "3. DOW - Buy at $52.10 - Rhine River drought conditions (<10cm gauge at Kaub) are forcing European chemical plants to throttle capacity under 300%+ freight cost spikes, handing immediate export pricing power to US Gulf Coast producers. Take profit at $55.50, stop-loss at $50.60."
+      },
+      {
+        "ticker": "GEV",
+        "direction": "Buy",
+        "raw": "4. GEV - Buy at $348.00 - GE Vernova's gas turbine backlog stretching out to 2031 (116 GW) alongside PJM capacity auction clearing at cap prices gives power equipment OEMs complete pricing power over AI hyperscalers. Take profit at $370.00, stop-loss at $338.00."
+      },
+      {
+        "ticker": "XLU",
+        "direction": "Watch",
+        "raw": "5. XLU - Watch at $74.50 - Adjusting for my recent wrong calls on Utilities, today's -2.53% sector drop driven by 10Y yields hitting 4.738% overrides grid cyberattack tailwinds; standing aside until yield volatility settles. Cut loss/take profit levels non-applicable as I am staying on the sidelines."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Industrials",
+        "etf": "XLI",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Materials",
+        "etf": "XLB",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-08-23"
   }
 }
