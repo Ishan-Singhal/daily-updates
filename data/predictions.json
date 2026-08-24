@@ -1437,5 +1437,57 @@
       }
     ],
     "date": "2026-08-23"
+  },
+  "2026-08-24": {
+    "trade_ideas": [
+      {
+        "ticker": "XHB",
+        "direction": "Short",
+        "raw": "1. XHB - Short at market open ($112.50) - The abrupt collapse of US-Canada trade negotiations and imposition of 50% tariffs on $20B of Canadian lumber and cement creates an immediate input cost shock for domestic homebuilders. Take profit at $108.50 and cut losses at $114.20."
+      },
+      {
+        "ticker": "KRE",
+        "direction": "Buy",
+        "raw": "2. KRE - Buy at market open ($62.50) - Clear regulatory green lights for mega-banks like Citigroup and Wells Fargo to acquire regional lenders establish an immediate M&A valuation floor and control-premium re-rating across mid-cap bank balance sheets today. Take profit at $65.00 and set a stop loss at $61.25."
+      },
+      {
+        "ticker": "TLT",
+        "direction": "Short",
+        "raw": "3. TLT - Short at market open ($92.00) - Treasury Secretary Bessent\u2019s initiative to drain near $1 trillion from the TGA operates as unsterilized fiscal stimulus that is triggering acute inflation breakeven spikes and bear-steepening pressure on long-end Treasuries. Take profit at $89.50 and cut losses at $93.10."
+      },
+      {
+        "ticker": "COIN",
+        "direction": "Short",
+        "raw": "4. COIN - Short at $186.50 (market open) - Today's +8.2% premarket surge clashes with Kalshi prediction market data signaling stagnant Bitcoin volatility through year-end, which will severely compress high-margin retail trading fee revenues. Leveraging our 100% win rate on bearish calls, take profit at $172.00 and set a stop loss at $192.50."
+      },
+      {
+        "ticker": "XLE",
+        "direction": "Watch",
+        "raw": "5. XLE - Watch at market open ($88.50) - While Norwegian Arctic drilling expansion and Asian utility price spikes offer fundamental support, our track record reflects two recent losses on Energy calls, requiring us to stand aside today. We will remain neutral until crude oil decisively breaks out of its current $85.59 range."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Materials",
+        "etf": "XLB",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Real Estate",
+        "etf": "XLRE",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-08-24"
   }
 }
