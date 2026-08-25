@@ -1342,7 +1342,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-08-21"
+    "date": "2026-08-21",
+    "graded": true
   },
   "2026-08-22": {
     "trade_ideas": [
@@ -1489,5 +1490,62 @@
       }
     ],
     "date": "2026-08-24"
+  },
+  "2026-08-25": {
+    "trade_ideas": [
+      {
+        "ticker": "NKE",
+        "direction": "Short",
+        "raw": "1. NKE - Short at market open (~$82.00) - Driven by today's 15% premarket plunge in Dick's Sporting Goods following a Q2 earnings miss and slashed Foot Locker guidance, confirming severe discretionary slowdown in athletic footwear. Take profit at $77.50, cut loss at $84.20."
+      },
+      {
+        "ticker": "GLD",
+        "direction": "Buy",
+        "raw": "2. GLD - Buy at market open (~$235.00) - Treasury Secretary Bessent's announced $1T TGA drawdown and $4B/session buyback plan today triggers immediate fiat debasement and dollar flight into gold. Take profit at $242.00, cut loss at $231.50."
+      },
+      {
+        "ticker": "FXC",
+        "direction": "Short",
+        "raw": "3. FXC - Short at market open (~$70.20) - The sudden collapse of Washington trade talks today triggered immediate 50% tariffs on $20B of Canadian exports, forcing a dovish Bank of Canada shift and CAD selloff. Take profit at $68.50, cut loss at $71.00."
+      },
+      {
+        "ticker": "USO",
+        "direction": "Short",
+        "raw": "4. USO - Short at market open (~$71.00) - Crude oil fell 3.5% overnight after the US State Department announced plans today to return diplomats to the Middle East, rapidly unspooling geopolitical risk premiums. Take profit at $67.50, cut loss at $73.00."
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "Watch",
+        "raw": "5. NVDA - Watch at market open (~$128.00) - High hyperscaler concentration risk (40%+ sales) and strict calibration on Tech sector calls require remaining neutral ahead of impending earnings capex guidance. Key levels to watch for execution post-earnings are a breakout above $133.00 or a breakdown below $122.00."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Real Estate",
+        "etf": "XLRE",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Materials",
+        "etf": "XLB",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-08-25"
   }
 }
