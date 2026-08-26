@@ -1390,7 +1390,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-08-22"
+    "date": "2026-08-22",
+    "graded": true
   },
   "2026-08-23": {
     "trade_ideas": [
@@ -1437,7 +1438,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-08-23"
+    "date": "2026-08-23",
+    "graded": true
   },
   "2026-08-24": {
     "trade_ideas": [
@@ -1489,7 +1491,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-08-24"
+    "date": "2026-08-24",
+    "graded": true
   },
   "2026-08-25": {
     "trade_ideas": [
@@ -1547,5 +1550,57 @@
       }
     ],
     "date": "2026-08-25"
+  },
+  "2026-08-26": {
+    "trade_ideas": [
+      {
+        "ticker": "HPQ",
+        "direction": "Short",
+        "raw": "1. HPQ - Short at market open - Today's announcement of a Wi-Fi licensing agreement with U.S.-blacklisted Huawei introduces immediate BIS regulatory scrutiny and political risk overhead. Take profit at $33.20 and cut losses if the stock breaks above $36.80."
+      },
+      {
+        "ticker": "QQQ",
+        "direction": "Short",
+        "raw": "2. QQQ - Short at market open (~$512.50) - July's sticky 3.3% YoY Core PCE print completely eliminates autumn rate cut expectations, forcing an immediate valuation haircut on high-multiple growth cash flows (flipping our prior wrong bullish tech bias). Take profit at $498.00 and cut loss if price reclaims $518.50."
+      },
+      {
+        "ticker": "GM",
+        "direction": "Short",
+        "raw": "3. GM - Short at market open (~$44.80) - Hyundai's aggressive Genesis GV90 launch directly threatens Detroit's core margin engine (full-size luxury SUVs) while sticky inflation keeps consumer auto loan rates elevated. Set take profit at $42.10 and cut loss at $46.20."
+      },
+      {
+        "ticker": "KKR",
+        "direction": "Short",
+        "raw": "4. KKR - Short at market open (~$122.00) - Active federal civil and criminal investigations into TWG Global spark severe counterparty liquidity and mark-to-market write-down risks across private credit balance sheets. Take profit at $115.50 and cut loss at $125.00."
+      },
+      {
+        "ticker": "XLE",
+        "direction": "Watch",
+        "raw": "5. XLE - Watch at market open - Diplomatic headlines regarding a temporary Hormuz transit corridor conflict directly with physical transit remaining down 67%, creating volatile whipsaws after our recent loss-making calls in Energy. Watch for WTI to break out above $82.50 or break down below $78.50 before taking any directional stance."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Technology",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Real Estate",
+        "etf": "XLRE",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-08-26"
   }
 }

@@ -1849,5 +1849,195 @@
     "total_correct": 0,
     "total_calls": 8,
     "accuracy": 0.0
+  },
+  "2026-08-22": {
+    "prediction_date": "2026-08-22",
+    "graded_date": "2026-08-26",
+    "trade_grades": [
+      {
+        "ticker": "TLT",
+        "predicted": "short",
+        "actual_move": "+1.10%",
+        "correct": "False",
+        "graded_against": "2026-08-25"
+      },
+      {
+        "ticker": "META",
+        "predicted": "short",
+        "actual_move": "+1.97%",
+        "correct": "False",
+        "graded_against": "2026-08-25"
+      },
+      {
+        "ticker": "HAS",
+        "predicted": "short",
+        "actual_move": "+1.39%",
+        "correct": "False",
+        "graded_against": "2026-08-25"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "predicted": "bullish",
+        "actual_move": "+0.15%",
+        "correct": "True",
+        "graded_against": "2026-08-25"
+      },
+      {
+        "sector": "Healthcare",
+        "etf": "XLV",
+        "predicted": "bullish",
+        "actual_move": "+0.34%",
+        "correct": "True",
+        "graded_against": "2026-08-25"
+      },
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "predicted": "bearish",
+        "actual_move": "+0.21%",
+        "correct": "False",
+        "graded_against": "2026-08-25"
+      }
+    ],
+    "total_correct": 2,
+    "total_calls": 6,
+    "accuracy": 33.3
+  },
+  "2026-08-23": {
+    "prediction_date": "2026-08-23",
+    "graded_date": "2026-08-26",
+    "trade_grades": [
+      {
+        "ticker": "F",
+        "predicted": "short",
+        "actual_move": "+0.14%",
+        "correct": "False",
+        "graded_against": "2026-08-25"
+      },
+      {
+        "ticker": "TLT",
+        "predicted": "short",
+        "actual_move": "+1.10%",
+        "correct": "False",
+        "graded_against": "2026-08-25"
+      },
+      {
+        "ticker": "DOW",
+        "predicted": "buy",
+        "actual_move": "-4.07%",
+        "correct": false,
+        "graded_against": "2026-08-25"
+      },
+      {
+        "ticker": "GEV",
+        "predicted": "buy",
+        "actual_move": "-1.63%",
+        "correct": false,
+        "graded_against": "2026-08-25"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Industrials",
+        "etf": "XLI",
+        "predicted": "bullish",
+        "actual_move": "-0.34%",
+        "correct": false,
+        "graded_against": "2026-08-25"
+      },
+      {
+        "sector": "Materials",
+        "etf": "XLB",
+        "predicted": "bullish",
+        "actual_move": "+0.00%",
+        "correct": false,
+        "graded_against": "2026-08-25"
+      },
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "predicted": "bearish",
+        "actual_move": "+0.21%",
+        "correct": "False",
+        "graded_against": "2026-08-25"
+      }
+    ],
+    "total_correct": 0,
+    "total_calls": 7,
+    "accuracy": 0.0
+  },
+  "2026-08-24": {
+    "prediction_date": "2026-08-24",
+    "graded_date": "2026-08-26",
+    "trade_grades": [
+      {
+        "ticker": "XHB",
+        "predicted": "short",
+        "actual_move": "+0.08%",
+        "correct": "False",
+        "graded_against": "2026-08-25"
+      },
+      {
+        "ticker": "KRE",
+        "predicted": "buy",
+        "actual_move": "-0.58%",
+        "correct": false,
+        "graded_against": "2026-08-25"
+      },
+      {
+        "ticker": "TLT",
+        "predicted": "short",
+        "actual_move": "+1.10%",
+        "correct": "False",
+        "graded_against": "2026-08-25"
+      },
+      {
+        "ticker": "COIN",
+        "predicted": "short",
+        "actual_move": "+4.28%",
+        "correct": "False",
+        "graded_against": "2026-08-25"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "predicted": "bullish",
+        "actual_move": "+0.15%",
+        "correct": "True",
+        "graded_against": "2026-08-25"
+      },
+      {
+        "sector": "Materials",
+        "etf": "XLB",
+        "predicted": "bullish",
+        "actual_move": "+0.00%",
+        "correct": false,
+        "graded_against": "2026-08-25"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "+0.94%",
+        "correct": "False",
+        "graded_against": "2026-08-25"
+      },
+      {
+        "sector": "Real Estate",
+        "etf": "XLRE",
+        "predicted": "bearish",
+        "actual_move": "+0.07%",
+        "correct": "False",
+        "graded_against": "2026-08-25"
+      }
+    ],
+    "total_correct": 1,
+    "total_calls": 8,
+    "accuracy": 12.5
   }
 }
