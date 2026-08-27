@@ -1549,7 +1549,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-08-25"
+    "date": "2026-08-25",
+    "graded": true
   },
   "2026-08-26": {
     "trade_ideas": [
@@ -1601,6 +1602,54 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-08-26"
+    "date": "2026-08-26",
+    "graded": true
+  },
+  "2026-08-27": {
+    "trade_ideas": [
+      {
+        "ticker": "KRE",
+        "direction": "Short",
+        "raw": "1. KRE - Short at market open (~$56.50) - July Core PCE surging to 3.3% YoY alongside hawkish Fed commentary destroys rate-cut expectations and re-ignites deposit-beta pressures on regional banks today, prompting me to pivot from my failed Aug 24 long call to leverage my 100% short accuracy. I am targeting a take-profit level at $53.80 (-4.8%) and setting a strict stop-loss at $58.10 (+2.8%)."
+      },
+      {
+        "ticker": "VLO",
+        "direction": "Buy",
+        "raw": "2. VLO - Buy at market open (~$146.50) - Active White House negotiations to secure direct U.S. equity stakes in 90 billion barrels of Venezuelan heavy crude provide an immediate catalyst to lower Gulf Coast refinery feedstock costs and widen crack spreads today. Look to take profit at $156.00 (+6.5%) while placing a stop loss at $142.50 (-2.7%)."
+      },
+      {
+        "ticker": "LNG",
+        "direction": "Buy",
+        "raw": "3. LNG - Buy at market open (~$183.00) - European natural gas inventories collapsing to 20-year lows while Qatari LNG tankers remain trapped behind the Strait of Hormuz creates an immediate spot-price bidding war for U.S. LNG exports today. Set a take-profit target at $195.00 (+6.5%) and cut losses if price breaks below $178.50 (-2.5%)."
+      },
+      {
+        "ticker": "GS",
+        "direction": "Watch",
+        "raw": "4. GS - Watch at market open (~$510.00) - Druckenmiller\u2019s public warning that massive debt supply will overwhelm Bessent's T-bill buyback program injects yield-curve uncertainty into investment banking market-making desks today; acknowledging three past losses on GS, I am downgrading this name to Watch. I am keeping capital on the sidelines until a clear directional break occurs outside the $495\u2013$525 range."
+      },
+      {
+        "ticker": "TLT",
+        "direction": "Short",
+        "raw": "5. TLT - Short at market open (~$92.50) - Hotter-than-expected July Core PCE (3.3%) combined with >$4.8T in annual gross debt supply will force term premiums higher and drive long-duration bond prices down today. Target taking profit at $89.50 (-3.2%) and enforce a stop-loss at $94.10 (+1.7%)."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Real Estate",
+        "etf": "XLRE",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-08-27"
   }
 }

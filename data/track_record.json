@@ -2039,5 +2039,155 @@
     "total_correct": 1,
     "total_calls": 8,
     "accuracy": 12.5
+  },
+  "2026-08-25": {
+    "prediction_date": "2026-08-25",
+    "graded_date": "2026-08-27",
+    "trade_grades": [
+      {
+        "ticker": "NKE",
+        "predicted": "short",
+        "actual_move": "-2.25%",
+        "correct": "True",
+        "graded_against": "2026-08-26"
+      },
+      {
+        "ticker": "GLD",
+        "predicted": "buy",
+        "actual_move": "-1.58%",
+        "correct": false,
+        "graded_against": "2026-08-26"
+      },
+      {
+        "ticker": "FXC",
+        "predicted": "short",
+        "actual_move": "-0.24%",
+        "correct": "True",
+        "graded_against": "2026-08-26"
+      },
+      {
+        "ticker": "USO",
+        "predicted": "short",
+        "actual_move": "+0.95%",
+        "correct": "False",
+        "graded_against": "2026-08-26"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Real Estate",
+        "etf": "XLRE",
+        "predicted": "bullish",
+        "actual_move": "-0.60%",
+        "correct": false,
+        "graded_against": "2026-08-26"
+      },
+      {
+        "sector": "Materials",
+        "etf": "XLB",
+        "predicted": "bullish",
+        "actual_move": "+0.17%",
+        "correct": "True",
+        "graded_against": "2026-08-26"
+      },
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bearish",
+        "actual_move": "+0.60%",
+        "correct": "False",
+        "graded_against": "2026-08-26"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "-0.67%",
+        "correct": "True",
+        "graded_against": "2026-08-26"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "-0.67%",
+        "correct": "True",
+        "graded_against": "2026-08-26"
+      }
+    ],
+    "total_correct": 5,
+    "total_calls": 9,
+    "accuracy": 55.6
+  },
+  "2026-08-26": {
+    "prediction_date": "2026-08-26",
+    "graded_date": "2026-08-27",
+    "trade_grades": [
+      {
+        "ticker": "HPQ",
+        "predicted": "short",
+        "actual_move": "-2.92%",
+        "correct": "True",
+        "graded_against": "2026-08-27"
+      },
+      {
+        "ticker": "QQQ",
+        "predicted": "short",
+        "actual_move": "+1.37%",
+        "correct": "False",
+        "graded_against": "2026-08-27"
+      },
+      {
+        "ticker": "GM",
+        "predicted": "short",
+        "actual_move": "-0.17%",
+        "correct": "True",
+        "graded_against": "2026-08-27"
+      },
+      {
+        "ticker": "KKR",
+        "predicted": "short",
+        "actual_move": "+0.76%",
+        "correct": "False",
+        "graded_against": "2026-08-27"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "predicted": "bullish",
+        "actual_move": "-0.65%",
+        "correct": false,
+        "graded_against": "2026-08-27"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "+3.16%",
+        "correct": "False",
+        "graded_against": "2026-08-27"
+      },
+      {
+        "sector": "Technology",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "+3.16%",
+        "correct": "False",
+        "graded_against": "2026-08-27"
+      },
+      {
+        "sector": "Real Estate",
+        "etf": "XLRE",
+        "predicted": "bearish",
+        "actual_move": "-0.95%",
+        "correct": "True",
+        "graded_against": "2026-08-27"
+      }
+    ],
+    "total_correct": 3,
+    "total_calls": 8,
+    "accuracy": 37.5
   }
 }
