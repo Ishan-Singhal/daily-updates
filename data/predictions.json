@@ -1650,6 +1650,64 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-08-27"
+    "date": "2026-08-27",
+    "graded": true
+  },
+  "2026-08-28": {
+    "trade_ideas": [
+      {
+        "ticker": "NVDA",
+        "direction": "Short",
+        "raw": "1. NVDA - Short at market open ($217.55) - Hawkish Fed Jackson Hole comments following hot 3.3% Core PCE pushed 10Y yields to 4.72%, creating an immediate multiple compression catalyst for mega-cap tech today. Take profit at $205.00, cut loss at $224.00."
+      },
+      {
+        "ticker": "KRE",
+        "direction": "Short",
+        "raw": "2. KRE - Short at market open - Warsh and Hammack driving September hike odds to 60% reignites deposit flight and net interest margin drag across regional banks today. Correcting my failed long call on 08/24 by flipping bias to short; take profit at $52.50, cut loss at $58.00."
+      },
+      {
+        "ticker": "GIS",
+        "direction": "Short",
+        "raw": "3. GIS - Short at market open (~$68.50) - Chicago wheat futures surging 12.1% this week to 3-year highs creates an immediate cost-push inflation impulse that will squeeze consumer packaged foods margins today. Take profit at $64.50, cut loss at $70.50."
+      },
+      {
+        "ticker": "ADM",
+        "direction": "Buy",
+        "raw": "4. ADM - Buy at market open (~$61.50) - Escalating Black Sea military conflicts driving grain prices to multi-year highs expands physical trading volume and arbitrage margins immediately today. Take profit at $66.00, cut loss at $59.20."
+      },
+      {
+        "ticker": "HOOD",
+        "direction": "Short",
+        "raw": "5. HOOD - Short at market open (~$21.50) - The 9th Circuit ruling against sports event contracts creates a circuit split that stalls Robinhood's non-traditional prediction market monetization plans today. Take profit at $19.50, cut loss at $22.80."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-08-28"
   }
 }

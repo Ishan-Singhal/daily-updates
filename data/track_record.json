@@ -2189,5 +2189,68 @@
     "total_correct": 3,
     "total_calls": 8,
     "accuracy": 37.5
+  },
+  "2026-08-27": {
+    "prediction_date": "2026-08-27",
+    "graded_date": "2026-08-28",
+    "trade_grades": [
+      {
+        "ticker": "KRE",
+        "predicted": "short",
+        "actual_move": "-0.07%",
+        "correct": "False",
+        "graded_against": "2026-08-28"
+      },
+      {
+        "ticker": "VLO",
+        "predicted": "buy",
+        "actual_move": "+1.66%",
+        "correct": "True",
+        "graded_against": "2026-08-28"
+      },
+      {
+        "ticker": "LNG",
+        "predicted": "buy",
+        "actual_move": "+0.54%",
+        "correct": "True",
+        "graded_against": "2026-08-28"
+      },
+      {
+        "ticker": "TLT",
+        "predicted": "short",
+        "actual_move": "-0.30%",
+        "correct": "True",
+        "graded_against": "2026-08-28"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bullish",
+        "actual_move": "+0.63%",
+        "correct": "True",
+        "graded_against": "2026-08-28"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "predicted": "bearish",
+        "actual_move": "+0.38%",
+        "correct": "False",
+        "graded_against": "2026-08-28"
+      },
+      {
+        "sector": "Real Estate",
+        "etf": "XLRE",
+        "predicted": "bearish",
+        "actual_move": "-0.40%",
+        "correct": "True",
+        "graded_against": "2026-08-28"
+      }
+    ],
+    "total_correct": 5,
+    "total_calls": 7,
+    "accuracy": 71.4
   }
 }
