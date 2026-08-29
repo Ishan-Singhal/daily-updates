@@ -1709,5 +1709,62 @@
       }
     ],
     "date": "2026-08-28"
+  },
+  "2026-08-29": {
+    "trade_ideas": [
+      {
+        "ticker": "QQQ",
+        "direction": "Short",
+        "raw": "1. QQQ - Short at market open (~$600.00) - Today's 3.3% Core PCE print beat expectations and sparked explicit rate hike warnings from Fed officials Warsh and Hammack, pushing 10Y yields to 4.72% and crushing high-beta growth valuations. Take profit at -2.0% ($588.00), and cut losses at +1.0% ($606.00) to keep risk tight given past volatility in tech positions."
+      },
+      {
+        "ticker": "KHC",
+        "direction": "Short",
+        "raw": "2. KHC - Short at market open (~$31.50) - Corn and wheat futures surging to 3-year highs today will immediately compress Q3 gross margins for packaged food processors unable to pass costs onto price-fatigued consumers. Take profit at $30.20 (-4.1%), stop loss at $32.10 (+1.9%)."
+      },
+      {
+        "ticker": "XLE",
+        "direction": "Short",
+        "raw": "3. XLE - Short at market open (~$88.50) - The U.S. securing control of 65B Venezuelan barrels alongside Prize Law physical tanker auctions structurally floods Western refiners with crude, destroying the geopolitical risk premium. Take profit at $85.80 (-3.0%), cut loss at $89.80 (+1.5%)."
+      },
+      {
+        "ticker": "HOOD",
+        "direction": "Short",
+        "raw": "4. HOOD - Short at market open (~$19.50) - Today's 9th Circuit Court split ruling freezes Robinhood's high-margin event prediction market rollout under regulatory standstill for the next 12 to 18 months. Take profit at $18.25 (-6.4%), cut loss at $20.10 (+3.0%)."
+      },
+      {
+        "ticker": "SNAP",
+        "direction": "Short",
+        "raw": "5. SNAP - Short at market open (~$10.20) - Meta\u2019s finalized $18B trial settlement today creates an expensive legal benchmark that forces peer ad-tech platforms to build massive litigation reserves and curb core engagement mechanics. Take profit at $9.60 (-5.8%), cut loss at $10.50 (+2.9%)."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Staples",
+        "etf": "XLP",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-08-29"
   }
 }
