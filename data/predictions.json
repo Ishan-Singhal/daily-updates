@@ -1766,5 +1766,67 @@
       }
     ],
     "date": "2026-08-29"
+  },
+  "2026-08-30": {
+    "trade_ideas": [
+      {
+        "ticker": "IWM",
+        "direction": "Short",
+        "raw": "1. IWM - Short at market open - Hotter-than-expected July Core PCE (3.3%) and hawkish Fed signals pricing in a potential September rate hike spike 10Y yields to 4.72%, severely hitting small-cap floating debt valuations. Take profit at $205.00 (-2.5%), cut losses at $212.50 (+1.2%)."
+      },
+      {
+        "ticker": "META",
+        "direction": "Short",
+        "raw": "2. META - Short at market open - Tobacco Master Settlement architect Mike Moore has launched coordinated state mass tort litigation targeting Meta over youth addiction, imposing a severe legal overhang and multiple compression. Take profit at $500.00 (-3.0%), cut losses at $523.00 (+1.5%)."
+      },
+      {
+        "ticker": "TGT",
+        "direction": "Short",
+        "raw": "3. TGT - Short at market open - Divergent SCOTUS IEEPA tariff refund accounting is artificially boosting reported earnings quality while underlying retail demand and foot traffic continue to deteriorate. Take profit at $137.00 (-3.5%), cut losses at $144.00 (+1.4%)."
+      },
+      {
+        "ticker": "XLB",
+        "direction": "Watch",
+        "raw": "4. XLB - Watch at $88.50 - US-Canada retaliatory metal tariffs take effect today, but following my three recent losses in Materials, I am downgrading the sector to Watch to avoid supply chain whipsaws. Key monitoring levels are support at $86.50 and resistance at $90.00."
+      },
+      {
+        "ticker": "ADM",
+        "direction": "Buy",
+        "raw": "5. ADM - Buy at market open - Corn and wheat futures surged to 3-year highs on Black Sea disruptions and crop yield downgrades, expanding operating margins for grain processors despite my cautious stance on long plays. Take profit at $64.80 (+4.5%), cut losses at $60.80 (-1.9%)."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Materials",
+        "etf": "XLB",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Consumer Staples",
+        "etf": "XLP",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Technology",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Real Estate",
+        "etf": "XLRE",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-08-30"
   }
 }
