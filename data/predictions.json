@@ -1708,7 +1708,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-08-28"
+    "date": "2026-08-28",
+    "graded": true
   },
   "2026-08-29": {
     "trade_ideas": [
@@ -1828,5 +1829,42 @@
       }
     ],
     "date": "2026-08-30"
+  },
+  "2026-08-31": {
+    "trade_ideas": [
+      {
+        "ticker": "AMZN",
+        "direction": "Short",
+        "raw": "1. AMZN - Short at market open ($258.47) - The FTC and 20 state attorneys general filed a landmark lawsuit today targeting Amazon's high-margin digital ad auction mechanics, threatening consolidated EBITDA margins. Take profit at $248.00; set stop loss at $264.50 if headline pressure fades."
+      },
+      {
+        "ticker": "TLT",
+        "direction": "Short",
+        "raw": "2. TLT - Short at market open ($91.80) - Escalating Middle East conflict has pushed crude higher while 10-Year yields surge to 4.76%, compounded by Treasury duration management friction with macro managers. Take profit at $89.50 as long-end yields re-test cycle highs; cut loss at $93.10 if safe-haven bid accelerates."
+      },
+      {
+        "ticker": "INDA",
+        "direction": "Buy",
+        "raw": "3. INDA - Buy at market open ($52.50) - India's Q1 GDP blowout of 7.8% massively beat the 7.1% consensus today, solidifying its structural decoupling from China's ongoing manufacturing contraction. Take profit at $55.20; set stop loss at $51.20."
+      },
+      {
+        "ticker": "ITB",
+        "direction": "Short",
+        "raw": "4. ITB - Short at market open ($112.00) - 30-year fixed mortgage rates jumped 6 bps to 6.87% today following geopolitical yield spikes, directly freezing fall housing turnaround and origination volumes. Take profit at $106.50; cut loss at $115.20."
+      },
+      {
+        "ticker": "MRK",
+        "direction": "Watch",
+        "raw": "5. MRK - Watch at market open ($115.00) - Given our recent track record error on MRK and today's White House voluntary drug pricing announcement, we step aside to assess whether net price erosion is fully discounted. Trigger for action is a clear breakdown below $112.00 (Short) or a failure to break support holding $117.50 (Pass)."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Real Estate",
+        "etf": "XLRE",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-08-31"
   }
 }

@@ -2252,5 +2252,91 @@
     "total_correct": 5,
     "total_calls": 7,
     "accuracy": 71.4
+  },
+  "2026-08-28": {
+    "prediction_date": "2026-08-28",
+    "graded_date": "2026-08-31",
+    "trade_grades": [
+      {
+        "ticker": "NVDA",
+        "predicted": "short",
+        "actual_move": "+0.41%",
+        "correct": "False",
+        "graded_against": "2026-08-31"
+      },
+      {
+        "ticker": "KRE",
+        "predicted": "short",
+        "actual_move": "-0.99%",
+        "correct": "True",
+        "graded_against": "2026-08-31"
+      },
+      {
+        "ticker": "GIS",
+        "predicted": "short",
+        "actual_move": "+0.35%",
+        "correct": "False",
+        "graded_against": "2026-08-31"
+      },
+      {
+        "ticker": "ADM",
+        "predicted": "buy",
+        "actual_move": "-2.09%",
+        "correct": false,
+        "graded_against": "2026-08-31"
+      },
+      {
+        "ticker": "HOOD",
+        "predicted": "short",
+        "actual_move": "+0.06%",
+        "correct": "False",
+        "graded_against": "2026-08-31"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bullish",
+        "actual_move": "+1.33%",
+        "correct": "True",
+        "graded_against": "2026-08-31"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "predicted": "bullish",
+        "actual_move": "-0.63%",
+        "correct": false,
+        "graded_against": "2026-08-31"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "predicted": "bullish",
+        "actual_move": "-0.63%",
+        "correct": false,
+        "graded_against": "2026-08-31"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "+0.09%",
+        "correct": "False",
+        "graded_against": "2026-08-31"
+      },
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "predicted": "bearish",
+        "actual_move": "-1.09%",
+        "correct": "True",
+        "graded_against": "2026-08-31"
+      }
+    ],
+    "total_correct": 3,
+    "total_calls": 10,
+    "accuracy": 30.0
   }
 }
