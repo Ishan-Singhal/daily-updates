@@ -1766,7 +1766,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-08-29"
+    "date": "2026-08-29",
+    "graded": true
   },
   "2026-08-30": {
     "trade_ideas": [
@@ -1828,7 +1829,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-08-30"
+    "date": "2026-08-30",
+    "graded": true
   },
   "2026-08-31": {
     "trade_ideas": [
@@ -1865,6 +1867,74 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-08-31"
+    "date": "2026-08-31",
+    "graded": true
+  },
+  "2026-09-01": {
+    "trade_ideas": [
+      {
+        "ticker": "USO",
+        "direction": "Buy",
+        "raw": "1. USO - Buy at market open ($88.40 WTI basis) - Today's physical projectile strike on a commercial tanker in the Strait of Hormuz has sent Brent surging to $92.50, creating an immediate supply-driven commodity shock. Take profit at $92.00 (+4.0%), and cut loss if WTI crude falls back below $86.50 (-2.1%)."
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "Short",
+        "raw": "2. NVDA - Short at market open - The 10-year Treasury yield spiking to a 20-month high of 4.79% compresses growth multiples, while today's Silicon Data index showing AI LLM token prices collapsing over 50% to $0.97 severely impairs software compute margin assumptions. Take profit at a 4.0% decline from entry, and cut loss at a 2.0% rally above open."
+      },
+      {
+        "ticker": "COIN",
+        "direction": "Short",
+        "raw": "3. COIN - Short at market open - Crypto market sentiment is breaking down today as Senate vote tallies for the Crypto Clarity Act stall, leaving institutional capital locked on the sidelines while Bitcoin drops to $77,710. Take profit at -5.5% from entry price, and cut loss at +2.5% above entry."
+      },
+      {
+        "ticker": "XLF",
+        "direction": "Watch",
+        "raw": "4. XLF - Watch at market open - Fed Governor Barr explicitly floating September rate hikes creates severe yield curve flattening pressure, but after two recent wrong bullish calls on Financials, we are downgrading the sector to Watch to avoid directional missteps. Monitor JPM near its $357.78 52-week high for breakdown confirmation before taking exposure."
+      },
+      {
+        "ticker": "XLY",
+        "direction": "Short",
+        "raw": "5. XLY - Short at market open - Consumer Discretionary is today's worst-performing sector (-1.30%) as $92+ crude and sticky European CPI signal direct erosion of real disposable income; we are flipping our bias after three recent wrong bullish calls on XLY to align with our 100% win-rate on short setups. Take profit at -3.0% from entry, and cut loss at +1.5% above entry."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Consumer Staples",
+        "etf": "XLP",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-09-01"
   }
 }

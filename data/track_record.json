@@ -2338,5 +2338,225 @@
     "total_correct": 3,
     "total_calls": 10,
     "accuracy": 30.0
+  },
+  "2026-08-29": {
+    "prediction_date": "2026-08-29",
+    "graded_date": "2026-09-01",
+    "trade_grades": [
+      {
+        "ticker": "QQQ",
+        "predicted": "short",
+        "actual_move": "-0.90%",
+        "correct": "True",
+        "graded_against": "2026-09-01"
+      },
+      {
+        "ticker": "KHC",
+        "predicted": "short",
+        "actual_move": "+0.58%",
+        "correct": "False",
+        "graded_against": "2026-09-01"
+      },
+      {
+        "ticker": "XLE",
+        "predicted": "short",
+        "actual_move": "+0.32%",
+        "correct": "False",
+        "graded_against": "2026-09-01"
+      },
+      {
+        "ticker": "HOOD",
+        "predicted": "short",
+        "actual_move": "+0.13%",
+        "correct": "False",
+        "graded_against": "2026-09-01"
+      },
+      {
+        "ticker": "SNAP",
+        "predicted": "short",
+        "actual_move": "-3.65%",
+        "correct": "True",
+        "graded_against": "2026-09-01"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "predicted": "bullish",
+        "actual_move": "-0.32%",
+        "correct": false,
+        "graded_against": "2026-09-01"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "predicted": "bullish",
+        "actual_move": "-1.30%",
+        "correct": false,
+        "graded_against": "2026-09-01"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "predicted": "bullish",
+        "actual_move": "-1.30%",
+        "correct": false,
+        "graded_against": "2026-09-01"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "-1.14%",
+        "correct": "True",
+        "graded_against": "2026-09-01"
+      },
+      {
+        "sector": "Consumer Staples",
+        "etf": "XLP",
+        "predicted": "bearish",
+        "actual_move": "+0.77%",
+        "correct": "False",
+        "graded_against": "2026-09-01"
+      }
+    ],
+    "total_correct": 3,
+    "total_calls": 10,
+    "accuracy": 30.0
+  },
+  "2026-08-30": {
+    "prediction_date": "2026-08-30",
+    "graded_date": "2026-09-01",
+    "trade_grades": [
+      {
+        "ticker": "IWM",
+        "predicted": "short",
+        "actual_move": "-0.76%",
+        "correct": "True",
+        "graded_against": "2026-09-01"
+      },
+      {
+        "ticker": "META",
+        "predicted": "short",
+        "actual_move": "+1.00%",
+        "correct": "False",
+        "graded_against": "2026-09-01"
+      },
+      {
+        "ticker": "TGT",
+        "predicted": "short",
+        "actual_move": "+1.49%",
+        "correct": "False",
+        "graded_against": "2026-09-01"
+      },
+      {
+        "ticker": "ADM",
+        "predicted": "buy",
+        "actual_move": "+2.56%",
+        "correct": "True",
+        "graded_against": "2026-09-01"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Materials",
+        "etf": "XLB",
+        "predicted": "bearish",
+        "actual_move": "-0.86%",
+        "correct": "True",
+        "graded_against": "2026-09-01"
+      },
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bullish",
+        "actual_move": "+0.32%",
+        "correct": "True",
+        "graded_against": "2026-09-01"
+      },
+      {
+        "sector": "Consumer Staples",
+        "etf": "XLP",
+        "predicted": "bullish",
+        "actual_move": "+0.76%",
+        "correct": "True",
+        "graded_against": "2026-09-01"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "-1.14%",
+        "correct": "True",
+        "graded_against": "2026-09-01"
+      },
+      {
+        "sector": "Technology",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "-1.14%",
+        "correct": "True",
+        "graded_against": "2026-09-01"
+      },
+      {
+        "sector": "Real Estate",
+        "etf": "XLRE",
+        "predicted": "bearish",
+        "actual_move": "+0.00%",
+        "correct": "False",
+        "graded_against": "2026-09-01"
+      }
+    ],
+    "total_correct": 7,
+    "total_calls": 10,
+    "accuracy": 70.0
+  },
+  "2026-08-31": {
+    "prediction_date": "2026-08-31",
+    "graded_date": "2026-09-01",
+    "trade_grades": [
+      {
+        "ticker": "AMZN",
+        "predicted": "short",
+        "actual_move": "-2.09%",
+        "correct": "True",
+        "graded_against": "2026-09-01"
+      },
+      {
+        "ticker": "TLT",
+        "predicted": "short",
+        "actual_move": "-0.56%",
+        "correct": "True",
+        "graded_against": "2026-09-01"
+      },
+      {
+        "ticker": "INDA",
+        "predicted": "buy",
+        "actual_move": "+0.03%",
+        "correct": false,
+        "graded_against": "2026-09-01"
+      },
+      {
+        "ticker": "ITB",
+        "predicted": "short",
+        "actual_move": "-1.18%",
+        "correct": "True",
+        "graded_against": "2026-09-01"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Real Estate",
+        "etf": "XLRE",
+        "predicted": "bearish",
+        "actual_move": "+0.00%",
+        "correct": "False",
+        "graded_against": "2026-09-01"
+      }
+    ],
+    "total_correct": 3,
+    "total_calls": 5,
+    "accuracy": 60.0
   }
 }
