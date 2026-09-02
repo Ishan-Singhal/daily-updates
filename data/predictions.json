@@ -1935,6 +1935,7 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-09-01"
+    "date": "2026-09-01",
+    "graded": true
   }
 }

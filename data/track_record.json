@@ -2558,5 +2558,100 @@
     "total_correct": 3,
     "total_calls": 5,
     "accuracy": 60.0
+  },
+  "2026-09-01": {
+    "prediction_date": "2026-09-01",
+    "graded_date": "2026-09-02",
+    "trade_grades": [
+      {
+        "ticker": "USO",
+        "predicted": "buy",
+        "actual_move": "+0.08%",
+        "correct": false,
+        "graded_against": "2026-09-02"
+      },
+      {
+        "ticker": "NVDA",
+        "predicted": "short",
+        "actual_move": "+4.57%",
+        "correct": "False",
+        "graded_against": "2026-09-02"
+      },
+      {
+        "ticker": "COIN",
+        "predicted": "short",
+        "actual_move": "-0.25%",
+        "correct": "True",
+        "graded_against": "2026-09-02"
+      },
+      {
+        "ticker": "XLY",
+        "predicted": "short",
+        "actual_move": "+0.11%",
+        "correct": "False",
+        "graded_against": "2026-09-02"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "predicted": "bearish",
+        "actual_move": "+0.91%",
+        "correct": "False",
+        "graded_against": "2026-09-02"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "+0.11%",
+        "correct": "False",
+        "graded_against": "2026-09-02"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "+0.11%",
+        "correct": "False",
+        "graded_against": "2026-09-02"
+      },
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bullish",
+        "actual_move": "+0.24%",
+        "correct": "True",
+        "graded_against": "2026-09-02"
+      },
+      {
+        "sector": "Consumer Staples",
+        "etf": "XLP",
+        "predicted": "bullish",
+        "actual_move": "+0.65%",
+        "correct": "True",
+        "graded_against": "2026-09-02"
+      },
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "predicted": "bullish",
+        "actual_move": "-0.27%",
+        "correct": false,
+        "graded_against": "2026-09-02"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "-0.01%",
+        "correct": "False",
+        "graded_against": "2026-09-02"
+      }
+    ],
+    "total_correct": 3,
+    "total_calls": 11,
+    "accuracy": 27.3
   }
 }
