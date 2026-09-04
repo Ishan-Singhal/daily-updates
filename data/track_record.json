@@ -2653,5 +2653,52 @@
     "total_correct": 3,
     "total_calls": 11,
     "accuracy": 27.3
+  },
+  "2026-09-03": {
+    "prediction_date": "2026-09-03",
+    "graded_date": "2026-09-04",
+    "trade_grades": [
+      {
+        "ticker": "NVDA",
+        "predicted": "buy",
+        "actual_move": "+1.14%",
+        "correct": "True",
+        "graded_against": "2026-09-04"
+      },
+      {
+        "ticker": "VLO",
+        "predicted": "buy",
+        "actual_move": "+0.22%",
+        "correct": "True",
+        "graded_against": "2026-09-04"
+      },
+      {
+        "ticker": "CAT",
+        "predicted": "short",
+        "actual_move": "+1.62%",
+        "correct": "False",
+        "graded_against": "2026-09-04"
+      },
+      {
+        "ticker": "AMAT",
+        "predicted": "buy",
+        "actual_move": "+4.33%",
+        "correct": "True",
+        "graded_against": "2026-09-04"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Industrials",
+        "etf": "XLI",
+        "predicted": "bearish",
+        "actual_move": "+0.31%",
+        "correct": "False",
+        "graded_against": "2026-09-04"
+      }
+    ],
+    "total_correct": 3,
+    "total_calls": 5,
+    "accuracy": 60.0
   }
 }

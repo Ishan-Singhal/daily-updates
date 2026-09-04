@@ -1973,6 +1973,54 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-09-03"
+    "date": "2026-09-03",
+    "graded": true
+  },
+  "2026-09-04": {
+    "trade_ideas": [
+      {
+        "ticker": "TLT",
+        "direction": "Short",
+        "raw": "1. TLT - Short at market open (~$89.50) - Today's massive August payroll beat (+162k vs +53k expected) completely extinguishes September Fed rate cut hopes, compounded by Norway's $2.3T fund systematically reducing US Treasury allocations. Take profit at $87.50 and cut loss at $90.50 if yields unexpectedly retreat."
+      },
+      {
+        "ticker": "PLTR",
+        "direction": "Short",
+        "raw": "2. PLTR - Short at $175.40 (market open) - The spike in 10-year Treasury yields to 4.77% is triggering immediate duration unwinds across high-multiple software names, continuing its -3.86% pre-market markdown. Take profit at $165.00 and set a stop loss at $181.00."
+      },
+      {
+        "ticker": "DXJ",
+        "direction": "Buy",
+        "raw": "3. DXJ - Buy at market open (~$108.50) - Berkshire Hathaway Vice Chair Greg Abel explicitly removed foreign institutional liquidation risk overnight by confirming rising JGB yields pose no threat to their Japanese holdings. Take profit at $111.20 and cut loss at $107.20."
+      },
+      {
+        "ticker": "INDA",
+        "direction": "Watch",
+        "raw": "4. INDA - Watch at market open (~$49.50) - India's 10% co-located battery storage mandate creates near-term CapEx friction for green energy developers, and calibrating for our recent failed bullish call on INDA, we downgrade to Watch. Re-evaluate only if price stabilizes above $48.50 structural support with clearing volume."
+      },
+      {
+        "ticker": "TSLA",
+        "direction": "Short",
+        "raw": "5. TSLA - Short at $351.50 (market open) - China's sudden suspension of rare earth magnet exports directly threatens EV production chains, while macro yield spikes heavily penalize Consumer Discretionary valuations\u2014a sector where our track record dictates flipping bias from long to short. Take profit at $332.00 and set stop loss at $361.00."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-09-04"
   }
 }
