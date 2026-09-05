@@ -2022,5 +2022,67 @@
       }
     ],
     "date": "2026-09-04"
+  },
+  "2026-09-05": {
+    "trade_ideas": [
+      {
+        "ticker": "QQQ",
+        "direction": "Short",
+        "raw": "1. QQQ - Short at market open (~$500.00) - Today's blowout +162k nonfarm payrolls report tripled estimates and pushed 10-year yields to 4.78%, forcing Wall Street to aggressively price out Fed rate cuts and compress tech valuation multiples. I will take profit at $488.00 and cut losses if QQQ reclaims $506.00."
+      },
+      {
+        "ticker": "CRWD",
+        "direction": "Buy",
+        "raw": "2. CRWD - Buy at $255.00 - Morning intelligence confirms CISO compensation spiking into seven figures as expanding enterprise AI attack surfaces make cybersecurity software a non-discretionary, priority spend item. I will take profit at $268.00 and cut losses if price breaks below $248.50."
+      },
+      {
+        "ticker": "TSLA",
+        "direction": "Short",
+        "raw": "3. TSLA - Short at $354.00 - Flipping my bias to align with my 100% bearish call accuracy and correct past failed bullish calls in Consumer Discretionary, as TSLA drops 5.5% overnight under rising interest rate pressure. I will take profit at $338.00 and cut losses if the stock re-tests $362.00."
+      },
+      {
+        "ticker": "CCJ",
+        "direction": "Buy",
+        "raw": "4. CCJ - Buy at market open (~$52.00) - Today's report highlighting America's aging Gen II nuclear fleet versus China's buildout triggers urgent federal and utility demand for domestic uranium to power 24/7 AI data center infrastructure. I will take profit at $55.50 and cut losses if the stock drops below $50.20."
+      },
+      {
+        "ticker": "XOM",
+        "direction": "Short",
+        "raw": "5. XOM - Short at market open (~$112.00) - The Pentagon's unprecedented direct equity stake in Venezuelan heavy crude reserves creates a state-backed competitor that will compress Gulf Coast refining margins and undercut legacy integrated oil majors. I will take profit at $107.50 and cut losses at $114.20."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Technology",
+        "etf": "XLK",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-09-05"
   }
 }
