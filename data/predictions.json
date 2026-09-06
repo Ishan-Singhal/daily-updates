@@ -2084,5 +2084,57 @@
       }
     ],
     "date": "2026-09-05"
+  },
+  "2026-09-06": {
+    "trade_ideas": [
+      {
+        "ticker": "FRO",
+        "direction": "Buy",
+        "raw": "1. FRO - Buy at market open - A permanent rerouting of global crude tankers around Africa due to Middle East escalating tensions pushed VLCC spot charter rates up over 35% today, expanding ton-mile demand. Take profit at $28.00 as fleet utilization tightens, and set a stop loss at $23.10 if geopolitical risks cool."
+      },
+      {
+        "ticker": "IWM",
+        "direction": "Short",
+        "raw": "2. IWM - Short at market open - Today's blowout +162k U.S. payrolls report drove 2-Year Treasury yields up 14 bps, placing hawkish Fed rate hikes back on the table and squeezing debt-heavy small cap balance sheets. Take profit at $209.50 on refinancing pressure, and set a stop loss at $221.50 if yield gains revert."
+      },
+      {
+        "ticker": "SMR",
+        "direction": "Buy",
+        "raw": "3. SMR - Buy at market open - The U.S., Japan, and South Korea announced a trilateral nuclear alliance today to accelerate Small Modular Reactor deployments aimed directly at AI data center baseload power bottlenecks. Take profit at $21.50 as long-term power purchase agreement momentum builds, and set a stop loss at $16.80."
+      },
+      {
+        "ticker": "MDLZ",
+        "direction": "Short",
+        "raw": "4. MDLZ - Short at market open - Raw sugar prices posted a 21.5% August surge following European crop failures, delivering an immediate unhedged input cost shock to CPG margins that cannot be passed to consumers. Take profit at $66.00 on gross margin compression, and cut loss at $73.80 if soft commodities pull back."
+      },
+      {
+        "ticker": "XLF",
+        "direction": "Watch",
+        "raw": "5. XLF - Watch at market open - Following multiple recent wrong bullish calls on Financials, today's rate-hike repricing warrants a neutral stance as higher yields are offset by slowing loan originations and credit risks. Standing aside without a directional entry; will monitor key support at $43.00 and resistance at $45.20."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-09-06"
   }
 }
