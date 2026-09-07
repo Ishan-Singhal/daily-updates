@@ -2136,5 +2136,67 @@
       }
     ],
     "date": "2026-09-06"
+  },
+  "2026-09-07": {
+    "trade_ideas": [
+      {
+        "ticker": "FXI",
+        "direction": "Short",
+        "raw": "1. FXI - Short at market open - Beijing's $54B state capital injection effectively mandates Chinese banks to absorb bad property debt and LGFV bonds, destroying net interest margins and bank Return on Equity. I am targeting a take-profit at $27.20 (-4.5%) and setting a strict stop-loss at $29.10 (+2.1%)."
+      },
+      {
+        "ticker": "LUV",
+        "direction": "Short",
+        "raw": "2. LUV - Short at market open - Squeezed budget consumers trading down to low-cost alternatives paired with Brent crude surging toward $98 following Aramco facility strikes creates an immediate margin squeeze on mid-tier airlines. Correcting for my recent wrong bullish calls on Consumer Discretionary (XLY), I am flipping my bias to Short with a profit target of $24.00 and a stop-loss at $27.20."
+      },
+      {
+        "ticker": "TLT",
+        "direction": "Short",
+        "raw": "3. TLT - Short at market open - Japan's record $80B foreign exchange reserve drop forces mechanical liquidation of US Treasuries to prop up the Yen, directly driving 10-year US yields higher (+0.022 to 4.784%). I am targeting a take-profit at $90.20 with a stop-loss set at $93.80."
+      },
+      {
+        "ticker": "FCX",
+        "direction": "Buy",
+        "raw": "4. FCX - Buy at market open - Copper reaching record levels near $14,527/ton on a 10-week rally driven by a 1.1% H1 mine output drop and US tariff hoarding provides immediate fundamental tailwinds for primary miners. Take profit is set at $52.50, with a cut-loss trigger at $46.50."
+      },
+      {
+        "ticker": "XLF",
+        "direction": "Watch",
+        "raw": "5. XLF - Watch at market open - Calibrating for two recent incorrect bullish calls on Financials, I am downgrading XLF to 'Watch' as political pressure on the Fed creates policy uncertainty that offsets sector yield tailwinds. I will stay on the sidelines until regional bank NIM trajectories clarify post-FOMC chatter."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Healthcare",
+        "etf": "XLV",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Materials",
+        "etf": "XLB",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-09-07"
   }
 }
