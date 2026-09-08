@@ -2700,5 +2700,68 @@
     "total_correct": 3,
     "total_calls": 5,
     "accuracy": 60.0
+  },
+  "2026-09-04": {
+    "prediction_date": "2026-09-04",
+    "graded_date": "2026-09-08",
+    "trade_grades": [
+      {
+        "ticker": "TLT",
+        "predicted": "short",
+        "actual_move": "-0.05%",
+        "correct": "False",
+        "graded_against": "2026-09-08"
+      },
+      {
+        "ticker": "PLTR",
+        "predicted": "short",
+        "actual_move": "-1.73%",
+        "correct": "True",
+        "graded_against": "2026-09-08"
+      },
+      {
+        "ticker": "DXJ",
+        "predicted": "buy",
+        "actual_move": "-2.11%",
+        "correct": false,
+        "graded_against": "2026-09-08"
+      },
+      {
+        "ticker": "TSLA",
+        "predicted": "short",
+        "actual_move": "+3.84%",
+        "correct": "False",
+        "graded_against": "2026-09-08"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bullish",
+        "actual_move": "+0.45%",
+        "correct": "True",
+        "graded_against": "2026-09-08"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "-0.50%",
+        "correct": "True",
+        "graded_against": "2026-09-08"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "-0.50%",
+        "correct": "True",
+        "graded_against": "2026-09-08"
+      }
+    ],
+    "total_correct": 4,
+    "total_calls": 7,
+    "accuracy": 57.1
   }
 }

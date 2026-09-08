@@ -2021,7 +2021,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-09-04"
+    "date": "2026-09-04",
+    "graded": true
   },
   "2026-09-05": {
     "trade_ideas": [
@@ -2198,5 +2199,62 @@
       }
     ],
     "date": "2026-09-07"
+  },
+  "2026-09-08": {
+    "trade_ideas": [
+      {
+        "ticker": "QCOM",
+        "direction": "Buy",
+        "raw": "1. QCOM - Buy at market open (~$165.00) - Qualcomm issuing $4B in equity warrants to AWS alongside a multi-year partnership for custom data center AI chips secures an anchor cloud customer to capture massive inference market share. Take profit at $178.00 (+7.8%), and cut losses at $158.50 (-3.9%) if dilution concerns temporarily outweigh order backlog growth."
+      },
+      {
+        "ticker": "DE",
+        "direction": "Short",
+        "raw": "2. DE - Short at market open (~$402.00) - Canada's 15% to 50% retaliatory tariffs on $27.6B of U.S. goods take effect today, directly targeting American agricultural machinery and inflicting immediate order cancellations in Deere's top export market. Take profit at $378.00 (-6.0%), and set a strict stop-loss at $414.00 (+3.0%)."
+      },
+      {
+        "ticker": "AZN",
+        "direction": "Buy",
+        "raw": "3. AZN - Buy at market open (~$79.00) - AstraZeneca's Phase 3 COPD trial win for tozorakimab de-risks a multi-billion dollar biologic blockbuster targeting a $20B+ market and threatening competitor market share ahead of a Q1 2027 FDA review. Take profit at $84.00 (+6.3%), and exit the position if price drops below $76.80 (-2.8%)."
+      },
+      {
+        "ticker": "DXJ",
+        "direction": "Short",
+        "raw": "4. DXJ - Short at market open (~$102.50) - Course-correcting from my Sept 4 call, Japan's record $80B foreign exchange reserve drop confirms aggressive central bank Treasury liquidations to strengthen the Yen, which directly squeezes Japanese exporter margins and unwinds currency-hedged ETF strategies. Take profit at $96.50 (-5.8%), with a tight stop-loss at $104.50 (+1.95%)."
+      },
+      {
+        "ticker": "GD",
+        "direction": "Buy",
+        "raw": "5. GD - Buy at market open (~$305.00) - Executive threats of an import ban on Canadian rival Bombardier create an immediate competitive windfall for General Dynamics' Gulfstream unit across the U.S. market, which represents over 60% of global business jet demand. Take profit at $320.00 (+4.9%), and cut loss at $297.00 (-2.6%)."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-09-08"
   }
 }
