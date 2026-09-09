@@ -2084,7 +2084,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-09-05"
+    "date": "2026-09-05",
+    "graded": true
   },
   "2026-09-06": {
     "trade_ideas": [
@@ -2136,7 +2137,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-09-06"
+    "date": "2026-09-06",
+    "graded": true
   },
   "2026-09-07": {
     "trade_ideas": [
@@ -2198,7 +2200,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-09-07"
+    "date": "2026-09-07",
+    "graded": true
   },
   "2026-09-08": {
     "trade_ideas": [
@@ -2255,6 +2258,59 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-09-08"
+    "date": "2026-09-08",
+    "graded": true
+  },
+  "2026-09-09": {
+    "trade_ideas": [
+      {
+        "ticker": "AAL",
+        "direction": "Short",
+        "raw": "1. AAL - Short at market open (~$11.20) - The overnight destruction of five Iranian crude tankers by the U.S. Navy sent Brent crude past $101/bbl, driving an immediate jet fuel price surge that crushes airline operating margins today. Take profit at $10.40 and cut losses at $11.60."
+      },
+      {
+        "ticker": "CAT",
+        "direction": "Short",
+        "raw": "2. CAT - Short at market open (~$415.00) - Canada's retaliatory 15% to 50% tariffs taking effect today across $20.1B of U.S. goods directly impair heavy machinery export volumes and compress gross margins. Take profit at $398.00 and set a stop loss at $423.00."
+      },
+      {
+        "ticker": "USO",
+        "direction": "Watch",
+        "raw": "3. USO - Watch at $88.50 - While Gulf conflict escalation and $101 Brent crude represent a major fundamental bullish catalyst, my recent wrong call on USO requires waiting for a confirmed breakout above $89.00 on strong volume before entering. If triggered, upside target is $93.00, while a drop in WTI crude below $95.00 invalidates the bullish setup."
+      },
+      {
+        "ticker": "SMCI",
+        "direction": "Short",
+        "raw": "4. SMCI - Short at $39.29 (market open) - Warnings from OpenAI on AI scaling slowdowns and severe data center grid bottlenecks cited at Communacopia are forcing immediate valuation de-rating across high-beta hardware supply chains. Take profit at $36.00 and set a cut-loss order at $41.00."
+      },
+      {
+        "ticker": "INDA",
+        "direction": "Watch",
+        "raw": "5. INDA - Watch at market open ($21.80) - Adani Enterprises secured a binding $1B equity injection today for its airport subsidiary, but after my previous wrong call on INDA and with $100+ crude pressuring India's trade deficit, I am downgrading to neutral. Monitor support at $21.20, with a bullish re-entry trigger only above $22.50."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Industrials",
+        "etf": "XLI",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-09-09"
   }
 }
