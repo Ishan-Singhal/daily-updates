@@ -2311,6 +2311,59 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-09-09"
+    "date": "2026-09-09",
+    "graded": true
+  },
+  "2026-09-10": {
+    "trade_ideas": [
+      {
+        "ticker": "CAT",
+        "direction": "Short",
+        "raw": "1. CAT - Short at market open - Canada's enactment of CA$27.6B ($20.3B USD) in retaliatory tariffs today directly targets US heavy industrial equipment exports and impairs Q3/Q4 margin consensus. Take profit at $400.50, and set a cut loss at $422.00."
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "Short",
+        "raw": "2. NVDA - Short at $218.88 - August PPI spiking to 5.4% alongside WTI crude breaking $101 has pushed 10Y yields to 4.922% and Fed hike odds to 70%, forcing immediate multiple compression on high-beta tech today. Take profit at $209.00, and set a cut loss at $223.50."
+      },
+      {
+        "ticker": "AAPL",
+        "direction": "Short",
+        "raw": "3. AAPL - Short at $319.82 - CEO Ternus's debut showcase splitting the release cadence and delaying the base iPhone 18 to Spring 2027 leaves consensus Q1 holiday volume estimates vulnerable to immediate downward revisions. Take profit at $310.00, and set a cut loss at $324.50."
+      },
+      {
+        "ticker": "DE",
+        "direction": "Short",
+        "raw": "4. DE - Short at market open - Agricultural machinery is explicitly targeted in Canada's CA$27.6B retaliatory tariff package taking effect today, creating immediate top-line friction for cross-border shipments. Take profit at $382.00, and set a cut loss at $401.50."
+      },
+      {
+        "ticker": "NIO",
+        "direction": "Watch",
+        "raw": "5. NIO - Watch at $3.62 - While Chinese EV capital reallocation into humanoid robotics confirms severe core auto price wars, we downgrade to Watch near 52-week lows to respect recent accuracy recalibrations in Consumer Discretionary. Watch $3.55 as key breakdown support before considering short exposure."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Consumer Staples",
+        "etf": "XLP",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Industrials",
+        "etf": "XLI",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-09-10"
   }
 }

@@ -3101,5 +3101,69 @@
     "total_correct": 7,
     "total_calls": 10,
     "accuracy": 70.0
+  },
+  "2026-09-09": {
+    "prediction_date": "2026-09-09",
+    "graded_date": "2026-09-10",
+    "trade_grades": [
+      {
+        "ticker": "AAL",
+        "predicted": "short",
+        "actual_move": "-0.89%",
+        "correct": "True",
+        "graded_against": "2026-09-10"
+      },
+      {
+        "ticker": "CAT",
+        "predicted": "short",
+        "actual_move": "-1.33%",
+        "correct": "True",
+        "graded_against": "2026-09-10"
+      },
+      {
+        "ticker": "SMCI",
+        "predicted": "short",
+        "actual_move": "-0.96%",
+        "correct": "True",
+        "graded_against": "2026-09-10"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bullish",
+        "actual_move": "-0.19%",
+        "correct": false,
+        "graded_against": "2026-09-10"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "-0.08%",
+        "correct": "False",
+        "graded_against": "2026-09-10"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "-0.08%",
+        "correct": "False",
+        "graded_against": "2026-09-10"
+      },
+      {
+        "sector": "Industrials",
+        "etf": "XLI",
+        "predicted": "bearish",
+        "actual_move": "-0.62%",
+        "correct": "True",
+        "graded_against": "2026-09-10"
+      }
+    ],
+    "total_correct": 4,
+    "total_calls": 7,
+    "accuracy": 57.1
   }
 }
