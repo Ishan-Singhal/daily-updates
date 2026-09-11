@@ -2364,6 +2364,64 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-09-10"
+    "date": "2026-09-10",
+    "graded": true
+  },
+  "2026-09-11": {
+    "trade_ideas": [
+      {
+        "ticker": "AAPL",
+        "direction": "Short",
+        "raw": "1. AAPL - Short at market open ($333.75) - Apple's launch of the dual-screen \"iPhone Duo\" in China today faces aggressive 20-30% price undercutting from Huawei and Xiaomi amid plunging Chinese consumer sentiment. Take profit at $320.00 (-4.1%), cut loss at $340.50 (+2.0%)."
+      },
+      {
+        "ticker": "QQQ",
+        "direction": "Short",
+        "raw": "2. QQQ - Short at market open - Today's hot 3.4% CPI print combined with UMich Consumer Sentiment plunging to 47.8 forces Chair Warsh into a hawkish corner, making overnight index gains an ideal fading opportunity. Take profit at $665.00 (-2.2%), cut loss at $687.00 (+1.0%)."
+      },
+      {
+        "ticker": "UAL",
+        "direction": "Short",
+        "raw": "3. UAL - Short at market open - Houthi strikes on Saudi Arabia's East-West pipeline threaten 4M b/d capacity and pushed physical spot crude to $120/bbl today, triggering immediate jet fuel margin compression. Take profit at $48.50 (-4.5%), cut loss at $52.00 (+2.4%)."
+      },
+      {
+        "ticker": "FDS",
+        "direction": "Short",
+        "raw": "4. FDS - Short at market open - OpenAI's release today of \"ChatGPT for Financial Services\" directly threatens FactSet's core seat-based terminal revenues by automating front-office research and modeling workflows. Take profit at $410.00 (-4.5%), cut loss at $438.00 (+2.0%)."
+      },
+      {
+        "ticker": "MSFT",
+        "direction": "Buy",
+        "raw": "5. MSFT - Buy at market open ($505.00) - OpenAI's launch today of enterprise-grade financial AI provides Microsoft with an immediate monetization channel across Wall Street front-office infrastructure, though position size is strictly managed given recent long-side underperformance. Take profit at $522.00 (+3.4%), cut loss at $497.50 (-1.5%)."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Technology",
+        "etf": "XLK",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-09-11"
   }
 }

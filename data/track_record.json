@@ -3165,5 +3165,76 @@
     "total_correct": 4,
     "total_calls": 7,
     "accuracy": 57.1
+  },
+  "2026-09-10": {
+    "prediction_date": "2026-09-10",
+    "graded_date": "2026-09-11",
+    "trade_grades": [
+      {
+        "ticker": "CAT",
+        "predicted": "short",
+        "actual_move": "+2.27%",
+        "correct": "False",
+        "graded_against": "2026-09-11"
+      },
+      {
+        "ticker": "NVDA",
+        "predicted": "short",
+        "actual_move": "+0.70%",
+        "correct": "False",
+        "graded_against": "2026-09-11"
+      },
+      {
+        "ticker": "AAPL",
+        "predicted": "short",
+        "actual_move": "+2.21%",
+        "correct": "False",
+        "graded_against": "2026-09-11"
+      },
+      {
+        "ticker": "DE",
+        "predicted": "short",
+        "actual_move": "+0.95%",
+        "correct": "False",
+        "graded_against": "2026-09-11"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "predicted": "bullish",
+        "actual_move": "+0.55%",
+        "correct": "True",
+        "graded_against": "2026-09-11"
+      },
+      {
+        "sector": "Consumer Staples",
+        "etf": "XLP",
+        "predicted": "bullish",
+        "actual_move": "+0.39%",
+        "correct": "True",
+        "graded_against": "2026-09-11"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "+1.69%",
+        "correct": "False",
+        "graded_against": "2026-09-11"
+      },
+      {
+        "sector": "Industrials",
+        "etf": "XLI",
+        "predicted": "bearish",
+        "actual_move": "+1.20%",
+        "correct": "False",
+        "graded_against": "2026-09-11"
+      }
+    ],
+    "total_correct": 2,
+    "total_calls": 8,
+    "accuracy": 25.0
   }
 }
