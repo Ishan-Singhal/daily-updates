@@ -2423,5 +2423,67 @@
       }
     ],
     "date": "2026-09-11"
+  },
+  "2026-09-12": {
+    "trade_ideas": [
+      {
+        "ticker": "AAPL",
+        "direction": "Short",
+        "raw": "1. AAPL - Short at $332.27 - Today's report of consumer pushback in China over premium pricing on the new iPhone Duo foldable threatens 20% of hardware revenues, making the pre-market +2% pump a prime short setup. Take profit at $320.00 and cut loss at $337.50."
+      },
+      {
+        "ticker": "AFRM",
+        "direction": "Short",
+        "raw": "2. AFRM - Short at $71.44 - Today's CPI re-acceleration to 3.4% and negative real wage growth (-0.3%) will directly drive BNPL default rates higher, mispricing the stock's +5.1% pre-market pop. Take profit at $65.50 and cut loss at $74.50."
+      },
+      {
+        "ticker": "JETS",
+        "direction": "Short",
+        "raw": "3. JETS - Short at market open - Saudi Aramco's East-West pipeline drone strike closure locks in an acute geopolitical risk premium on crude that will crush airline operating margins through soaring jet fuel costs. Take profit at -4.0% below open and cut loss at +1.5% above open."
+      },
+      {
+        "ticker": "SPGI",
+        "direction": "Short",
+        "raw": "4. SPGI - Short at market open - Today's rollout of OpenAI's enterprise financial workflow tool directly threatens legacy financial software and data vendors' long-term workstation pricing power. Take profit at $488.00 and cut loss at $513.00."
+      },
+      {
+        "ticker": "INDA",
+        "direction": "Watch",
+        "raw": "5. INDA - Watch at market open - Although the BRICS summit signaled trade de-escalation between India and China, recent trading losses on INDA mandate downgrading to Watch until bilateral trade flow data validates execution. Key support to monitor is $84.50, maintaining zero directional leverage today to calibrate against past ticker performance."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Industrials",
+        "etf": "XLI",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-09-12"
   }
 }
