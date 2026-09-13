@@ -2485,5 +2485,52 @@
       }
     ],
     "date": "2026-09-12"
+  },
+  "2026-09-13": {
+    "trade_ideas": [
+      {
+        "ticker": "ORCL",
+        "direction": "Buy",
+        "raw": "1. ORCL - Buy at market open (~$142.00) - Larry Ellison's abrupt cancellation of his $7.5B 10b5-1 share sale plan removes a massive technical supply overhang and signals strong executive confidence in Oracle's cloud order backlog. Target profit taking at $152.00 and set a strict stop-loss at $137.50."
+      },
+      {
+        "ticker": "AAPL",
+        "direction": "Short",
+        "raw": "2. AAPL - Short at market open (~$332.27) - Today's pre-market bounce (+1.99%) misprices the severe Chinese price war facing the iPhone Duo against Huawei, directly threatening Apple's 44%+ hardware gross margin targets. Take profit at $318.00 and cut losses if the stock breaks above $338.50."
+      },
+      {
+        "ticker": "XLY",
+        "direction": "Short",
+        "raw": "3. XLY - Short at market open (~$190.00) - August CPI re-accelerating to 3.4% YoY alongside negative real wage growth (-0.3%) and collapsing sentiment (47.8) presents a direct margin threat to broad discretionary retail. Target profit cover at $182.00 and cut losses if XLY reclaims $194.00."
+      },
+      {
+        "ticker": "DAL",
+        "direction": "Short",
+        "raw": "4. DAL - Short at market open (~$42.50) - The confirmed Strait of Hormuz tanker strike has escalated war-risk insurance premiums by 150-200 bps and heightened jet fuel volatility, directly compressing airline operating margins. Cover short for profits near $39.50 and cut losses at $44.10."
+      },
+      {
+        "ticker": "XLU",
+        "direction": "Watch",
+        "raw": "5. XLU - Watch at market open (~$71.50) - Following three consecutive incorrect bullish calls on Utilities, I am downgrading the sector to Watch as 10Y yields holding near 4.975% present severe ongoing equity multiple headwinds. Re-evaluate directional exposure only if 10Y yields fall back below 4.85%."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-09-13"
   }
 }
