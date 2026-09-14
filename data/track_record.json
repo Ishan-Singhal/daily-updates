@@ -3236,5 +3236,91 @@
     "total_correct": 2,
     "total_calls": 8,
     "accuracy": 25.0
+  },
+  "2026-09-11": {
+    "prediction_date": "2026-09-11",
+    "graded_date": "2026-09-14",
+    "trade_grades": [
+      {
+        "ticker": "AAPL",
+        "predicted": "short",
+        "actual_move": "+0.54%",
+        "correct": "False",
+        "graded_against": "2026-09-14"
+      },
+      {
+        "ticker": "QQQ",
+        "predicted": "short",
+        "actual_move": "-0.31%",
+        "correct": "True",
+        "graded_against": "2026-09-14"
+      },
+      {
+        "ticker": "UAL",
+        "predicted": "short",
+        "actual_move": "-0.83%",
+        "correct": "True",
+        "graded_against": "2026-09-14"
+      },
+      {
+        "ticker": "FDS",
+        "predicted": "short",
+        "actual_move": "+7.55%",
+        "correct": "False",
+        "graded_against": "2026-09-14"
+      },
+      {
+        "ticker": "MSFT",
+        "predicted": "buy",
+        "actual_move": "+2.80%",
+        "correct": "True",
+        "graded_against": "2026-09-14"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bullish",
+        "actual_move": "-0.77%",
+        "correct": false,
+        "graded_against": "2026-09-14"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bullish",
+        "actual_move": "-1.18%",
+        "correct": false,
+        "graded_against": "2026-09-14"
+      },
+      {
+        "sector": "Technology",
+        "etf": "XLK",
+        "predicted": "bullish",
+        "actual_move": "-1.18%",
+        "correct": false,
+        "graded_against": "2026-09-14"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "+0.15%",
+        "correct": "False",
+        "graded_against": "2026-09-14"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "+0.15%",
+        "correct": "False",
+        "graded_against": "2026-09-14"
+      }
+    ],
+    "total_correct": 3,
+    "total_calls": 10,
+    "accuracy": 30.0
   }
 }

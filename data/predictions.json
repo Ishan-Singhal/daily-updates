@@ -2422,7 +2422,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-09-11"
+    "date": "2026-09-11",
+    "graded": true
   },
   "2026-09-12": {
     "trade_ideas": [
@@ -2532,5 +2533,62 @@
       }
     ],
     "date": "2026-09-13"
+  },
+  "2026-09-14": {
+    "trade_ideas": [
+      {
+        "ticker": "SPY",
+        "direction": "Short",
+        "raw": "1. SPY - Short at market open (~$771 / 7,711 S&P futures) - Headline CPI accelerating to 3.4% and 10Y yields breaching 5.0% create a high-probability fade into today's irrational pre-market gap-up (+1.16%). Target a 1.5% pullback toward fair value, cutting losses strictly if SPY moves 0.6% above the open."
+      },
+      {
+        "ticker": "GEV",
+        "direction": "Buy",
+        "raw": "2. GEV - Buy at market open - SpaceX's emergency entry into turbine manufacturing highlights severe power grid shortages and data center backlogs extending to 2032, securing multi-year pricing power for power OEMs. Take profit at +5.0% above entry, with a strict stop-loss set at -2.0% below open."
+      },
+      {
+        "ticker": "XLK",
+        "direction": "Short",
+        "raw": "3. XLK - Short at market open - Recalibrating after prior wrong bullish calls on Tech, voluntary AI model limits from MSFT and 5.0% Treasury yields present an immediate multiple compression threat to long-duration tech. Target a 2.5% downside move on XLK and close the trade if the sector gains 1.0% from the open."
+      },
+      {
+        "ticker": "APLD",
+        "direction": "Short",
+        "raw": "4. APLD - Short at market open - Capital-constrained data center developers face execution delays and capital cost overruns as utility grid interconnect lead times stretch past 2030. Take profit at -6.0% downside, and cut losses if the stock rallies +2.5% above entry."
+      },
+      {
+        "ticker": "USO",
+        "direction": "Watch",
+        "raw": "5. USO - Watch at $78.50 (spot crude $101.49) - Downgrading our stance after recent failed bullish energy calls, crude falling -1.7% today despite Middle East tensions signals that geopolitical risk premiums are deflating amidst Ukraine asset-truce headlines. Watch for a breakdown below $77.50 to trigger a short entry targeting $74.00, placing a stop-loss above $80.50."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Healthcare",
+        "etf": "XLV",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Consumer Staples",
+        "etf": "XLP",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Technology",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-09-14"
   }
 }
