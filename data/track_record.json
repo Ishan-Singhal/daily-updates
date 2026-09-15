@@ -3322,5 +3322,234 @@
     "total_correct": 3,
     "total_calls": 10,
     "accuracy": 30.0
+  },
+  "2026-09-12": {
+    "prediction_date": "2026-09-12",
+    "graded_date": "2026-09-15",
+    "trade_grades": [
+      {
+        "ticker": "AAPL",
+        "predicted": "short",
+        "actual_move": "-0.76%",
+        "correct": "True",
+        "graded_against": "2026-09-15"
+      },
+      {
+        "ticker": "AFRM",
+        "predicted": "short",
+        "actual_move": "-1.07%",
+        "correct": "True",
+        "graded_against": "2026-09-15"
+      },
+      {
+        "ticker": "JETS",
+        "predicted": "short",
+        "actual_move": "-1.44%",
+        "correct": "True",
+        "graded_against": "2026-09-15"
+      },
+      {
+        "ticker": "SPGI",
+        "predicted": "short",
+        "actual_move": "-0.87%",
+        "correct": "True",
+        "graded_against": "2026-09-15"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bullish",
+        "actual_move": "+1.82%",
+        "correct": "True",
+        "graded_against": "2026-09-15"
+      },
+      {
+        "sector": "Industrials",
+        "etf": "XLI",
+        "predicted": "bullish",
+        "actual_move": "-0.46%",
+        "correct": false,
+        "graded_against": "2026-09-15"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "-0.11%",
+        "correct": "True",
+        "graded_against": "2026-09-15"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "predicted": "bearish",
+        "actual_move": "-0.74%",
+        "correct": "True",
+        "graded_against": "2026-09-15"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "-1.29%",
+        "correct": "True",
+        "graded_against": "2026-09-15"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "-1.29%",
+        "correct": "True",
+        "graded_against": "2026-09-15"
+      }
+    ],
+    "total_correct": 9,
+    "total_calls": 10,
+    "accuracy": 90.0
+  },
+  "2026-09-13": {
+    "prediction_date": "2026-09-13",
+    "graded_date": "2026-09-15",
+    "trade_grades": [
+      {
+        "ticker": "ORCL",
+        "predicted": "buy",
+        "actual_move": "-0.97%",
+        "correct": false,
+        "graded_against": "2026-09-15"
+      },
+      {
+        "ticker": "AAPL",
+        "predicted": "short",
+        "actual_move": "-0.75%",
+        "correct": "True",
+        "graded_against": "2026-09-15"
+      },
+      {
+        "ticker": "XLY",
+        "predicted": "short",
+        "actual_move": "-1.29%",
+        "correct": "True",
+        "graded_against": "2026-09-15"
+      },
+      {
+        "ticker": "DAL",
+        "predicted": "short",
+        "actual_move": "-1.73%",
+        "correct": "True",
+        "graded_against": "2026-09-15"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "-1.29%",
+        "correct": "True",
+        "graded_against": "2026-09-15"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "-1.29%",
+        "correct": "True",
+        "graded_against": "2026-09-15"
+      },
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "predicted": "bearish",
+        "actual_move": "-1.08%",
+        "correct": "True",
+        "graded_against": "2026-09-15"
+      }
+    ],
+    "total_correct": 6,
+    "total_calls": 7,
+    "accuracy": 85.7
+  },
+  "2026-09-14": {
+    "prediction_date": "2026-09-14",
+    "graded_date": "2026-09-15",
+    "trade_grades": [
+      {
+        "ticker": "SPY",
+        "predicted": "short",
+        "actual_move": "-0.42%",
+        "correct": "True",
+        "graded_against": "2026-09-15"
+      },
+      {
+        "ticker": "GEV",
+        "predicted": "buy",
+        "actual_move": "+0.48%",
+        "correct": "True",
+        "graded_against": "2026-09-15"
+      },
+      {
+        "ticker": "XLK",
+        "predicted": "short",
+        "actual_move": "-0.11%",
+        "correct": "True",
+        "graded_against": "2026-09-15"
+      },
+      {
+        "ticker": "APLD",
+        "predicted": "short",
+        "actual_move": "-2.87%",
+        "correct": "True",
+        "graded_against": "2026-09-15"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Healthcare",
+        "etf": "XLV",
+        "predicted": "bullish",
+        "actual_move": "+0.07%",
+        "correct": false,
+        "graded_against": "2026-09-15"
+      },
+      {
+        "sector": "Consumer Staples",
+        "etf": "XLP",
+        "predicted": "bullish",
+        "actual_move": "-0.91%",
+        "correct": false,
+        "graded_against": "2026-09-15"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "-0.11%",
+        "correct": "True",
+        "graded_against": "2026-09-15"
+      },
+      {
+        "sector": "Technology",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "-0.11%",
+        "correct": "True",
+        "graded_against": "2026-09-15"
+      },
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "predicted": "bearish",
+        "actual_move": "-1.08%",
+        "correct": "True",
+        "graded_against": "2026-09-15"
+      }
+    ],
+    "total_correct": 7,
+    "total_calls": 9,
+    "accuracy": 77.8
   }
 }
