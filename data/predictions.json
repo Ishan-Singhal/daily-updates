@@ -2593,5 +2593,57 @@
     ],
     "date": "2026-09-14",
     "graded": true
+  },
+  "2026-09-16": {
+    "trade_ideas": [
+      {
+        "ticker": "BAC",
+        "direction": "Short",
+        "raw": "1. BAC - Short at market open - Bank of America announced today that Q3 investment banking advisory and underwriting fees will drop over 10% YoY, forcing immediate consensus earnings downgrades across money-center lenders. Take profit at a 3.5% decline from open and cut loss if the stock rallies +1.2% above entry."
+      },
+      {
+        "ticker": "JETS",
+        "direction": "Short",
+        "raw": "2. JETS - Short at market open - Today's scheduled House passage of the Graham Sanctioning Russia and Iran Act will severely restrict dark-fleet oil shipping, driving up spot fuel input costs for commercial airlines. Take profit at a 2.5% drop and cut loss if WTI crude falls below $100/bbl."
+      },
+      {
+        "ticker": "EWU",
+        "direction": "Short",
+        "raw": "3. EWU - Short at market open - U.K. August CPI unexpectedly jumped to 3.1% today on surging energy costs, locking in high Bank of England borrowing rates and squeezing British equities. Take profit at 2.0% downside and cut loss if the ETF moves +0.8% above open."
+      },
+      {
+        "ticker": "CRWD",
+        "direction": "Watch",
+        "raw": "4. CRWD - Watch at $242.88 - Although CRWD is hovering near 52-week highs, we downgrade this play to Watch following our recent track record loss on the ticker to confirm a structural break below $240 before shorting. If triggered below $240, set profit target at $230 and cut loss at $244.50."
+      },
+      {
+        "ticker": "DE",
+        "direction": "Short",
+        "raw": "5. DE - Short at market open - The European Commission's announcement today inviting Canada as an associate member directly threatens U.S. agricultural and machinery export market share in Europe, compounded by China's deeper August investment slump. Take profit at 3.0% downside momentum and cut loss at +1.2% above open."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Real Estate",
+        "etf": "XLRE",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-09-16"
   }
 }
