@@ -2644,6 +2644,64 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-09-16"
+    "date": "2026-09-16",
+    "graded": true
+  },
+  "2026-09-17": {
+    "trade_ideas": [
+      {
+        "ticker": "RIVN",
+        "direction": "Short",
+        "raw": "1. RIVN - Short at market open - GM and Ford's immediate capital reallocation back to V-8 trucks alongside federal EV deregulation strips pure-play EV demand catalysts today. Initiate short at market open with a profit target at -6% downside and a strict stop-loss at +3% above entry."
+      },
+      {
+        "ticker": "ODFL",
+        "direction": "Short",
+        "raw": "2. ODFL - Short at market open - Record diesel prices surging to $6.31/gallon (+70% YoY) impose an immediate, unhedged operational margin squeeze on middle-mile freight networks today. Enter short at market open, setting a take-profit target at 5% downside and a tight stop-loss at 2% above entry."
+      },
+      {
+        "ticker": "COIN",
+        "direction": "Buy",
+        "raw": "3. COIN - Buy at $170.00 - SEC Chairman Atkins' surprise \"Innovation Exemption\" order establishing a framework for tokenized equities creates an immediate continuous 24/7 volume and fee expansion catalyst today. Buy at $170.00 or market open, targeting a take-profit at $182.00 with a cut-loss stop at $164.00."
+      },
+      {
+        "ticker": "BIDU",
+        "direction": "Short",
+        "raw": "4. BIDU - Short at market open - Rhodium Group data showing US AI developers generate 10x Chinese rival revenues highlights severe domestic price wars, compounded today by Fed rate hike headwinds on international risk assets. Short at market open with a take-profit target of 4% downside and a stop-loss at 2% above entry."
+      },
+      {
+        "ticker": "CRWD",
+        "direction": "Watch",
+        "raw": "5. CRWD - Watch at $246.00 - Acknowledging our recent track record misses in Tech and CRWD, we downgrade this near-52-week-high name to a Watch as the Fed's unanimous rate hike applies severe multiple compression to high-duration software. I will monitor price action around $246.00 for a breakdown below key support before committing risk."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Technology",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-09-17"
   }
 }

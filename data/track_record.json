@@ -3551,5 +3551,76 @@
     "total_correct": 7,
     "total_calls": 9,
     "accuracy": 77.8
+  },
+  "2026-09-16": {
+    "prediction_date": "2026-09-16",
+    "graded_date": "2026-09-17",
+    "trade_grades": [
+      {
+        "ticker": "BAC",
+        "predicted": "short",
+        "actual_move": "+0.99%",
+        "correct": "False",
+        "graded_against": "2026-09-17"
+      },
+      {
+        "ticker": "JETS",
+        "predicted": "short",
+        "actual_move": "+2.09%",
+        "correct": "False",
+        "graded_against": "2026-09-17"
+      },
+      {
+        "ticker": "EWU",
+        "predicted": "short",
+        "actual_move": "+1.04%",
+        "correct": "False",
+        "graded_against": "2026-09-17"
+      },
+      {
+        "ticker": "DE",
+        "predicted": "short",
+        "actual_move": "+1.68%",
+        "correct": "False",
+        "graded_against": "2026-09-17"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Real Estate",
+        "etf": "XLRE",
+        "predicted": "bullish",
+        "actual_move": "+0.55%",
+        "correct": "True",
+        "graded_against": "2026-09-17"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "predicted": "bearish",
+        "actual_move": "+0.20%",
+        "correct": "False",
+        "graded_against": "2026-09-17"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "+1.38%",
+        "correct": "False",
+        "graded_against": "2026-09-17"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "+1.38%",
+        "correct": "False",
+        "graded_against": "2026-09-17"
+      }
+    ],
+    "total_correct": 1,
+    "total_calls": 8,
+    "accuracy": 12.5
   }
 }
