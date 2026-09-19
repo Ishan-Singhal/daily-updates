@@ -2736,5 +2736,52 @@
       }
     ],
     "date": "2026-09-18"
+  },
+  "2026-09-19": {
+    "trade_ideas": [
+      {
+        "ticker": "KNX",
+        "direction": "Short",
+        "raw": "2. KNX - Short at market open - Record US diesel prices reaching $6.31/gal (+70% YoY) due to Strait of Hormuz shipping bottlenecks will severely compress margins for ground freight operators today. Take profit at a 5.0% decline as consensus downward revisions hit, and cut loss if diesel prices pull back (-2.0% risk threshold)."
+      },
+      {
+        "ticker": "SYF",
+        "direction": "Short",
+        "raw": "3. SYF - Short at market open - A damning Goldman Sachs report on the consumer affordability crisis paired with Fed Chairman Warsh's shock rate hike will accelerate net charge-off provisions for subprime credit card issuers. Take profit at a 4.5% downward repricing, and cut loss if the stock rebounds +2.0% above entry."
+      },
+      {
+        "ticker": "CRWD",
+        "direction": "Watch",
+        "raw": "4. CRWD - Watch at $237.65 - CRWD is down -3.3% pre-market as Fed Chairman Warsh's shock rate hike pushes the 10Y yield to 4.998%, directly compressing software multiples. Given my recent wrong calls on CRWD and the Tech sector, I am downgrading this name to Watch to see if $230 support holds under yield pressure."
+      },
+      {
+        "ticker": "XLU",
+        "direction": "Watch",
+        "raw": "5. XLU - Watch at market open - Utilities are the worst-performing sector today (-1.45%) as surging 10Y Treasury yields severely erode the relative yield appeal of dividend-paying equities. Having been wrong on XLU in recent sessions, I am placing Utilities on Watch until 10Y Treasury yields stabilize below 5.0%."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Real Estate",
+        "etf": "XLRE",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-09-19"
   }
 }
