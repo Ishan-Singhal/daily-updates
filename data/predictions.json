@@ -2783,5 +2783,57 @@
       }
     ],
     "date": "2026-09-19"
+  },
+  "2026-09-20": {
+    "trade_ideas": [
+      {
+        "ticker": "DXJ",
+        "direction": "Buy",
+        "raw": "1. DXJ - Buy at market open ($104.50) - Bank of Japan's dovish rate hike failed to narrow yield differentials against the hawkish Fed, sparking fresh Yen depreciation that directly expands earnings for Japanese exporters. Take profit at $110.00 (+5.2%), cut loss at $102.00 (-2.4%)."
+      },
+      {
+        "ticker": "COIN",
+        "direction": "Short",
+        "raw": "3. COIN - Short at $194.25 - Today's 11.7% pre-market surge on SEC tokenized equity approvals is heavily overextended given spot Bitcoin is falling (-0.58%) and the US 10-Year yield is surging to 4.998%. Take profit at $178.00 (-8.3%), cut loss at $202.00 (+4.0%)."
+      },
+      {
+        "ticker": "XLE",
+        "direction": "Watch",
+        "raw": "4. XLE - Watch at market open ($88.50) - Calibrating for recent incorrect bullish calls on Energy; despite the federal court striking down New York's $75B climate liability law, crude oil falling -5.03% today to $96.08 requires staying on the sidelines. No entry until crude oil holds $95.00 support and volatility subsides."
+      },
+      {
+        "ticker": "XLU",
+        "direction": "Watch",
+        "raw": "5. XLU - Watch at market open ($68.20) - Downgrading to Watch following past wrong directional calls on Utilities; today's jump in the 10-Year yield to 4.998% dragged XLU down -1.45% overnight as rate-sensitive yield proxies reprice. Stand aside until the 10Y yield pulls back below 4.85% or XLU establishes a firm floor at $66.50."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Technology",
+        "etf": "XLK",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-09-20"
   }
 }
