@@ -3701,5 +3701,52 @@
     "total_correct": 6,
     "total_calls": 9,
     "accuracy": 66.7
+  },
+  "2026-09-18": {
+    "prediction_date": "2026-09-18",
+    "graded_date": "2026-09-21",
+    "trade_grades": [
+      {
+        "ticker": "JBHT",
+        "predicted": "short",
+        "actual_move": "+0.08%",
+        "correct": "False",
+        "graded_against": "2026-09-21"
+      },
+      {
+        "ticker": "KRE",
+        "predicted": "short",
+        "actual_move": "-0.88%",
+        "correct": "True",
+        "graded_against": "2026-09-21"
+      },
+      {
+        "ticker": "MSFT",
+        "predicted": "short",
+        "actual_move": "+1.03%",
+        "correct": "False",
+        "graded_against": "2026-09-21"
+      },
+      {
+        "ticker": "COIN",
+        "predicted": "buy",
+        "actual_move": "+4.72%",
+        "correct": "True",
+        "graded_against": "2026-09-21"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "predicted": "bearish",
+        "actual_move": "-0.89%",
+        "correct": "True",
+        "graded_against": "2026-09-21"
+      }
+    ],
+    "total_correct": 3,
+    "total_calls": 5,
+    "accuracy": 60.0
   }
 }
