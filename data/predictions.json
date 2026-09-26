@@ -2838,5 +2838,47 @@
     ],
     "date": "2026-09-20",
     "graded": true
+  },
+  "2026-09-26": {
+    "trade_ideas": [
+      {
+        "ticker": "AAPL",
+        "direction": "Short",
+        "raw": "1. AAPL - Short at market open (~$341.00) - A federal jury hit Apple with a $5.7 billion patent infringement verdict today that directly threatens 5-6% of annual net income and forces immediate litigation reserve accounting. Take profit at $330.00 and cut losses at $346.00 if pre-market buyers absorb the news."
+      },
+      {
+        "ticker": "HOOD",
+        "direction": "Short",
+        "raw": "2. HOOD - Short at market open - A federal appeals court ruled that state regulators retain jurisdiction to enforce gambling laws over Kalshi prediction contracts, severely impairing Robinhood's addressable market expansion into event-contract trading. Take profit at 5% below entry and set a stop loss at 2.5% above open."
+      },
+      {
+        "ticker": "QQQ",
+        "direction": "Short",
+        "raw": "3. QQQ - Short at market open - The 10-year Treasury yield surging to a multi-year high of 5.23% forces a mechanical valuation re-rating on long-duration tech multiples that today's pre-market bounce (+0.32%) is drastically mispricing. Take profit on a 1.8% intraday pullback and exit the trade if QQQ breaks +0.7% above market open."
+      },
+      {
+        "ticker": "UNG",
+        "direction": "Short",
+        "raw": "4. UNG - Short at market open - Record solar capacity additions are structurally absorbing peak summer cooling demand and capping Henry Hub gas prices at $2.93/MMBtu despite severe heatwaves. Take profit at 4% down from entry and cut losses at 2% up if gas futures rally unexpectedly."
+      },
+      {
+        "ticker": "WAB",
+        "direction": "Watch",
+        "raw": "5. WAB - Watch at market open - Westinghouse Air Brake announced a $700 million-plus rail services deal today, but given our recent losses trading Industrials, we are downgrading this to Watch to confirm margin durability before taking directional exposure. Monitor for a clean breakout above resistance before considering a buy, or stand down if broader industrial sector weakness persists."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Real Estate",
+        "etf": "XLRE",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-09-26"
   }
 }
