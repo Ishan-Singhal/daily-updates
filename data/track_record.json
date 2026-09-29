@@ -3870,5 +3870,60 @@
     "total_correct": 4,
     "total_calls": 7,
     "accuracy": 57.1
+  },
+  "2026-09-26": {
+    "prediction_date": "2026-09-26",
+    "graded_date": "2026-09-29",
+    "trade_grades": [
+      {
+        "ticker": "AAPL",
+        "predicted": "short",
+        "actual_move": "-1.95%",
+        "correct": "True",
+        "graded_against": "2026-09-29"
+      },
+      {
+        "ticker": "HOOD",
+        "predicted": "short",
+        "actual_move": "-1.07%",
+        "correct": "True",
+        "graded_against": "2026-09-29"
+      },
+      {
+        "ticker": "QQQ",
+        "predicted": "short",
+        "actual_move": "-0.02%",
+        "correct": "False",
+        "graded_against": "2026-09-29"
+      },
+      {
+        "ticker": "UNG",
+        "predicted": "short",
+        "actual_move": "-3.20%",
+        "correct": "True",
+        "graded_against": "2026-09-29"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bullish",
+        "actual_move": "-0.97%",
+        "correct": false,
+        "graded_against": "2026-09-29"
+      },
+      {
+        "sector": "Real Estate",
+        "etf": "XLRE",
+        "predicted": "bearish",
+        "actual_move": "-0.33%",
+        "correct": "True",
+        "graded_against": "2026-09-29"
+      }
+    ],
+    "total_correct": 4,
+    "total_calls": 6,
+    "accuracy": 66.7
   }
 }
