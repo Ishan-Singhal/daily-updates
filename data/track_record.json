@@ -3925,5 +3925,68 @@
     "total_correct": 4,
     "total_calls": 6,
     "accuracy": 66.7
+  },
+  "2026-10-05": {
+    "prediction_date": "2026-10-05",
+    "graded_date": "2026-10-06",
+    "trade_grades": [
+      {
+        "ticker": "IWM",
+        "predicted": "short",
+        "actual_move": "-0.60%",
+        "correct": "True",
+        "graded_against": "2026-10-06"
+      },
+      {
+        "ticker": "LCID",
+        "predicted": "short",
+        "actual_move": "+0.76%",
+        "correct": "False",
+        "graded_against": "2026-10-06"
+      },
+      {
+        "ticker": "EWZ",
+        "predicted": "buy",
+        "actual_move": "+0.27%",
+        "correct": "True",
+        "graded_against": "2026-10-06"
+      },
+      {
+        "ticker": "TSLA",
+        "predicted": "buy",
+        "actual_move": "+0.41%",
+        "correct": "True",
+        "graded_against": "2026-10-06"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bullish",
+        "actual_move": "+0.87%",
+        "correct": "True",
+        "graded_against": "2026-10-06"
+      },
+      {
+        "sector": "Healthcare",
+        "etf": "XLV",
+        "predicted": "bullish",
+        "actual_move": "-0.25%",
+        "correct": false,
+        "graded_against": "2026-10-06"
+      },
+      {
+        "sector": "Real Estate",
+        "etf": "XLRE",
+        "predicted": "bearish",
+        "actual_move": "+1.14%",
+        "correct": "False",
+        "graded_against": "2026-10-06"
+      }
+    ],
+    "total_correct": 4,
+    "total_calls": 7,
+    "accuracy": 57.1
   }
 }
