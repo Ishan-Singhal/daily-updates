@@ -3988,5 +3988,69 @@
     "total_correct": 4,
     "total_calls": 7,
     "accuracy": 57.1
+  },
+  "2026-10-07": {
+    "prediction_date": "2026-10-07",
+    "graded_date": "2026-10-08",
+    "trade_grades": [
+      {
+        "ticker": "MSTR",
+        "predicted": "short",
+        "actual_move": "-2.09%",
+        "correct": "True",
+        "graded_against": "2026-10-08"
+      },
+      {
+        "ticker": "FRO",
+        "predicted": "buy",
+        "actual_move": "+5.67%",
+        "correct": "True",
+        "graded_against": "2026-10-08"
+      },
+      {
+        "ticker": "INDA",
+        "predicted": "short",
+        "actual_move": "-1.38%",
+        "correct": "True",
+        "graded_against": "2026-10-08"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Consumer Staples",
+        "etf": "XLP",
+        "predicted": "bullish",
+        "actual_move": "+2.04%",
+        "correct": "True",
+        "graded_against": "2026-10-08"
+      },
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "predicted": "bullish",
+        "actual_move": "-0.50%",
+        "correct": false,
+        "graded_against": "2026-10-08"
+      },
+      {
+        "sector": "Industrials",
+        "etf": "XLI",
+        "predicted": "bearish",
+        "actual_move": "+0.18%",
+        "correct": "False",
+        "graded_against": "2026-10-08"
+      },
+      {
+        "sector": "Real Estate",
+        "etf": "XLRE",
+        "predicted": "bearish",
+        "actual_move": "+0.51%",
+        "correct": "False",
+        "graded_against": "2026-10-08"
+      }
+    ],
+    "total_correct": 4,
+    "total_calls": 7,
+    "accuracy": 57.1
   }
 }
