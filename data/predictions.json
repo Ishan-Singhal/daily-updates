@@ -2982,5 +2982,52 @@
     ],
     "date": "2026-10-07",
     "graded": true
+  },
+  "2026-10-10": {
+    "trade_ideas": [
+      {
+        "ticker": "MSFT",
+        "direction": "Short",
+        "raw": "1. MSFT - Short at market open (~$535.00) - Vice President Vance and the DOJ/FTC launching an investigation into Microsoft's H-1B visa practices creates immediate regulatory and labor cost risk for a stock trading near 52-week highs ($535.07). Take profit at $518.00; cut loss at $542.50."
+      },
+      {
+        "ticker": "GLD",
+        "direction": "Buy",
+        "raw": "2. GLD - Buy at market open (~$388.00) - Treasury Secretary Bessent appointing gold-standard advocate Judy Shelton alongside NY Fed 1-year inflation expectations surging 30 bps to 3.9% provides strong policy tailwinds for precious metals. Take profit at $400.00; cut loss at $382.00."
+      },
+      {
+        "ticker": "KHC",
+        "direction": "Short",
+        "raw": "3. KHC - Short at market open (~$35.50) - Ukrainian farmers abandoning Black Sea winter crops directly escalates agricultural input costs, threatening packaged food margins while debt-stressed consumers cannot absorb further price hikes. Take profit at $33.80; cut loss at $36.40."
+      },
+      {
+        "ticker": "VLO",
+        "direction": "Watch",
+        "raw": "4. VLO - Watch at market open (~$152.00) - Calibrating for our recent Energy call failure (09-26 XLE), we downgrade refiners to 'Watch' as Trump\u2019s unilateral Russian diesel exemption creates erratic policy risk despite structural distillate deficits. We will wait for price action to stabilize around $146 before committing directional capital."
+      },
+      {
+        "ticker": "SYF",
+        "direction": "Short",
+        "raw": "5. SYF - Short at market open (~$64.00) - NY Fed Survey data showing lower-income debt delinquencies deteriorating to 2010 post-GFC levels signals an imminent spike in net charge-offs for subprime consumer lenders. Take profit at $60.50; cut loss at $65.80."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Materials",
+        "etf": "XLB",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-10-10"
   }
 }
