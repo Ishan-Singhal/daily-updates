@@ -3029,5 +3029,21 @@
       }
     ],
     "date": "2026-10-10"
+  },
+  "2026-10-11": {
+    "trade_ideas": [],
+    "sector_calls": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-10-11"
   }
 }
