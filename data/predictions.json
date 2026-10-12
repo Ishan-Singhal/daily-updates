@@ -3045,5 +3045,62 @@
       }
     ],
     "date": "2026-10-11"
+  },
+  "2026-10-12": {
+    "trade_ideas": [
+      {
+        "ticker": "META",
+        "direction": "Buy",
+        "raw": "1. META - Buy at market open (~$743.00) - Meta launched its autonomous \"Muse Wonder\" agentic AI model today, establishing a clear high-margin software monetization path for its $35B+ capex and decoupling it from broader tech weakness. Take profit at $775.00; set stop loss at $728.00."
+      },
+      {
+        "ticker": "DAL",
+        "direction": "Short",
+        "raw": "2. DAL - Short at market open - Coordinated Houthi strikes on Riyadh airport forced over 2,000 cancellations and compelled Delta to delay its Saudi route launch, triggering severe operational path adjustments and a 40\u201360% spike in war-risk insurance premiums. Take profit at a 5.0% decline; set stop loss at 2.5% above entry."
+      },
+      {
+        "ticker": "SYF",
+        "direction": "Short",
+        "raw": "3. SYF - Short at market open - Fed survey data released today shows consumer debt delinquencies surging to 2010 post-GFC highs, forcing immediate loan loss provision increases for credit card issuers and subprime lenders. Take profit at a 6.0% downside target; set stop loss at 2.5% above entry."
+      },
+      {
+        "ticker": "LMT",
+        "direction": "Buy",
+        "raw": "4. LMT - Buy at market open - Physical Houthi attacks on Gulf sovereign airport infrastructure and urgent FAA airspace warnings escalate geopolitical risk into commercial corridors, driving immediate defense risk bids. Take profit at $505.00 (+4.5%); set stop loss at $475.00 (-1.8%)."
+      },
+      {
+        "ticker": "XLU",
+        "direction": "Watch",
+        "raw": "5. XLU - Watch at market open - Following my recent wrong call on Utilities (XLU) and today's mixed signals on Russian diesel easing vs. industrial heat pump adoption, I am downgrading this sector to neutral to protect capital. Re-evaluate entry only if 10Y Treasury yields break back below 5.15% and rate volatility subsides."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Consumer Staples",
+        "etf": "XLP",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-10-12"
   }
 }
