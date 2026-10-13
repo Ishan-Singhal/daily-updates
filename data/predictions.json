@@ -3028,7 +3028,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-10-10"
+    "date": "2026-10-10",
+    "graded": true
   },
   "2026-10-11": {
     "trade_ideas": [],
@@ -3044,7 +3045,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-10-11"
+    "date": "2026-10-11",
+    "graded": true
   },
   "2026-10-12": {
     "trade_ideas": [
@@ -3101,6 +3103,7 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-10-12"
+    "date": "2026-10-12",
+    "graded": true
   }
 }
