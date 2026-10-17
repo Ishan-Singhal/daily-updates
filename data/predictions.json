@@ -3105,5 +3105,67 @@
     ],
     "date": "2026-10-12",
     "graded": true
+  },
+  "2026-10-17": {
+    "trade_ideas": [
+      {
+        "ticker": "XOM",
+        "direction": "Buy",
+        "raw": "1. XOM - Buy at market open (~$122.50) - Crude oil surging +6.00% to $101.41 following the Russian diesel agreement and Norwegian Sea offshore exploration breakthroughs creates an immediate tailwind for primary oil producers. Take profit at $127.50 (+4.1%) and cut loss at $120.00 (-2.0%) if broad market liquidation drags energy lower."
+      },
+      {
+        "ticker": "QQQ",
+        "direction": "Short",
+        "raw": "2. QQQ - Short at market open (~$495.00) - A blistering hot 1.3% MoM PPI print combined with a $1.992T budget deficit is forcing hawkish Fed repricing under Chair Warsh, severely compressing high-multiple tech valuations (Nasdaq futures -2.68%). Take profit at $482.00 (-2.6%) and set a strict stop loss at $501.00 (+1.2%)."
+      },
+      {
+        "ticker": "TLT",
+        "direction": "Short",
+        "raw": "4. TLT - Short at market open (~$88.00) - Massive Treasury debt issuance needed to fund the $2T deficit colliding directly with re-accelerating wholesale inflation is pushing the 10-Year yield past 5.10%. Take profit at $86.20 (-2.0%) and stop loss at $88.90 (+1.0%)."
+      },
+      {
+        "ticker": "LMT",
+        "direction": "Watch",
+        "raw": "5. LMT - Watch at market open (~$475.00) - Calibrating for our recent wrong call on LMT and incorporating today's news of U.S. restrictions on Ukrainian intelligence sharing, we downgrade defense to Watch to monitor price stabilization. We will re-evaluate entry if price holds above key support at $468.00, keeping a hard cut-loss boundary at $460.00."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Technology",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-10-17"
   }
 }
