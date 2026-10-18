@@ -3167,5 +3167,47 @@
       }
     ],
     "date": "2026-10-17"
+  },
+  "2026-10-18": {
+    "trade_ideas": [
+      {
+        "ticker": "XOM",
+        "direction": "Buy",
+        "raw": "1. XOM - Buy at market open (~$124.50) - Overnight military attacks on commercial shipping near the Arabian Peninsula drove crude up 3.5% to $99.02 and locked 2027 Brent futures above $102, creating an immediate cash-flow expansion catalyst for E&Ps today. Take profit at $130.50 (+4.8%) and cut loss at $121.50 (-2.4%)."
+      },
+      {
+        "ticker": "QQQ",
+        "direction": "Short",
+        "raw": "2. QQQ - Short at market open (~$580.00) - A massive 1.3% MoM PPI surge (double estimates) and a $2 trillion US deficit pushed 10-Year yields to 5.098%, driving immediate discount-rate valuation compression across high-multiple tech today. Take profit at $564.00 (-2.8%) and cut loss at $587.50 (+1.3%)."
+      },
+      {
+        "ticker": "JETS",
+        "direction": "Short",
+        "raw": "3. JETS - Short at market open (~$21.20) - Spot crude surging past $99/bbl following Middle East maritime strikes imposes an unhedgeable cost-push shock that directly guts airline earnings expectations starting today. Take profit at $20.00 (-5.7%) and cut loss at $21.80 (+2.8%)."
+      },
+      {
+        "ticker": "GLD",
+        "direction": "Watch",
+        "raw": "4. GLD - Watch at $385.00 - Adjusting for our failed Oct 10 buy call, today's unexpected 1.3% PPI jump and 5.098% yield print generate strong real-rate headwinds that cap gold's geopolitical upside. Stand aside until GLD establishes a firm technical floor above $390.00, or cut remaining long exposure below $380.00."
+      },
+      {
+        "ticker": "LMT",
+        "direction": "Watch",
+        "raw": "5. LMT - Watch at $485.00 - Recalibrating after our Oct 12 long mistake, today's headline warning from Treasury Secretary Bessent to Ukraine over Starlink introduces foreign defense procurement friction that offsets geopolitical tailwinds. Maintain a neutral stance until policy clarity improves, setting a re-entry trigger above $498.00 and cutting risk below $475.00."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-10-18"
   }
 }
