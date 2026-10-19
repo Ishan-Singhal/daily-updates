@@ -3209,5 +3209,57 @@
       }
     ],
     "date": "2026-10-18"
+  },
+  "2026-10-19": {
+    "trade_ideas": [
+      {
+        "ticker": "OXY",
+        "direction": "Buy",
+        "raw": "1. OXY - Buy at market open (~$62.50) - CENTCOM's confirmation today of an Iranian projectile sinking a commercial vessel in the Strait of Hormuz has sent Brent crude past $109.50/bbl, creating an immediate cash-flow windfall for unhedged US E&Ps. Take profit at $67.00 (+7.2%) and set a strict stop loss at $60.50 (-3.2%)."
+      },
+      {
+        "ticker": "PLTR",
+        "direction": "Buy",
+        "raw": "2. PLTR - Buy at market open (~$194.00) - Driven today by JPMorgan's $5B balance sheet deployment into defense tech autonomy/software, accelerating institutional capital rotation into defense data architectures at the expense of legacy primes. Take profit at $210.00 (+8.2%) and cut losses at $187.00 (-3.6%)."
+      },
+      {
+        "ticker": "JETS",
+        "direction": "Short",
+        "raw": "3. JETS - Short at market open (~$21.50) - Today's critical escalation in the Strait choking 20% of global oil transit triggers an unhedgeable jet fuel cost spike that severely squeezes airline operating margins. Take profit at $20.00 (-7.0%) and cut loss at $22.15 (+3.0%)."
+      },
+      {
+        "ticker": "MOS",
+        "direction": "Buy",
+        "raw": "4. MOS - Buy at market open (~$32.00) - The Strait disruption halting 24% of global sulfur trade today has spiked spot sulfur past $500/ton, handing vertically integrated North American fertilizer producers dominant pricing power ahead of planting season. Take profit at $34.80 (+8.7%) and cut loss at $30.80 (-3.8%)."
+      },
+      {
+        "ticker": "LMT",
+        "direction": "Watch",
+        "raw": "5. LMT - Watch at market open (~$475.00) - Calibrating for our recent trading loss on LMT, we downgrade legacy defense primes to Watch as JPMorgan's $5B allocation confirms capital is bypassing traditional cost-plus defense backlogs. Key support to watch is $465.00 before evaluating any potential re-entry."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Materials",
+        "etf": "XLB",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Industrials",
+        "etf": "XLI",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-10-19"
   }
 }
