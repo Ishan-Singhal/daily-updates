@@ -4220,5 +4220,212 @@
     "total_correct": 5,
     "total_calls": 9,
     "accuracy": 55.6
+  },
+  "2026-10-17": {
+    "prediction_date": "2026-10-17",
+    "graded_date": "2026-10-20",
+    "trade_grades": [
+      {
+        "ticker": "XOM",
+        "predicted": "buy",
+        "actual_move": "-0.84%",
+        "correct": false,
+        "graded_against": "2026-10-20"
+      },
+      {
+        "ticker": "QQQ",
+        "predicted": "short",
+        "actual_move": "+0.12%",
+        "correct": "False",
+        "graded_against": "2026-10-20"
+      },
+      {
+        "ticker": "TLT",
+        "predicted": "short",
+        "actual_move": "+0.53%",
+        "correct": "False",
+        "graded_against": "2026-10-20"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bullish",
+        "actual_move": "-0.23%",
+        "correct": false,
+        "graded_against": "2026-10-20"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "predicted": "bullish",
+        "actual_move": "+1.07%",
+        "correct": "True",
+        "graded_against": "2026-10-20"
+      },
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "predicted": "bullish",
+        "actual_move": "+1.32%",
+        "correct": "True",
+        "graded_against": "2026-10-20"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "+0.08%",
+        "correct": "False",
+        "graded_against": "2026-10-20"
+      },
+      {
+        "sector": "Technology",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "+0.08%",
+        "correct": "False",
+        "graded_against": "2026-10-20"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "+0.77%",
+        "correct": "False",
+        "graded_against": "2026-10-20"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "+0.77%",
+        "correct": "False",
+        "graded_against": "2026-10-20"
+      }
+    ],
+    "total_correct": 2,
+    "total_calls": 10,
+    "accuracy": 20.0
+  },
+  "2026-10-18": {
+    "prediction_date": "2026-10-18",
+    "graded_date": "2026-10-20",
+    "trade_grades": [
+      {
+        "ticker": "XOM",
+        "predicted": "buy",
+        "actual_move": "-0.84%",
+        "correct": false,
+        "graded_against": "2026-10-20"
+      },
+      {
+        "ticker": "QQQ",
+        "predicted": "short",
+        "actual_move": "+0.12%",
+        "correct": "False",
+        "graded_against": "2026-10-20"
+      },
+      {
+        "ticker": "JETS",
+        "predicted": "short",
+        "actual_move": "+2.78%",
+        "correct": "False",
+        "graded_against": "2026-10-20"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bullish",
+        "actual_move": "-0.23%",
+        "correct": false,
+        "graded_against": "2026-10-20"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "+0.08%",
+        "correct": "False",
+        "graded_against": "2026-10-20"
+      }
+    ],
+    "total_correct": 0,
+    "total_calls": 5,
+    "accuracy": 0.0
+  },
+  "2026-10-19": {
+    "prediction_date": "2026-10-19",
+    "graded_date": "2026-10-20",
+    "trade_grades": [
+      {
+        "ticker": "OXY",
+        "predicted": "buy",
+        "actual_move": "-0.45%",
+        "correct": false,
+        "graded_against": "2026-10-20"
+      },
+      {
+        "ticker": "PLTR",
+        "predicted": "buy",
+        "actual_move": "+0.32%",
+        "correct": "True",
+        "graded_against": "2026-10-20"
+      },
+      {
+        "ticker": "JETS",
+        "predicted": "short",
+        "actual_move": "+2.78%",
+        "correct": "False",
+        "graded_against": "2026-10-20"
+      },
+      {
+        "ticker": "MOS",
+        "predicted": "buy",
+        "actual_move": "+0.31%",
+        "correct": "True",
+        "graded_against": "2026-10-20"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bullish",
+        "actual_move": "-0.23%",
+        "correct": false,
+        "graded_against": "2026-10-20"
+      },
+      {
+        "sector": "Materials",
+        "etf": "XLB",
+        "predicted": "bullish",
+        "actual_move": "+0.04%",
+        "correct": false,
+        "graded_against": "2026-10-20"
+      },
+      {
+        "sector": "Industrials",
+        "etf": "XLI",
+        "predicted": "bearish",
+        "actual_move": "-0.04%",
+        "correct": "False",
+        "graded_against": "2026-10-20"
+      },
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "predicted": "bearish",
+        "actual_move": "+1.32%",
+        "correct": "False",
+        "graded_against": "2026-10-20"
+      }
+    ],
+    "total_correct": 2,
+    "total_calls": 8,
+    "accuracy": 25.0
   }
 }
