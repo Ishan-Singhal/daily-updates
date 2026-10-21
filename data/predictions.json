@@ -3264,5 +3264,57 @@
     ],
     "date": "2026-10-19",
     "graded": true
+  },
+  "2026-10-21": {
+    "trade_ideas": [
+      {
+        "ticker": "TSLA",
+        "direction": "Buy",
+        "raw": "1. TSLA - Buy at market open ($386.95) - Elon Musk's overnight confirmation that Tesla and SpaceX are exploring a merger\u2014combined with SpaceX's 10% post-earnings pop\u2014is driving massive speculative volume ahead of Tesla earnings. Take profit at $405.00 and set a tight stop loss at $378.00 if headline momentum fades."
+      },
+      {
+        "ticker": "MSTR",
+        "direction": "Buy",
+        "raw": "2. MSTR - Buy at $155.14 - Bitcoin's overnight break above $84,500 (+1.95%) is providing immediate tailwinds for high-beta crypto proxies showing heavy pre-market volume. Take profit at $168.00 and cut losses below $148.50."
+      },
+      {
+        "ticker": "XOM",
+        "direction": "Short",
+        "raw": "3. XOM - Short at market open - Correcting my previous flawed long thesis on Energy to lean into our 100% bearish call win rate as Crude slumps -2.88% to $96.39 on UK North Sea gas field approvals. Take profit at $112.00 and set a hard stop loss at $121.50."
+      },
+      {
+        "ticker": "AMD",
+        "direction": "Buy",
+        "raw": "4. AMD - Buy at $552.05 - Nvidia CEO Jensen Huang's overnight keynote pushing European industries toward universal AI adoption is lifting tier-1 semiconductor names across tech futures (+0.58%). Target profit taking at $575.00 and cut losses if price breaks below $539.00."
+      },
+      {
+        "ticker": "GOOGL",
+        "direction": "Short",
+        "raw": "5. GOOGL - Short at $333.10 - Alphabet is showing severe relative weakness (-2.27%) as HSBC's data center profitability warning highlights margin compression risks for mega-cap AI spenders. Take profit at $318.00 and cut losses above $341.00."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Real Estate",
+        "etf": "XLRE",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-10-21"
   }
 }
