@@ -4427,5 +4427,83 @@
     "total_correct": 2,
     "total_calls": 8,
     "accuracy": 25.0
+  },
+  "2026-10-21": {
+    "prediction_date": "2026-10-21",
+    "graded_date": "2026-10-22",
+    "trade_grades": [
+      {
+        "ticker": "TSLA",
+        "predicted": "buy",
+        "actual_move": "-1.98%",
+        "correct": false,
+        "graded_against": "2026-10-22"
+      },
+      {
+        "ticker": "MSTR",
+        "predicted": "buy",
+        "actual_move": "-5.89%",
+        "correct": false,
+        "graded_against": "2026-10-22"
+      },
+      {
+        "ticker": "XOM",
+        "predicted": "short",
+        "actual_move": "-0.56%",
+        "correct": "True",
+        "graded_against": "2026-10-22"
+      },
+      {
+        "ticker": "AMD",
+        "predicted": "buy",
+        "actual_move": "-8.08%",
+        "correct": false,
+        "graded_against": "2026-10-22"
+      },
+      {
+        "ticker": "GOOGL",
+        "predicted": "short",
+        "actual_move": "-2.45%",
+        "correct": "True",
+        "graded_against": "2026-10-22"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bullish",
+        "actual_move": "-3.42%",
+        "correct": false,
+        "graded_against": "2026-10-22"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "predicted": "bullish",
+        "actual_move": "+0.89%",
+        "correct": "True",
+        "graded_against": "2026-10-22"
+      },
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bearish",
+        "actual_move": "-1.45%",
+        "correct": "True",
+        "graded_against": "2026-10-22"
+      },
+      {
+        "sector": "Real Estate",
+        "etf": "XLRE",
+        "predicted": "bearish",
+        "actual_move": "+0.61%",
+        "correct": "False",
+        "graded_against": "2026-10-22"
+      }
+    ],
+    "total_correct": 4,
+    "total_calls": 9,
+    "accuracy": 44.4
   }
 }
