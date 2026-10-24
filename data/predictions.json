@@ -3364,5 +3364,62 @@
       }
     ],
     "date": "2026-10-23"
+  },
+  "2026-10-24": {
+    "trade_ideas": [
+      {
+        "ticker": "AMGN",
+        "direction": "Buy",
+        "raw": "1. AMGN - Buy at market open (~$325.00) - Today's Phase 3 trial data demonstrating that Imdelltra with Imfinzi cuts advanced lung cancer death risk by 58% (HR 0.42) establishes immediate standard-of-care status and unlocks an estimated $2.5B\u2013$3.0B in peak sales. Set a profit target at $345.00 (+6.1%) and cut losses if price breaks below $315.00 (-3.1%)."
+      },
+      {
+        "ticker": "RTX",
+        "direction": "Short",
+        "raw": "2. RTX - Short at market open (~$122.50) - Spirit Airlines dismantling a four-year-old A320neo for spare parts today exposes the severe financial liabilities and maintenance bottlenecks facing Pratt & Whitney's GTF engine program. Take profit at $114.00 (-6.9%) and cut losses if the stock breaches above $126.00 (+2.8%)."
+      },
+      {
+        "ticker": "ICLN",
+        "direction": "Short",
+        "raw": "3. ICLN - Short at market open (~$13.20) - President Trump's executive action to revoke federal permits for a $6.2B offshore wind project creates immediate stranded-asset risk and regulatory write-downs across clean energy infrastructure funds. Target taking profit at $12.10 (-8.3%) with a strict stop-loss at $13.70 (+3.8%)."
+      },
+      {
+        "ticker": "DLR",
+        "direction": "Short",
+        "raw": "4. DLR - Short at market open (~$165.00) - HSBC's explicit data center warning today regarding poor ROIC on uncontracted projects, coupled with Anthropic's IPO delay to 2026, signals an immediate downward valuation multiple recalibration for speculative AI infrastructure REITs. Take profit at $152.00 (-7.8%) and cut losses at $171.00 (+3.6%)."
+      },
+      {
+        "ticker": "SLB",
+        "direction": "Watch",
+        "raw": "5. SLB - Watch at $53.06 - Although crude oil spiked +3.28% to $103.27 today and SLB is up +7.1%, our fund's track record shows 0% accuracy on recent Energy directional calls (wrong on XOM 2x, OXY, XLE 3x), requiring a downgrade to Watch rather than buying into headline momentum. I will monitor for a pullback to $51.00 support or a high-volume breakout past $54.50 before taking any exposure."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Healthcare",
+        "etf": "XLV",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Staples",
+        "etf": "XLP",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-10-24"
   }
 }
