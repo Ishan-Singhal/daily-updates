@@ -3421,5 +3421,42 @@
       }
     ],
     "date": "2026-10-24"
+  },
+  "2026-10-25": {
+    "trade_ideas": [
+      {
+        "ticker": "IWM",
+        "direction": "Short",
+        "raw": "1. IWM - Short at market open ($218.50) - US initial jobless claims plunged to 194k while the 10Y Treasury yield surged to 4.988%, signaling persistent rate tightness that heavily pressures floating-rate small-cap balance sheets today. Take profit at $211.00 and set a strict stop loss above $222.00."
+      },
+      {
+        "ticker": "EWQ",
+        "direction": "Short",
+        "raw": "2. EWQ - Short at market open ($37.20) - Escalating French civil unrest and OAT-Bund yield spreads blowing out past 85 bps heighten immediate sovereign credit downgrade risks and drag down European equities. Target profit at $35.00 and exit the position if price moves above $38.40."
+      },
+      {
+        "ticker": "CEG",
+        "direction": "Buy",
+        "raw": "3. CEG - Buy at market open ($272.50) - HSBC's warning on severe power interconnect bottlenecks for AI data centers highlights nuclear baseload providers with direct PPAs as premier beneficiaries today. Take profit at $288.00 and cut losses if the stock drops below $264.00."
+      },
+      {
+        "ticker": "XOM",
+        "direction": "Watch",
+        "raw": "4. XOM - Watch at $118.50 - Although crude oil jumped +3.28% to $103.27, a 10x surge in tanker freight rates to $80M has closed the US-to-Asia arbitrage window, capping domestic E&P netbacks. Keep this name on watch for a re-entry near $115.00 support rather than chasing top-line crude momentum given recent sector overestimates."
+      },
+      {
+        "ticker": "DLR",
+        "direction": "Short",
+        "raw": "5. DLR - Short at market open ($154.00) - HSBC explicitly warned that legacy data center REITs face accelerating tenant churn and forced capex retrofits as AI workloads migrate strictly to high-density nuclear-backed campuses. Take profit at $145.00 and cut loss if the price moves above $158.50."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "direction": "Bullish"
+      }
+    ],
+    "date": "2026-10-25"
   }
 }
