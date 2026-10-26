@@ -3363,7 +3363,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-10-23"
+    "date": "2026-10-23",
+    "graded": true
   },
   "2026-10-24": {
     "trade_ideas": [
@@ -3458,5 +3459,57 @@
       }
     ],
     "date": "2026-10-25"
+  },
+  "2026-10-26": {
+    "trade_ideas": [
+      {
+        "ticker": "MSFT",
+        "direction": "Buy",
+        "raw": "1. MSFT - Buy at market open ($532.06) - Microsoft announced a massive 60,000-worker voluntary buyout program today to protect operating margins as AI infrastructure commitments expand. Take profit at $548.00, and cut loss if the stock falls below $523.00."
+      },
+      {
+        "ticker": "META",
+        "direction": "Short",
+        "raw": "2. META - Short at market open ($585.00) - Meta announced a surprise $95 billion stock offering today to fund AI expansion, creating immediate share dilution and severe overhead supply pressure. Take profit at $560.00, and cut loss if price breaks above $595.00."
+      },
+      {
+        "ticker": "DDOG",
+        "direction": "Buy",
+        "raw": "3. DDOG - Buy at $283.55 - Anthropic's IPO filing today revealed a staggering $542B in upcoming data center spend, fueling a massive demand tailwind for cloud monitoring and infrastructure software. Take profit at $298.00, and cut loss if it dips below $275.00."
+      },
+      {
+        "ticker": "TSLA",
+        "direction": "Watch",
+        "raw": "4. TSLA - Watch at $394.29 - While TSLA is gapping up 5.9% overnight on tech sector momentum, my failed bullish call on Oct 21 mandates standing aside until price clears $400 resistance or tests $380 support. I will refrain from chasing this gap until volume confirms institutional accumulation."
+      },
+      {
+        "ticker": "XOM",
+        "direction": "Watch",
+        "raw": "5. XOM - Watch at market open ($118.50) - Despite crude oil rising +1.00% to $101.97 on Iran escalation headlines today, my 3 consecutive losses in Energy require holding off on long exposure until crude proves it can hold above $102. I am keeping energy names strictly on watch to avoid chasing geopolitical headline spikes."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Industrials",
+        "etf": "XLI",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Consumer Staples",
+        "etf": "XLP",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-10-26"
   }
 }

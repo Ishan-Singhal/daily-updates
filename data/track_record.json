@@ -4505,5 +4505,68 @@
     "total_correct": 4,
     "total_calls": 9,
     "accuracy": 44.4
+  },
+  "2026-10-23": {
+    "prediction_date": "2026-10-23",
+    "graded_date": "2026-10-26",
+    "trade_grades": [
+      {
+        "ticker": "PANW",
+        "predicted": "buy",
+        "actual_move": "+3.56%",
+        "correct": "True",
+        "graded_against": "2026-10-26"
+      },
+      {
+        "ticker": "AXP",
+        "predicted": "buy",
+        "actual_move": "+0.29%",
+        "correct": "True",
+        "graded_against": "2026-10-26"
+      },
+      {
+        "ticker": "TSLA",
+        "predicted": "short",
+        "actual_move": "+5.91%",
+        "correct": "False",
+        "graded_against": "2026-10-26"
+      },
+      {
+        "ticker": "IWM",
+        "predicted": "short",
+        "actual_move": "+0.58%",
+        "correct": "False",
+        "graded_against": "2026-10-26"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "predicted": "bullish",
+        "actual_move": "-0.18%",
+        "correct": false,
+        "graded_against": "2026-10-26"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "+0.97%",
+        "correct": "False",
+        "graded_against": "2026-10-26"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "+0.97%",
+        "correct": "False",
+        "graded_against": "2026-10-26"
+      }
+    ],
+    "total_correct": 2,
+    "total_calls": 7,
+    "accuracy": 28.6
   }
 }
