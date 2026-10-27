@@ -4568,5 +4568,195 @@
     "total_correct": 2,
     "total_calls": 7,
     "accuracy": 28.6
+  },
+  "2026-10-24": {
+    "prediction_date": "2026-10-24",
+    "graded_date": "2026-10-27",
+    "trade_grades": [
+      {
+        "ticker": "AMGN",
+        "predicted": "buy",
+        "actual_move": "+0.62%",
+        "correct": "True",
+        "graded_against": "2026-10-27"
+      },
+      {
+        "ticker": "RTX",
+        "predicted": "short",
+        "actual_move": "-0.77%",
+        "correct": "True",
+        "graded_against": "2026-10-27"
+      },
+      {
+        "ticker": "ICLN",
+        "predicted": "short",
+        "actual_move": "+2.35%",
+        "correct": "False",
+        "graded_against": "2026-10-27"
+      },
+      {
+        "ticker": "DLR",
+        "predicted": "short",
+        "actual_move": "+1.68%",
+        "correct": "False",
+        "graded_against": "2026-10-27"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bullish",
+        "actual_move": "+1.69%",
+        "correct": "True",
+        "graded_against": "2026-10-27"
+      },
+      {
+        "sector": "Healthcare",
+        "etf": "XLV",
+        "predicted": "bullish",
+        "actual_move": "-0.08%",
+        "correct": false,
+        "graded_against": "2026-10-27"
+      },
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bearish",
+        "actual_move": "-2.06%",
+        "correct": "True",
+        "graded_against": "2026-10-27"
+      },
+      {
+        "sector": "Consumer Staples",
+        "etf": "XLP",
+        "predicted": "bearish",
+        "actual_move": "-0.90%",
+        "correct": "True",
+        "graded_against": "2026-10-27"
+      },
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "predicted": "bearish",
+        "actual_move": "+0.20%",
+        "correct": "False",
+        "graded_against": "2026-10-27"
+      }
+    ],
+    "total_correct": 5,
+    "total_calls": 9,
+    "accuracy": 55.6
+  },
+  "2026-10-25": {
+    "prediction_date": "2026-10-25",
+    "graded_date": "2026-10-27",
+    "trade_grades": [
+      {
+        "ticker": "IWM",
+        "predicted": "short",
+        "actual_move": "+1.07%",
+        "correct": "False",
+        "graded_against": "2026-10-27"
+      },
+      {
+        "ticker": "EWQ",
+        "predicted": "short",
+        "actual_move": "+0.63%",
+        "correct": "False",
+        "graded_against": "2026-10-27"
+      },
+      {
+        "ticker": "CEG",
+        "predicted": "buy",
+        "actual_move": "+2.00%",
+        "correct": "True",
+        "graded_against": "2026-10-27"
+      },
+      {
+        "ticker": "DLR",
+        "predicted": "short",
+        "actual_move": "+1.68%",
+        "correct": "False",
+        "graded_against": "2026-10-27"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "predicted": "bullish",
+        "actual_move": "+0.20%",
+        "correct": "True",
+        "graded_against": "2026-10-27"
+      }
+    ],
+    "total_correct": 2,
+    "total_calls": 5,
+    "accuracy": 40.0
+  },
+  "2026-10-26": {
+    "prediction_date": "2026-10-26",
+    "graded_date": "2026-10-27",
+    "trade_grades": [
+      {
+        "ticker": "MSFT",
+        "predicted": "buy",
+        "actual_move": "-0.06%",
+        "correct": false,
+        "graded_against": "2026-10-27"
+      },
+      {
+        "ticker": "META",
+        "predicted": "short",
+        "actual_move": "-1.18%",
+        "correct": "True",
+        "graded_against": "2026-10-27"
+      },
+      {
+        "ticker": "DDOG",
+        "predicted": "buy",
+        "actual_move": "-0.34%",
+        "correct": false,
+        "graded_against": "2026-10-27"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bearish",
+        "actual_move": "-2.06%",
+        "correct": "True",
+        "graded_against": "2026-10-27"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bullish",
+        "actual_move": "+1.68%",
+        "correct": "True",
+        "graded_against": "2026-10-27"
+      },
+      {
+        "sector": "Industrials",
+        "etf": "XLI",
+        "predicted": "bullish",
+        "actual_move": "+0.47%",
+        "correct": "True",
+        "graded_against": "2026-10-27"
+      },
+      {
+        "sector": "Consumer Staples",
+        "etf": "XLP",
+        "predicted": "bearish",
+        "actual_move": "-0.90%",
+        "correct": "True",
+        "graded_against": "2026-10-27"
+      }
+    ],
+    "total_correct": 5,
+    "total_calls": 7,
+    "accuracy": 71.4
   }
 }

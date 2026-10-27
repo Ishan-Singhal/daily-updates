@@ -3421,7 +3421,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-10-24"
+    "date": "2026-10-24",
+    "graded": true
   },
   "2026-10-25": {
     "trade_ideas": [
@@ -3458,7 +3459,8 @@
         "direction": "Bullish"
       }
     ],
-    "date": "2026-10-25"
+    "date": "2026-10-25",
+    "graded": true
   },
   "2026-10-26": {
     "trade_ideas": [
@@ -3510,6 +3512,54 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-10-26"
+    "date": "2026-10-26",
+    "graded": true
+  },
+  "2026-10-27": {
+    "trade_ideas": [
+      {
+        "ticker": "BA",
+        "direction": "Short",
+        "raw": "1. BA - Short at market open ($171.52) - Today's news that Boeing delayed its 52/month 737 MAX production target to late 2027 due to wing supply bottlenecks severely degrades free cash flow targets and balance sheet recovery. Take profit at $158.00, cut loss at $178.50."
+      },
+      {
+        "ticker": "QQQ",
+        "direction": "Short",
+        "raw": "2. QQQ - Short at market open ($525.00) - Jobless claims collapsing to a six-decade low of 194k combined with hawkish Fed guidance pushes 10-Year yields to 4.99%, driving severe multiple compression across long-duration tech. Take profit at $512.00, cut loss at $531.00."
+      },
+      {
+        "ticker": "LMT",
+        "direction": "Buy",
+        "raw": "3. LMT - Buy at market open ($580.00) - Heightened Middle East warfare ahead of Israeli elections combined with US midterm political uncertainty triggers safe-haven institutional inflows into defense prime balance sheets. Take profit at $605.00, cut loss at $568.00."
+      },
+      {
+        "ticker": "GM",
+        "direction": "Short",
+        "raw": "4. GM - Short at market open ($48.50) - Honda's warning that proposed 50% tariffs on Canadian auto imports would be \"catastrophic\" directly threatens legacy automakers reliant on integrated cross-border supply chains. Take profit at $45.00, cut loss at $50.20."
+      },
+      {
+        "ticker": "TSLA",
+        "direction": "Watch",
+        "raw": "5. TSLA - Watch at $406.21 - Calibrating after my recent failed BUY call on TSLA, today's 3.3% overnight bounce directly conflicts with 4.99% Treasury yields and Canadian auto tariff headwinds. I will monitor $395 support and $415 resistance for clear directional confirmation before taking a side."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-10-27"
   }
 }
