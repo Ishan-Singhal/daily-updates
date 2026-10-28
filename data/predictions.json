@@ -3560,6 +3560,64 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-10-27"
+    "date": "2026-10-27",
+    "graded": true
+  },
+  "2026-10-28": {
+    "trade_ideas": [
+      {
+        "ticker": "AAPL",
+        "direction": "Buy",
+        "raw": "1. AAPL - Buy at market open (~$345.50) - The official debut of the OLED touchscreen M5 MacBook Pro launches a high-margin hardware upgrade cycle that insulates Apple from software multiple compression. Take profit at $355.00, and cut losses quickly if shares break key support below $340.00."
+      },
+      {
+        "ticker": "TSLA",
+        "direction": "Short",
+        "raw": "2. TSLA - Short at market open (~$402.85) - Calibrating for my previous failed bullish call on Oct 21, today's sub-200k jobless claims print pushed 10Y yields above 5.02%, exposing TSLA's high-duration valuation multiple to severe interest rate repricing. Take profit at $385.00, and set a strict stop loss at $411.00."
+      },
+      {
+        "ticker": "GS",
+        "direction": "Buy",
+        "raw": "3. GS - Buy at market open (~$535.00) - Financials are outperforming (+0.72%) driven by news that prime brokerages extracted $52B in AI margin lending revenue, providing immediate Q3/Q4 earnings upside. Take profit at $552.00, and cut losses if the stock falls below $524.00."
+      },
+      {
+        "ticker": "HOOD",
+        "direction": "Short",
+        "raw": "4. HOOD - Short at $90.85 - The stock is down -3.9% today as 194k jobless claims re-ignite rate-hike tail risk, directly squeezing retail trading activity and high-beta crypto speculation. Take profit at $84.50, and cut losses if it reclaims $93.50."
+      },
+      {
+        "ticker": "XOM",
+        "direction": "Watch",
+        "raw": "5. XOM - Watch at market open (~$118.00) - Having been wrong on Energy 3x recently (including XOM twice), I am downgrading XOM to 'Watch' despite crude rising +1.30% to $102.66, as China\u2019s 56% Russian gas discount ($248/mcm) structurally caps global energy major margin expansion. Re-evaluate only on a confirmed breakout above $121.00 or breakdown below $114.00."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Industrials",
+        "etf": "XLI",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Technology",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Real Estate",
+        "etf": "XLRE",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-10-28"
   }
 }
