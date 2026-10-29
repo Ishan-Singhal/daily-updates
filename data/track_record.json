@@ -4821,5 +4821,84 @@
     "total_correct": 3,
     "total_calls": 7,
     "accuracy": 42.9
+  },
+  "2026-10-28": {
+    "prediction_date": "2026-10-28",
+    "graded_date": "2026-10-29",
+    "trade_grades": [
+      {
+        "ticker": "AAPL",
+        "predicted": "buy",
+        "actual_move": "+1.83%",
+        "correct": "True",
+        "graded_against": "2026-10-29"
+      },
+      {
+        "ticker": "TSLA",
+        "predicted": "short",
+        "actual_move": "+0.31%",
+        "correct": "False",
+        "graded_against": "2026-10-29"
+      },
+      {
+        "ticker": "GS",
+        "predicted": "buy",
+        "actual_move": "+0.17%",
+        "correct": "True",
+        "graded_against": "2026-10-29"
+      },
+      {
+        "ticker": "HOOD",
+        "predicted": "short",
+        "actual_move": "-0.80%",
+        "correct": "True",
+        "graded_against": "2026-10-29"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "predicted": "bullish",
+        "actual_move": "+1.32%",
+        "correct": "True",
+        "graded_against": "2026-10-29"
+      },
+      {
+        "sector": "Industrials",
+        "etf": "XLI",
+        "predicted": "bullish",
+        "actual_move": "+0.61%",
+        "correct": "True",
+        "graded_against": "2026-10-29"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "-1.49%",
+        "correct": "True",
+        "graded_against": "2026-10-29"
+      },
+      {
+        "sector": "Technology",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "-1.49%",
+        "correct": "True",
+        "graded_against": "2026-10-29"
+      },
+      {
+        "sector": "Real Estate",
+        "etf": "XLRE",
+        "predicted": "bearish",
+        "actual_move": "+1.77%",
+        "correct": "False",
+        "graded_against": "2026-10-29"
+      }
+    ],
+    "total_correct": 7,
+    "total_calls": 9,
+    "accuracy": 77.8
   }
 }

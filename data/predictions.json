@@ -3618,6 +3618,59 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-10-28"
+    "date": "2026-10-28",
+    "graded": true
+  },
+  "2026-10-29": {
+    "trade_ideas": [
+      {
+        "ticker": "GOOGL",
+        "direction": "Short",
+        "raw": "1. GOOGL - Short at market open (~$282.30) - Today's 13% overnight plunge stems from Q3 earnings showing AI Search summaries cannibalizing core high-margin ad revenue alongside surging capex. Take profit at $265.00 as institutional re-rating unfolds, and cut losses at $291.50 if dip-buyers attempt a gap fill."
+      },
+      {
+        "ticker": "GS",
+        "direction": "Buy",
+        "raw": "2. GS - Buy at market open (~$542.00) - Wall Street prime desks captured a record $52 billion in year-to-date trading fees, directly boosting Q4 earnings visibility via record hedge fund margin debt lending. Target profit taking at $560.00 and set a stop-loss at $532.00 to protect against macro deleveraging."
+      },
+      {
+        "ticker": "SMCI",
+        "direction": "Short",
+        "raw": "3. SMCI - Short at $34.72 - Tier-2 AI infrastructure vendors face immediate pressure today following Steve Eisman's public short disclosure and HSBC's warning on impending data center oversupply. Take profit at $31.20 as multiple compression accelerates, and cut losses above $36.50."
+      },
+      {
+        "ticker": "DASH",
+        "direction": "Short",
+        "raw": "4. DASH - Short at market open (~$168.00) - DoorDash announced a mega $17 billion deal for Instacart today, introducing severe equity dilution and integration execution risks. Take profit at $155.00 on deal arbitrage pressure, and set a stop-loss at $174.00."
+      },
+      {
+        "ticker": "XLE",
+        "direction": "Watch",
+        "raw": "5. XLE - Watch at market open (~$88.50) - Europe's emergency 42 million barrel oil reserve release and Carlos Slim dumping $1.15 billion in energy stocks signal a local top for refiners. Given recent whipsaws in Energy calls, remain on the sidelines until a clean breakdown below $87.00 confirms a short entry, or invalidate the watch thesis if crude breaks above $104.00."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Real Estate",
+        "etf": "XLRE",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-10-29"
   }
 }
