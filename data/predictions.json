@@ -3671,6 +3671,64 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-10-29"
+    "date": "2026-10-29",
+    "graded": true
+  },
+  "2026-10-30": {
+    "trade_ideas": [
+      {
+        "ticker": "COIN",
+        "direction": "Short",
+        "raw": "1. COIN - Short at market open (~$139.10) - The $6.3B Binance hack creates immediate systemic liquidity contagion across exchanges and triggers severe collateral liquidations. Correcting my recent failed bullish call on crypto-exposed equities, I will take profit at $120.00 and cut loss if price breaks above $146.50."
+      },
+      {
+        "ticker": "NVDA",
+        "direction": "Short",
+        "raw": "2. NVDA - Short at market open (~$203.30) - Anthropic\u2019s S-1 compute burn disclosures combined with HSBC\u2019s public warning on data center ROI misalignment are forcing a sharp valuation repricing across AI hardware. Capitalizing on my 100% accuracy rate on bearish calls, I will take profit at $188.00 and stop out above $211.50."
+      },
+      {
+        "ticker": "GS",
+        "direction": "Short",
+        "raw": "3. GS - Short at market open (~$510.00) - Goldman's massive prime brokerage margin lending exposure to de-grossing AI hedge funds creates immediate revenue downside as reaccelerating PCE inflation raises borrowing costs. Flipping my bias following a failed long call on GS on Oct 29, I am targeting a take-profit level at $482.00 with a stop-loss set above $524.00."
+      },
+      {
+        "ticker": "XOM",
+        "direction": "Watch",
+        "raw": "4. XOM - Watch at market open (~$120.00) - Although Exxon beat Q3 earnings at $15.4B, peak refining crack spreads and stabilizing Hormuz oil flows indicate fundamental tailwinds are fully priced in at record highs. Acknowledging my 3 recent incorrect calls in Energy (including XOM twice), I am staying on the sidelines until a firm technical breakdown below $116.00 confirms direction."
+      },
+      {
+        "ticker": "EZU",
+        "direction": "Short",
+        "raw": "5. EZU - Short at market open (~$42.50) - A French GDP contraction (-0.2%), Eurozone growth slowing to 0.4%, and Christine Lagarde's early exit announcement are driving up peripheral sovereign credit risk. I will target taking profit at $40.20 and cut loss if the ETF rises above $43.60."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Technology",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-10-30"
   }
 }

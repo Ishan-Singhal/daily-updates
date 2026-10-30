@@ -4900,5 +4900,76 @@
     "total_correct": 7,
     "total_calls": 9,
     "accuracy": 77.8
+  },
+  "2026-10-29": {
+    "prediction_date": "2026-10-29",
+    "graded_date": "2026-10-30",
+    "trade_grades": [
+      {
+        "ticker": "GOOGL",
+        "predicted": "short",
+        "actual_move": "-1.71%",
+        "correct": "True",
+        "graded_against": "2026-10-30"
+      },
+      {
+        "ticker": "GS",
+        "predicted": "buy",
+        "actual_move": "-4.49%",
+        "correct": false,
+        "graded_against": "2026-10-30"
+      },
+      {
+        "ticker": "SMCI",
+        "predicted": "short",
+        "actual_move": "-7.80%",
+        "correct": "True",
+        "graded_against": "2026-10-30"
+      },
+      {
+        "ticker": "DASH",
+        "predicted": "short",
+        "actual_move": "+0.35%",
+        "correct": "False",
+        "graded_against": "2026-10-30"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "predicted": "bullish",
+        "actual_move": "-0.68%",
+        "correct": false,
+        "graded_against": "2026-10-30"
+      },
+      {
+        "sector": "Real Estate",
+        "etf": "XLRE",
+        "predicted": "bullish",
+        "actual_move": "+0.56%",
+        "correct": "True",
+        "graded_against": "2026-10-30"
+      },
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bearish",
+        "actual_move": "+1.40%",
+        "correct": "False",
+        "graded_against": "2026-10-30"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "-5.48%",
+        "correct": "True",
+        "graded_against": "2026-10-30"
+      }
+    ],
+    "total_correct": 4,
+    "total_calls": 8,
+    "accuracy": 50.0
   }
 }
