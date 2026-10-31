@@ -3730,5 +3730,57 @@
       }
     ],
     "date": "2026-10-30"
+  },
+  "2026-10-31": {
+    "trade_ideas": [
+      {
+        "ticker": "COIN",
+        "direction": "Short",
+        "raw": "1. COIN - Short at market open (~$143.50) - Binance's post-exploit withdrawal unlock and $6.3B hack absorption are forcing institutional capital out of crypto venues into cash, directly hammering trading volumes at COIN. Take profit at $128.00, and set a cut-loss stop at $151.00."
+      },
+      {
+        "ticker": "MSTR",
+        "direction": "Short",
+        "raw": "2. MSTR - Short at market open (~$130.50) - Flipping our failed Oct 21 bullish call after recognizing severe crypto contagion risks as Binance's withdrawal unlock triggers immediate liquidation pressure across Bitcoin proxy stocks. Take profit at $115.00, with a strict stop-loss set at $140.00."
+      },
+      {
+        "ticker": "DLR",
+        "direction": "Short",
+        "raw": "3. DLR - Short at market open (~$160.00) - HSBC's warning of structural AI data center overcapacity combined with Anthropic's delayed public debut directly threatens cap rates and valuation multiples for high-leverage data center REITs. Take profit at $147.00, and cut losses at $166.50."
+      },
+      {
+        "ticker": "UAL",
+        "direction": "Short",
+        "raw": "4. UAL - Short at market open (~$92.00) - Surging refining crack spreads and soaring jet fuel costs driven by downstream supply bottlenecks are directly eroding Q4 operating margins for legacy carriers. Take profit at $84.50, and stop out if shares push past $96.00."
+      },
+      {
+        "ticker": "XOM",
+        "direction": "Watch",
+        "raw": "5. XOM - Watch at market open (~$118.00) - After being wrong on Energy (3x) and XOM specifically (2x), we downgrade to a neutral stance as record downstream refining windfalls are counterbalanced by secret Qatari-Tehran talks threatening the geopolitical crude risk premium. We will monitor the $114.00 support level before committing fresh capital to the name."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Technology",
+        "etf": "XLK",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-10-31"
   }
 }
