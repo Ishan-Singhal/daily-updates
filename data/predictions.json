@@ -3782,5 +3782,57 @@
       }
     ],
     "date": "2026-10-31"
+  },
+  "2026-11-01": {
+    "trade_ideas": [
+      {
+        "ticker": "QQQ",
+        "direction": "Short",
+        "raw": "1. QQQ - Short at market open (~$690.50) - Today's hot US Q3 GDP (3.4%) and re-accelerating Sept PCE inflation (3.6%) eliminate near-term Fed rate cut expectations, triggering a sharp multiple compression across high-duration tech. Flipping my previous wrong bullish Tech call to leverage our 100% bearish call track record, I am targeting take-profit at $670.00 with a stop-loss at $700.00."
+      },
+      {
+        "ticker": "COIN",
+        "direction": "Short",
+        "raw": "2. COIN - Short at market open (~$143.50) - Binance's $6.3B security breach and unhedged $600M+ shortfall are forcing immediate institutional prime brokerage de-risking and liquidity drawdowns across crypto-adjacent equities today. Set take-profit at $128.00 and cut loss at $151.00."
+      },
+      {
+        "ticker": "GOOGL",
+        "direction": "Short",
+        "raw": "3. GOOGL - Short at market open (~$279.80) - Today's intelligence showing Meta's Q3 ad engine growth doubling Alphabet's confirms structural search query diversion to conversational AI and ad budget reallocation. Target take-profit at $265.00 with a stop-loss at $287.50."
+      },
+      {
+        "ticker": "DLR",
+        "direction": "Short",
+        "raw": "4. DLR - Short at market open (~$162.00) - HSBC's warning today flags severe capital impairment and non-renewals for legacy Tier-3 data centers as hyperscalers migrate exclusively to power-secured >100kW high-density campuses. Set take-profit at $149.00 and cut loss at $168.00."
+      },
+      {
+        "ticker": "XOM",
+        "direction": "Watch",
+        "raw": "5. XOM - Watch at $115.00 - Acknowledging my past wrong calls on Energy and XOM, I am downgrading this to 'Watch' as WTI crude decouples from surging Treasury yields due to domestic services inflation. I will monitor for a clean breakdown below $112.00 before considering a short position toward $106.00 with a stop at $117.50."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Consumer Staples",
+        "etf": "XLP",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Real Estate",
+        "etf": "XLRE",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-11-01"
   }
 }
