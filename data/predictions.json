@@ -3729,7 +3729,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-10-30"
+    "date": "2026-10-30",
+    "graded": true
   },
   "2026-10-31": {
     "trade_ideas": [
@@ -3834,5 +3835,62 @@
       }
     ],
     "date": "2026-11-01"
+  },
+  "2026-11-02": {
+    "trade_ideas": [
+      {
+        "ticker": "COIN",
+        "direction": "Short",
+        "raw": "1. COIN - Short at market open ($137.83) - Binance's historic $6.3 billion exploit and subsequent $4.6 billion customer withdrawal surge create an immediate systemic liquidity freeze across crypto-exposed public equities. Take profit at $122.00; cut loss if price reclaims $144.50."
+      },
+      {
+        "ticker": "PLTR",
+        "direction": "Buy",
+        "raw": "2. PLTR - Buy at market open ($178.34) - Outstanding Q3 earnings where U.S. commercial revenue surpassed government sales for the first time provides tangible enterprise AI monetization proof, offering a rare fundamental dip-buying opportunity despite broader tech weak sentiment. Take profit at $194.00; cut loss if key support at $170.50 fails."
+      },
+      {
+        "ticker": "HSY",
+        "direction": "Short",
+        "raw": "3. HSY - Short at market open ($175.50) - Severe input price spikes in soft commodities like cocoa and sugar will directly crush gross margins as consumer price fatigue prevents further retail cost pass-through. Take profit at $164.00; cut loss if the stock rallies above $181.00."
+      },
+      {
+        "ticker": "IWM",
+        "direction": "Short",
+        "raw": "4. IWM - Short at market open ($218.00) - A hot 0.5% MoM PCE inflation acceleration paired with a 3.4% GDP beat dismantles near-term Fed rate cut expectations, pushing bond yields higher and disproportionately squeezing small-cap balance sheets. Take profit at $211.50; cut loss if IWM pushes above $222.00."
+      },
+      {
+        "ticker": "XLE",
+        "direction": "Watch",
+        "raw": "5. XLE - Watch at market open ($84.50) - Calibrating from our recent failed bullish calls on Energy, we downgrade the sector to Watch while crude crashes 4.6% on U.S.-Iran diplomatic headlines until CTA margin liquidations clear. Look to enter a short position if XLE breaks key support at $83.00, but remain sidelined if geopolitical headlines abruptly flip."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Consumer Staples",
+        "etf": "XLP",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-11-02"
   }
 }

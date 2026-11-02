@@ -4971,5 +4971,84 @@
     "total_correct": 4,
     "total_calls": 8,
     "accuracy": 50.0
+  },
+  "2026-10-30": {
+    "prediction_date": "2026-10-30",
+    "graded_date": "2026-11-02",
+    "trade_grades": [
+      {
+        "ticker": "COIN",
+        "predicted": "short",
+        "actual_move": "-3.98%",
+        "correct": "True",
+        "graded_against": "2026-11-02"
+      },
+      {
+        "ticker": "NVDA",
+        "predicted": "short",
+        "actual_move": "-1.26%",
+        "correct": "True",
+        "graded_against": "2026-11-02"
+      },
+      {
+        "ticker": "GS",
+        "predicted": "short",
+        "actual_move": "+0.47%",
+        "correct": "False",
+        "graded_against": "2026-11-02"
+      },
+      {
+        "ticker": "EZU",
+        "predicted": "short",
+        "actual_move": "+0.84%",
+        "correct": "False",
+        "graded_against": "2026-11-02"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bullish",
+        "actual_move": "-3.96%",
+        "correct": false,
+        "graded_against": "2026-11-02"
+      },
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "predicted": "bullish",
+        "actual_move": "+0.55%",
+        "correct": "True",
+        "graded_against": "2026-11-02"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "-2.95%",
+        "correct": "True",
+        "graded_against": "2026-11-02"
+      },
+      {
+        "sector": "Technology",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "-2.95%",
+        "correct": "True",
+        "graded_against": "2026-11-02"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "predicted": "bearish",
+        "actual_move": "+1.86%",
+        "correct": "False",
+        "graded_against": "2026-11-02"
+      }
+    ],
+    "total_correct": 5,
+    "total_calls": 9,
+    "accuracy": 55.6
   }
 }
