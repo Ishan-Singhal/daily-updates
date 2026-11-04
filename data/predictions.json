@@ -3895,5 +3895,67 @@
     ],
     "date": "2026-11-02",
     "graded": true
+  },
+  "2026-11-04": {
+    "trade_ideas": [
+      {
+        "ticker": "XLE",
+        "direction": "Short",
+        "raw": "1. XLE - Short at market open - Crude oil plummeted 8.47% overnight to $87.69 as geopolitical risk premia unwind following a post-midterm White House policy shift. Take profit at a 4.5% decline near $84.50, and cut loss if Brent crude recovers above $90.50."
+      },
+      {
+        "ticker": "VRT",
+        "direction": "Short",
+        "raw": "2. VRT - Short at market open - Local voters rejected 40 of 41 data center ballot initiatives across 10 states, creating immediate, unpriced zoning bottlenecks for AI infrastructure suppliers. Take profit at a 6.0% downside target, and cut loss if shares advance 2.5% above the opening price."
+      },
+      {
+        "ticker": "CVS",
+        "direction": "Short",
+        "raw": "3. CVS - Short at market open - Today's official announcement to break up CVS's $117 billion business by separating retail pharmacies from insurance introduces severe execution risk and immediate institutional liquidation. Take profit at a 5.0% decline from entry, and cut loss if the stock recovers 2.0% above open."
+      },
+      {
+        "ticker": "AMD",
+        "direction": "Watch",
+        "raw": "4. AMD - Watch at $481.15 - AMD fell 6.65% overnight due to data center execution concerns, but our track record warning on AMD dictates staying on the sidelines rather than chasing the move. We will watch for price stabilization near $465 support, maintaining a strict mental cut loss level below $455 before considering any entry."
+      },
+      {
+        "ticker": "XLF",
+        "direction": "Watch",
+        "raw": "5. XLF - Watch at market open - Financials surged 3.07% on post-election relief, but the Democratic sweep signals imminent regulatory friction while our two recent failed XLF calls mandate a cautious neutral posture. We will monitor institutional order flow around the open and withhold directional capital until legislative clarity emerges."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Technology",
+        "etf": "XLK",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Industrials",
+        "etf": "XLI",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-11-04"
   }
 }
