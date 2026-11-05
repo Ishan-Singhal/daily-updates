@@ -5271,5 +5271,85 @@
     "total_correct": 3,
     "total_calls": 9,
     "accuracy": 33.3
+  },
+  "2026-11-04": {
+    "prediction_date": "2026-11-04",
+    "graded_date": "2026-11-05",
+    "trade_grades": [
+      {
+        "ticker": "XLE",
+        "predicted": "short",
+        "actual_move": "-1.16%",
+        "correct": "True",
+        "graded_against": "2026-11-05"
+      },
+      {
+        "ticker": "VRT",
+        "predicted": "short",
+        "actual_move": "-13.82%",
+        "correct": "True",
+        "graded_against": "2026-11-05"
+      },
+      {
+        "ticker": "CVS",
+        "predicted": "short",
+        "actual_move": "+0.21%",
+        "correct": "False",
+        "graded_against": "2026-11-05"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bullish",
+        "actual_move": "-6.94%",
+        "correct": false,
+        "graded_against": "2026-11-05"
+      },
+      {
+        "sector": "Technology",
+        "etf": "XLK",
+        "predicted": "bullish",
+        "actual_move": "-6.94%",
+        "correct": false,
+        "graded_against": "2026-11-05"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "predicted": "bullish",
+        "actual_move": "-4.10%",
+        "correct": false,
+        "graded_against": "2026-11-05"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "predicted": "bullish",
+        "actual_move": "-4.10%",
+        "correct": false,
+        "graded_against": "2026-11-05"
+      },
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bearish",
+        "actual_move": "-1.16%",
+        "correct": "True",
+        "graded_against": "2026-11-05"
+      },
+      {
+        "sector": "Industrials",
+        "etf": "XLI",
+        "predicted": "bearish",
+        "actual_move": "-3.74%",
+        "correct": "True",
+        "graded_against": "2026-11-05"
+      }
+    ],
+    "total_correct": 4,
+    "total_calls": 9,
+    "accuracy": 44.4
   }
 }
