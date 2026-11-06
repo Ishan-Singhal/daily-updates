@@ -5351,5 +5351,108 @@
     "total_correct": 4,
     "total_calls": 9,
     "accuracy": 44.4
+  },
+  "2026-11-05": {
+    "prediction_date": "2026-11-05",
+    "graded_date": "2026-11-06",
+    "trade_grades": [
+      {
+        "ticker": "NVDA",
+        "predicted": "short",
+        "actual_move": "+3.14%",
+        "correct": "False",
+        "graded_against": "2026-11-06"
+      },
+      {
+        "ticker": "XLE",
+        "predicted": "buy",
+        "actual_move": "+0.30%",
+        "correct": "True",
+        "graded_against": "2026-11-06"
+      },
+      {
+        "ticker": "PLTR",
+        "predicted": "short",
+        "actual_move": "+3.45%",
+        "correct": "False",
+        "graded_against": "2026-11-06"
+      },
+      {
+        "ticker": "BX",
+        "predicted": "short",
+        "actual_move": "+0.47%",
+        "correct": "False",
+        "graded_against": "2026-11-06"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bullish",
+        "actual_move": "+0.30%",
+        "correct": "True",
+        "graded_against": "2026-11-06"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bullish",
+        "actual_move": "+1.76%",
+        "correct": "True",
+        "graded_against": "2026-11-06"
+      },
+      {
+        "sector": "Consumer Staples",
+        "etf": "XLP",
+        "predicted": "bullish",
+        "actual_move": "-0.86%",
+        "correct": false,
+        "graded_against": "2026-11-06"
+      },
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bearish",
+        "actual_move": "+0.30%",
+        "correct": "False",
+        "graded_against": "2026-11-06"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "+1.76%",
+        "correct": "False",
+        "graded_against": "2026-11-06"
+      },
+      {
+        "sector": "Technology",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "+1.76%",
+        "correct": "False",
+        "graded_against": "2026-11-06"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "+0.62%",
+        "correct": "False",
+        "graded_against": "2026-11-06"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "+0.62%",
+        "correct": "False",
+        "graded_against": "2026-11-06"
+      }
+    ],
+    "total_correct": 3,
+    "total_calls": 12,
+    "accuracy": 25.0
   }
 }

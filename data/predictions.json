@@ -4029,6 +4029,64 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-11-05"
+    "date": "2026-11-05",
+    "graded": true
+  },
+  "2026-11-06": {
+    "trade_ideas": [
+      {
+        "ticker": "TSLA",
+        "direction": "Short",
+        "raw": "1. TSLA - Short at $359.63 - Today's news that Tesla is halting Cybertruck production creates an immediate write-down drag despite retail excitement over the Cybercab pivot. Take profit at $338.00 and set a stop loss at $368.50."
+      },
+      {
+        "ticker": "PLTR",
+        "direction": "Short",
+        "raw": "2. PLTR - Short at $160.26 - Adjusting from our previous failed long call to capitalize on our 100% short accuracy, today's CoreWeave 16% bond yield blowout and municipal data center moratoriums signal impending capex contraction for extreme-multiple AI names. Take profit at $147.50 and cut losses at $166.50."
+      },
+      {
+        "ticker": "EWU",
+        "direction": "Short",
+        "raw": "3. EWU - Short at market open - The Bank of England's rate hike to 4.0% today to combat 5% Middle East war inflation will severely squeeze European corporate profit margins and equity valuations. Target profit taking at $35.50 and cut losses at $38.20."
+      },
+      {
+        "ticker": "DDOG",
+        "direction": "Watch",
+        "raw": "4. DDOG - Watch at $180.12 - Re-evaluating after our past wrong call on this ticker, we remain neutral despite today's 3.2% bounce as Microsoft's inward capex shift signals reduced demand for tier-2 cloud hosts. Initiate a short only on a confirmed breakdown below $174.00 with a $162.00 target, or cut if it clears $184.50."
+      },
+      {
+        "ticker": "MSFT",
+        "direction": "Watch",
+        "raw": "5. MSFT - Watch at market open - Acknowledging previous missteps on MSFT, we stand aside today as Microsoft's strategic move to proprietary capex insulates it from neocloud credit stress, offset by 4.85% Treasury yields capping near-term equity multiples. Trigger a long entry above $445.00 or a short on a drop below $415.00."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Industrials",
+        "etf": "XLI",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-11-06"
   }
 }
