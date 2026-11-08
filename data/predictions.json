@@ -4135,5 +4135,62 @@
       }
     ],
     "date": "2026-11-07"
+  },
+  "2026-11-08": {
+    "trade_ideas": [
+      {
+        "ticker": "NVDA",
+        "direction": "Short",
+        "raw": "1. NVDA - Short at market open (~$186.64) - CoreWeave debt yields blowing past 16% signals acute credit distress in secondary neoclouds that will shut off debt-financed GPU purchases and force downward revisions on AI hardware. Take profit at $173.00, cut loss if price breaks above $191.50."
+      },
+      {
+        "ticker": "DAL",
+        "direction": "Buy",
+        "raw": "2. DAL - Buy at market open (~$58.50) - Thanksgiving award redemption pricing jumping 32% YoY confirms aggressive yield management that will boost Q4 PRASM by 250-300 bps across major networks. Take profit at $63.00, cut loss below $56.50."
+      },
+      {
+        "ticker": "UNH",
+        "direction": "Short",
+        "raw": "3. UNH - Short at market open (~$560.00) - Democratic midterm victories introduce immediate structural margin risk via upcoming legislative caps on Medicare Advantage payouts and strict PBM fee transparency. Take profit at $535.00, cut loss above $573.00."
+      },
+      {
+        "ticker": "OKLO",
+        "direction": "Short",
+        "raw": "4. OKLO - Short at market open (~$21.50) - Unresolved nuclear waste logistics and $50B in unspent funds halt NRC operational licensing progress for speculative, pre-revenue Small Modular Reactor developers. Take profit at $18.80, cut loss above $22.75."
+      },
+      {
+        "ticker": "PLTR",
+        "direction": "Watch",
+        "raw": "5. PLTR - Watch at market open ($160.38) - Following past failed bullish calls on this high-multiple software name, today's 10-year yield spike (4.859%) creates strong valuation headwinds despite yesterday's momentum. Stand aside until price retests key structural support near $148.00 before taking a directional posture."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Industrials",
+        "etf": "XLI",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Technology",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Healthcare",
+        "etf": "XLV",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-11-08"
   }
 }
