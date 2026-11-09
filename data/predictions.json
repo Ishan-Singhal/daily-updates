@@ -4087,7 +4087,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-11-06"
+    "date": "2026-11-06",
+    "graded": true
   },
   "2026-11-07": {
     "trade_ideas": [
@@ -4192,5 +4193,62 @@
       }
     ],
     "date": "2026-11-08"
+  },
+  "2026-11-09": {
+    "trade_ideas": [
+      {
+        "ticker": "NVDA",
+        "direction": "Short",
+        "raw": "1. NVDA - Short at market open (~$178.50) - Nvidia's board launched an independent investigation into CEO Jensen Huang over an undisclosed relationship with a flagged Chinese national, creating severe key-man discount and CIFIUS/BIS regulatory risk. Take profit at $162.00 as institutional investors digest governance overhang, and cut loss at $186.50 if the board releases an immediate exoneration statement."
+      },
+      {
+        "ticker": "FCX",
+        "direction": "Buy",
+        "raw": "2. FCX - Buy at market open (~$48.50) - China's October Producer Price Index surged unexpectedly to 5.7%, signaling rapid upstream industrial resource consumption and immediate demand for base metals. Take profit at $53.00 on commodity momentum, and cut loss at $46.20 if broad market risk appetite reverses."
+      },
+      {
+        "ticker": "UAL",
+        "direction": "Buy",
+        "raw": "3. UAL - Buy at market open (~$87.00) - Crude oil plunged 5.37% overnight to $86.41 on U.S.-Iran diplomatic talks, offering immediate jet fuel cost relief and margin expansion for airline operators. Take profit at $93.50, and cut loss at $84.20 if crude rebounds above $89.00."
+      },
+      {
+        "ticker": "UNH",
+        "direction": "Short",
+        "raw": "4. UNH - Short at market open (~$570.00) - Midterm election results confirming unified Democratic control of Congress trigger immediate multiple compression across healthcare due to impending drug pricing and PBM regulatory pressure. Take profit at $535.00 as institutional capital reallocates out of policy-exposed names, and cut loss at $588.00 if legislative timelines slip."
+      },
+      {
+        "ticker": "PLTR",
+        "direction": "Watch",
+        "raw": "5. PLTR - Watch at $169.20 - Despite today's +5.4% surge, our 14-day track record error on PLTR requires downgrading this name from a directional buy to Watch to avoid chasing extended valuations. We will monitor for consolidation down toward the $155.00 support level before considering re-entry, risking no capital at market open."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Industrials",
+        "etf": "XLI",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Materials",
+        "etf": "XLB",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Healthcare",
+        "etf": "XLV",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Staples",
+        "etf": "XLP",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-11-09"
   }
 }

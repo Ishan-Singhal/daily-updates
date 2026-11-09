@@ -5454,5 +5454,77 @@
     "total_correct": 3,
     "total_calls": 12,
     "accuracy": 25.0
+  },
+  "2026-11-06": {
+    "prediction_date": "2026-11-06",
+    "graded_date": "2026-11-09",
+    "trade_grades": [
+      {
+        "ticker": "TSLA",
+        "predicted": "short",
+        "actual_move": "+5.54%",
+        "correct": "False",
+        "graded_against": "2026-11-09"
+      },
+      {
+        "ticker": "PLTR",
+        "predicted": "short",
+        "actual_move": "+5.50%",
+        "correct": "False",
+        "graded_against": "2026-11-09"
+      },
+      {
+        "ticker": "EWU",
+        "predicted": "short",
+        "actual_move": "+2.33%",
+        "correct": "False",
+        "graded_against": "2026-11-09"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bullish",
+        "actual_move": "+0.52%",
+        "correct": "True",
+        "graded_against": "2026-11-09"
+      },
+      {
+        "sector": "Industrials",
+        "etf": "XLI",
+        "predicted": "bullish",
+        "actual_move": "+3.82%",
+        "correct": "True",
+        "graded_against": "2026-11-09"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "+3.73%",
+        "correct": "False",
+        "graded_against": "2026-11-09"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "+2.92%",
+        "correct": "False",
+        "graded_against": "2026-11-09"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "+2.92%",
+        "correct": "False",
+        "graded_against": "2026-11-09"
+      }
+    ],
+    "total_correct": 2,
+    "total_calls": 8,
+    "accuracy": 25.0
   }
 }
