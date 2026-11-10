@@ -5526,5 +5526,226 @@
     "total_correct": 2,
     "total_calls": 8,
     "accuracy": 25.0
+  },
+  "2026-11-07": {
+    "prediction_date": "2026-11-07",
+    "graded_date": "2026-11-10",
+    "trade_grades": [
+      {
+        "ticker": "SMCI",
+        "predicted": "short",
+        "actual_move": "-3.53%",
+        "correct": "True",
+        "graded_against": "2026-11-10"
+      },
+      {
+        "ticker": "CCJ",
+        "predicted": "buy",
+        "actual_move": "-3.61%",
+        "correct": false,
+        "graded_against": "2026-11-10"
+      },
+      {
+        "ticker": "UNH",
+        "predicted": "short",
+        "actual_move": "+1.09%",
+        "correct": "False",
+        "graded_against": "2026-11-10"
+      },
+      {
+        "ticker": "PLUG",
+        "predicted": "short",
+        "actual_move": "-9.00%",
+        "correct": "True",
+        "graded_against": "2026-11-10"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bullish",
+        "actual_move": "+0.48%",
+        "correct": "True",
+        "graded_against": "2026-11-10"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "-1.58%",
+        "correct": "True",
+        "graded_against": "2026-11-10"
+      },
+      {
+        "sector": "Healthcare",
+        "etf": "XLV",
+        "predicted": "bearish",
+        "actual_move": "-0.03%",
+        "correct": "False",
+        "graded_against": "2026-11-10"
+      }
+    ],
+    "total_correct": 4,
+    "total_calls": 7,
+    "accuracy": 57.1
+  },
+  "2026-11-08": {
+    "prediction_date": "2026-11-08",
+    "graded_date": "2026-11-10",
+    "trade_grades": [
+      {
+        "ticker": "NVDA",
+        "predicted": "short",
+        "actual_move": "-6.01%",
+        "correct": "True",
+        "graded_against": "2026-11-10"
+      },
+      {
+        "ticker": "DAL",
+        "predicted": "buy",
+        "actual_move": "-0.11%",
+        "correct": false,
+        "graded_against": "2026-11-10"
+      },
+      {
+        "ticker": "UNH",
+        "predicted": "short",
+        "actual_move": "+1.09%",
+        "correct": "False",
+        "graded_against": "2026-11-10"
+      },
+      {
+        "ticker": "OKLO",
+        "predicted": "short",
+        "actual_move": "-7.15%",
+        "correct": "True",
+        "graded_against": "2026-11-10"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bullish",
+        "actual_move": "+0.48%",
+        "correct": "True",
+        "graded_against": "2026-11-10"
+      },
+      {
+        "sector": "Industrials",
+        "etf": "XLI",
+        "predicted": "bullish",
+        "actual_move": "-0.28%",
+        "correct": false,
+        "graded_against": "2026-11-10"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "-1.58%",
+        "correct": "True",
+        "graded_against": "2026-11-10"
+      },
+      {
+        "sector": "Technology",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "-1.58%",
+        "correct": "True",
+        "graded_against": "2026-11-10"
+      },
+      {
+        "sector": "Healthcare",
+        "etf": "XLV",
+        "predicted": "bearish",
+        "actual_move": "-0.03%",
+        "correct": "False",
+        "graded_against": "2026-11-10"
+      }
+    ],
+    "total_correct": 5,
+    "total_calls": 9,
+    "accuracy": 55.6
+  },
+  "2026-11-09": {
+    "prediction_date": "2026-11-09",
+    "graded_date": "2026-11-10",
+    "trade_grades": [
+      {
+        "ticker": "NVDA",
+        "predicted": "short",
+        "actual_move": "-6.01%",
+        "correct": "True",
+        "graded_against": "2026-11-10"
+      },
+      {
+        "ticker": "FCX",
+        "predicted": "buy",
+        "actual_move": "-3.71%",
+        "correct": false,
+        "graded_against": "2026-11-10"
+      },
+      {
+        "ticker": "UAL",
+        "predicted": "buy",
+        "actual_move": "-0.93%",
+        "correct": false,
+        "graded_against": "2026-11-10"
+      },
+      {
+        "ticker": "UNH",
+        "predicted": "short",
+        "actual_move": "+1.09%",
+        "correct": "False",
+        "graded_against": "2026-11-10"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Industrials",
+        "etf": "XLI",
+        "predicted": "bullish",
+        "actual_move": "-0.28%",
+        "correct": false,
+        "graded_against": "2026-11-10"
+      },
+      {
+        "sector": "Materials",
+        "etf": "XLB",
+        "predicted": "bullish",
+        "actual_move": "-0.28%",
+        "correct": false,
+        "graded_against": "2026-11-10"
+      },
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bearish",
+        "actual_move": "+0.48%",
+        "correct": "False",
+        "graded_against": "2026-11-10"
+      },
+      {
+        "sector": "Healthcare",
+        "etf": "XLV",
+        "predicted": "bearish",
+        "actual_move": "-0.03%",
+        "correct": "False",
+        "graded_against": "2026-11-10"
+      },
+      {
+        "sector": "Consumer Staples",
+        "etf": "XLP",
+        "predicted": "bearish",
+        "actual_move": "+0.28%",
+        "correct": "False",
+        "graded_against": "2026-11-10"
+      }
+    ],
+    "total_correct": 1,
+    "total_calls": 9,
+    "accuracy": 11.1
   }
 }
