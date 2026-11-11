@@ -4253,5 +4253,57 @@
     ],
     "date": "2026-11-09",
     "graded": true
+  },
+  "2026-11-11": {
+    "trade_ideas": [
+      {
+        "ticker": "VLO",
+        "direction": "Buy",
+        "raw": "1. VLO - Buy at market open (~$142.50) - The US Department of Energy issued exclusive Venezuelan heavy crude marketing licenses to Vitol and Trafigura today, providing Gulf Coast refiners direct access to cheap feedstocks and expanding gross processing margins. Take profit at $151.00; cut loss if heavy crude differentials widen unexpectedly below $138.50."
+      },
+      {
+        "ticker": "XBI",
+        "direction": "Short",
+        "raw": "2. XBI - Short at market open (~$92.00) - A Senate Finance Committee inquiry launched today targets clinical trial prediction markets, stripping institutional healthcare funds of essential tail-risk derivative hedging tools. Take profit at $86.50; cut loss at $94.50 if regulatory pressure subsides."
+      },
+      {
+        "ticker": "SMCI",
+        "direction": "Short",
+        "raw": "3. SMCI - Short at $31.50 - We are fading today's +10% pre-market squeeze as Wachtell Lipton's deep governance investigation into Nvidia's CEO exposes severe counterparty risks across $100B in GPU-backed private debt networks. Take profit at $26.50; cut loss if buying momentum breaks above $33.20."
+      },
+      {
+        "ticker": "QQQ",
+        "direction": "Short",
+        "raw": "4. QQQ - Short at market open (~$526.00) - October CPI accelerated to 0.4% MoM today alongside 10-Year Treasury yields touching 4.998%, reopening Fed rate hike discussions and triggering multiple compression across long-duration tech assets. Take profit at $512.00; cut loss at $531.50 if yields retreat below 4.90%."
+      },
+      {
+        "ticker": "BABA",
+        "direction": "Watch",
+        "raw": "5. BABA - Watch at market open (~$95.00) - Alibaba filed a confidential HKEX listing application today for its T-Head AI semiconductor unit, which unlocks embedded enterprise value amidst Chinese hardware localization. Calibrating for our 33.3% bullish accuracy track record, we downgrade this to a Watch until listing valuation details emerge, observing $93.00 for support and $98.00 for a volume breakout."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Technology",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Healthcare",
+        "etf": "XLV",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-11-11"
   }
 }
