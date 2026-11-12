@@ -5747,5 +5747,76 @@
     "total_correct": 1,
     "total_calls": 9,
     "accuracy": 11.1
+  },
+  "2026-11-11": {
+    "prediction_date": "2026-11-11",
+    "graded_date": "2026-11-12",
+    "trade_grades": [
+      {
+        "ticker": "VLO",
+        "predicted": "buy",
+        "actual_move": "+4.19%",
+        "correct": "True",
+        "graded_against": "2026-11-12"
+      },
+      {
+        "ticker": "XBI",
+        "predicted": "short",
+        "actual_move": "-3.04%",
+        "correct": "True",
+        "graded_against": "2026-11-12"
+      },
+      {
+        "ticker": "SMCI",
+        "predicted": "short",
+        "actual_move": "-9.73%",
+        "correct": "True",
+        "graded_against": "2026-11-12"
+      },
+      {
+        "ticker": "QQQ",
+        "predicted": "short",
+        "actual_move": "-0.45%",
+        "correct": "True",
+        "graded_against": "2026-11-12"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bullish",
+        "actual_move": "+2.14%",
+        "correct": "True",
+        "graded_against": "2026-11-12"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "-0.63%",
+        "correct": "True",
+        "graded_against": "2026-11-12"
+      },
+      {
+        "sector": "Technology",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "-0.63%",
+        "correct": "True",
+        "graded_against": "2026-11-12"
+      },
+      {
+        "sector": "Healthcare",
+        "etf": "XLV",
+        "predicted": "bearish",
+        "actual_move": "-0.28%",
+        "correct": "True",
+        "graded_against": "2026-11-12"
+      }
+    ],
+    "total_correct": 8,
+    "total_calls": 8,
+    "accuracy": 100.0
   }
 }
