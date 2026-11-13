@@ -4306,5 +4306,57 @@
     ],
     "date": "2026-11-11",
     "graded": true
+  },
+  "2026-11-13": {
+    "trade_ideas": [
+      {
+        "ticker": "NVDA",
+        "direction": "Short",
+        "raw": "1. NVDA - Short at market open (~$162.70) - Nvidia's governance crisis following Jensen Huang's abrupt resignation over Chinese espionage allegations and cabinet-level infighting creates severe regulatory risk for high-beta semiconductors today. Take profit at $152.00 and set a strict stop-loss cut at $168.50."
+      },
+      {
+        "ticker": "OXY",
+        "direction": "Buy",
+        "raw": "2. OXY - Buy at market open (~$58.50) - Record US crude production reaching 14.01M BPD paired with WTI crude trading near $88.50 directly expands cash margins for Permian basin operators. Take profit at $62.50 and cut loss at $56.80."
+      },
+      {
+        "ticker": "HAL",
+        "direction": "Short",
+        "raw": "3. HAL - Short at market open (~$30.50) - Dropping US active rig counts (down 3 to 601) signal declining equipment demand even as operators output record crude through efficiency gains. Take profit at $28.20 and cut loss at $31.80."
+      },
+      {
+        "ticker": "CCJ",
+        "direction": "Watch",
+        "raw": "4. CCJ - Watch at $52.00 - Although Germany announced a \u20ac4B buyout of Urenco stakes, nationalization of enrichment assets does not guarantee immediate spot uranium market price spikes. Calibrating for recent WRONG calls on this ticker, stay on the sidelines until physical spot pricing confirms a breakout above $55.00."
+      },
+      {
+        "ticker": "MSFT",
+        "direction": "Short",
+        "raw": "5. MSFT - Short at market open (~$415.00) - A global 24-hour blackout across Microsoft 365 forces direct enterprise SLA payout credits and incentivizes corporate CTOs to shift marginal spend to competitors. Take profit at $402.00 and cut loss at $422.00."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Industrials",
+        "etf": "XLI",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-11-13"
   }
 }
