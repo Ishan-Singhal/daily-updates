@@ -4358,5 +4358,62 @@
       }
     ],
     "date": "2026-11-13"
+  },
+  "2026-11-14": {
+    "trade_ideas": [
+      {
+        "ticker": "NVDA",
+        "direction": "Short",
+        "raw": "1. NVDA - Short at $162.85 - Mounting shareholder pressure for board changes post-Jensen Huang resignation and escalating Cabinet rifts over China export controls threaten Nvidia's premium valuation multiple today. Set a profit target at $150.00 and cut losses if the stock breaks above $168.50."
+      },
+      {
+        "ticker": "LHX",
+        "direction": "Short",
+        "raw": "2. LHX - Short at market open - Transportation Department confirmation that an L3Harris router failure caused the historic nationwide FAA outage exposes the firm to immediate breach-of-contract liabilities and severe regulatory penalties today. Take profit at 6.0% below market open and set a stop-loss at 2.5% above entry."
+      },
+      {
+        "ticker": "VST",
+        "direction": "Buy",
+        "raw": "3. VST - Buy at market open - Senate passage of the BAAJA bill serves as an immediate catalyst for independent power producers to capture high-margin, direct corporate power purchase agreements from AI hyperscalers. Target a 5.0% profit gain from entry and cut losses at 2.5% below market open."
+      },
+      {
+        "ticker": "XLU",
+        "direction": "Short",
+        "raw": "4. XLU - Short at market open - The BAAJA bill permits tech giants to bypass legacy electric utilities for off-grid power, directly threatening utility capital expenditure recovery and rate base growth models. Target profit at 4.0% downside from entry and cut losses if the index rallies 2.0% above open."
+      },
+      {
+        "ticker": "DAL",
+        "direction": "Watch",
+        "raw": "5. DAL - Watch at market open - Thousands of flight cancellations post-FAA outage will trigger massive refund liabilities and operational overtime costs today, but we downgrade to Watch to respect recent bad calls on airline tickers. Re-evaluate entry only if shares breach key morning technical support."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Technology",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-11-14"
   }
 }
