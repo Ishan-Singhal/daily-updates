@@ -4415,5 +4415,62 @@
       }
     ],
     "date": "2026-11-14"
+  },
+  "2026-11-15": {
+    "trade_ideas": [
+      {
+        "ticker": "NVDA",
+        "direction": "Short",
+        "raw": "1. NVDA - Short at market open (~$162.85) - Treasury Secretary Bessent's demand for an outside CEO following Jensen Huang's sudden resignation alongside an emergency export leakage probe into Megaspeed severely impairs Nvidia's institutional governance premium. I will take profit at $148.00 and cut losses at $169.50."
+      },
+      {
+        "ticker": "LHX",
+        "direction": "Short",
+        "raw": "2. LHX - Short at market open (~$245.00) - Transportation Secretary Duffy explicitly identified a faulty L3Harris router as the single point of failure for Friday's nationwide FAA ground stop, exposing the firm to immediate legal liabilities and FAA infrastructure re-bidding risks today. I will take profit at $230.00 and cut losses at $252.00."
+      },
+      {
+        "ticker": "QQQ",
+        "direction": "Short",
+        "raw": "3. QQQ - Short at market open (~$515.00) - October PPI surging to 6.5% YoY combined with 10-Year Treasury yields spiking past 5.15% completely eliminates near-term Fed rate cut expectations and forces multiple compression on long-duration tech. I will take profit at $501.00 and cut losses at $522.00."
+      },
+      {
+        "ticker": "DAL",
+        "direction": "Watch",
+        "raw": "4. DAL - Watch at $58.50 - Adjusting for my recent wrong BUY call on DAL (-0.11%) and ongoing weakness in Industrials, I am downgrading airlines to WATCH today as non-recoverable crew overtime and delay liabilities from the FAA outage will drag near-term margins without offering a clean short risk/reward. I will evaluate potential short entries if $57.80 support breaks on heavy volume."
+      },
+      {
+        "ticker": "SNOW",
+        "direction": "Short",
+        "raw": "5. SNOW - Short at market open (~$155.00) - Today's Federal Reserve survey citing AI financial stability risks alongside Anthropic's public listing will force institutional portfolio managers to re-price high-multiple, enterprise cloud software names. I will take profit at $142.00 and cut losses at $162.00."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-11-15"
   }
 }
