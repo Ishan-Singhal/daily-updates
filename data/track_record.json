@@ -5818,5 +5818,76 @@
     "total_correct": 8,
     "total_calls": 8,
     "accuracy": 100.0
+  },
+  "2026-11-13": {
+    "prediction_date": "2026-11-13",
+    "graded_date": "2026-11-16",
+    "trade_grades": [
+      {
+        "ticker": "NVDA",
+        "predicted": "short",
+        "actual_move": "-4.12%",
+        "correct": "True",
+        "graded_against": "2026-11-16"
+      },
+      {
+        "ticker": "OXY",
+        "predicted": "buy",
+        "actual_move": "-2.37%",
+        "correct": false,
+        "graded_against": "2026-11-16"
+      },
+      {
+        "ticker": "HAL",
+        "predicted": "short",
+        "actual_move": "-3.79%",
+        "correct": "True",
+        "graded_against": "2026-11-16"
+      },
+      {
+        "ticker": "MSFT",
+        "predicted": "short",
+        "actual_move": "-1.12%",
+        "correct": "True",
+        "graded_against": "2026-11-16"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bullish",
+        "actual_move": "-1.96%",
+        "correct": false,
+        "graded_against": "2026-11-16"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "predicted": "bullish",
+        "actual_move": "-0.85%",
+        "correct": false,
+        "graded_against": "2026-11-16"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "-3.24%",
+        "correct": "True",
+        "graded_against": "2026-11-16"
+      },
+      {
+        "sector": "Industrials",
+        "etf": "XLI",
+        "predicted": "bearish",
+        "actual_move": "-1.85%",
+        "correct": "True",
+        "graded_against": "2026-11-16"
+      }
+    ],
+    "total_correct": 5,
+    "total_calls": 8,
+    "accuracy": 62.5
   }
 }

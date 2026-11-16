@@ -4357,7 +4357,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-11-13"
+    "date": "2026-11-13",
+    "graded": true
   },
   "2026-11-14": {
     "trade_ideas": [
@@ -4472,5 +4473,77 @@
       }
     ],
     "date": "2026-11-15"
+  },
+  "2026-11-16": {
+    "trade_ideas": [
+      {
+        "ticker": "NVDA",
+        "direction": "Short",
+        "raw": "1. NVDA - Short at market open (~$156.14) - Nvidia's board officially ruled out Jensen Huang's return while Wachtell Lipton conducts a national security probe into illegal Chinese chip transfers, crippling governance stability and core margin narrative. Take profit at $141.00, and cut loss at $163.50."
+      },
+      {
+        "ticker": "QQQ",
+        "direction": "Short",
+        "raw": "2. QQQ - Short at market open - October PPI surging to a 4-year high of 6.5% YoY paired with Fed Chair Warsh's public warning on AI asset bubbles destroys rate-cut expectations and triggers tech multiple compression. Take profit at $505.00 (or -3.0% from open), and cut loss at +1.5% above open."
+      },
+      {
+        "ticker": "HOOD",
+        "direction": "Short",
+        "raw": "3. HOOD - Short at market open - Kalshi's today-announced expansion into commission-free stock trading and perpetual futures directly threatens Robinhood's core retail trading market share and active-trader ARPU. Take profit at 6% gain from entry, and cut loss at 3% loss from entry."
+      },
+      {
+        "ticker": "PLTR",
+        "direction": "Watch",
+        "raw": "4. PLTR - Watch at $160.39 - While elevated 10Y yields (5.12%) and Fed bubble warnings hit high-multiple AI stocks, my track record shows a recent wrong call on PLTR, so I am downgrading to Watch to avoid over-trading it. I will only trigger a short position if it breaks down below key support at $152.00 targeting $138.00, with a stop loss above $165.00."
+      },
+      {
+        "ticker": "XLI",
+        "direction": "Watch",
+        "raw": "5. XLI - Watch at market open - Contracting Japanese Q3 GDP (-0.1%) and China missing economic targets drag on global industrial demand, but following two recent wrong calls on Industrials (XLI), I am stepping aside from directional exposure today. I am watching for intra-day price discovery around key moving averages before committing fresh capital."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Industrials",
+        "etf": "XLI",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Real Estate",
+        "etf": "XLRE",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Technology",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-11-16"
   }
 }
