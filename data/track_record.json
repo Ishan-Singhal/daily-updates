@@ -5889,5 +5889,259 @@
     "total_correct": 5,
     "total_calls": 8,
     "accuracy": 62.5
+  },
+  "2026-11-14": {
+    "prediction_date": "2026-11-14",
+    "graded_date": "2026-11-17",
+    "trade_grades": [
+      {
+        "ticker": "NVDA",
+        "predicted": "short",
+        "actual_move": "-1.31%",
+        "correct": "True",
+        "graded_against": "2026-11-17"
+      },
+      {
+        "ticker": "LHX",
+        "predicted": "short",
+        "actual_move": "-1.15%",
+        "correct": "True",
+        "graded_against": "2026-11-17"
+      },
+      {
+        "ticker": "VST",
+        "predicted": "buy",
+        "actual_move": "-1.97%",
+        "correct": false,
+        "graded_against": "2026-11-17"
+      },
+      {
+        "ticker": "XLU",
+        "predicted": "short",
+        "actual_move": "-1.22%",
+        "correct": "True",
+        "graded_against": "2026-11-17"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bullish",
+        "actual_move": "-0.52%",
+        "correct": false,
+        "graded_against": "2026-11-17"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "predicted": "bullish",
+        "actual_move": "-1.64%",
+        "correct": false,
+        "graded_against": "2026-11-17"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "-1.38%",
+        "correct": "True",
+        "graded_against": "2026-11-17"
+      },
+      {
+        "sector": "Technology",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "-1.38%",
+        "correct": "True",
+        "graded_against": "2026-11-17"
+      },
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "predicted": "bearish",
+        "actual_move": "-1.22%",
+        "correct": "True",
+        "graded_against": "2026-11-17"
+      }
+    ],
+    "total_correct": 6,
+    "total_calls": 9,
+    "accuracy": 66.7
+  },
+  "2026-11-15": {
+    "prediction_date": "2026-11-15",
+    "graded_date": "2026-11-17",
+    "trade_grades": [
+      {
+        "ticker": "NVDA",
+        "predicted": "short",
+        "actual_move": "-1.32%",
+        "correct": "True",
+        "graded_against": "2026-11-17"
+      },
+      {
+        "ticker": "LHX",
+        "predicted": "short",
+        "actual_move": "-1.15%",
+        "correct": "True",
+        "graded_against": "2026-11-17"
+      },
+      {
+        "ticker": "QQQ",
+        "predicted": "short",
+        "actual_move": "-0.96%",
+        "correct": "True",
+        "graded_against": "2026-11-17"
+      },
+      {
+        "ticker": "SNOW",
+        "predicted": "short",
+        "actual_move": "-3.39%",
+        "correct": "True",
+        "graded_against": "2026-11-17"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bullish",
+        "actual_move": "-0.50%",
+        "correct": false,
+        "graded_against": "2026-11-17"
+      },
+      {
+        "sector": "Financials",
+        "etf": "XLF",
+        "predicted": "bullish",
+        "actual_move": "-1.64%",
+        "correct": false,
+        "graded_against": "2026-11-17"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "-1.38%",
+        "correct": "True",
+        "graded_against": "2026-11-17"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "-0.75%",
+        "correct": "True",
+        "graded_against": "2026-11-17"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "-0.75%",
+        "correct": "True",
+        "graded_against": "2026-11-17"
+      }
+    ],
+    "total_correct": 7,
+    "total_calls": 9,
+    "accuracy": 77.8
+  },
+  "2026-11-16": {
+    "prediction_date": "2026-11-16",
+    "graded_date": "2026-11-17",
+    "trade_grades": [
+      {
+        "ticker": "NVDA",
+        "predicted": "short",
+        "actual_move": "-1.33%",
+        "correct": "True",
+        "graded_against": "2026-11-17"
+      },
+      {
+        "ticker": "QQQ",
+        "predicted": "short",
+        "actual_move": "-0.96%",
+        "correct": "True",
+        "graded_against": "2026-11-17"
+      },
+      {
+        "ticker": "HOOD",
+        "predicted": "short",
+        "actual_move": "-4.14%",
+        "correct": "True",
+        "graded_against": "2026-11-17"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Industrials",
+        "etf": "XLI",
+        "predicted": "bearish",
+        "actual_move": "-0.60%",
+        "correct": "True",
+        "graded_against": "2026-11-17"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bullish",
+        "actual_move": "-1.38%",
+        "correct": false,
+        "graded_against": "2026-11-17"
+      },
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "predicted": "bullish",
+        "actual_move": "-1.22%",
+        "correct": false,
+        "graded_against": "2026-11-17"
+      },
+      {
+        "sector": "Real Estate",
+        "etf": "XLRE",
+        "predicted": "bullish",
+        "actual_move": "-1.06%",
+        "correct": false,
+        "graded_against": "2026-11-17"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "-1.38%",
+        "correct": "True",
+        "graded_against": "2026-11-17"
+      },
+      {
+        "sector": "Technology",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "-1.38%",
+        "correct": "True",
+        "graded_against": "2026-11-17"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "-0.75%",
+        "correct": "True",
+        "graded_against": "2026-11-17"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "-0.75%",
+        "correct": "True",
+        "graded_against": "2026-11-17"
+      }
+    ],
+    "total_correct": 8,
+    "total_calls": 11,
+    "accuracy": 72.7
   }
 }

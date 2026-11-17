@@ -4415,7 +4415,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-11-14"
+    "date": "2026-11-14",
+    "graded": true
   },
   "2026-11-15": {
     "trade_ideas": [
@@ -4472,7 +4473,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-11-15"
+    "date": "2026-11-15",
+    "graded": true
   },
   "2026-11-16": {
     "trade_ideas": [
@@ -4544,6 +4546,7 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-11-16"
+    "date": "2026-11-16",
+    "graded": true
   }
 }
