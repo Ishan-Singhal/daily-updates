@@ -4548,5 +4548,57 @@
     ],
     "date": "2026-11-16",
     "graded": true
+  },
+  "2026-11-19": {
+    "trade_ideas": [
+      {
+        "ticker": "AMD",
+        "direction": "Short",
+        "raw": "1. AMD - Short at market open (~$481.00) - Today's Hunterbrook short report alleging China sanctions evasion paired with U.S. Commerce Department interim rules curbing ASEAN AI data centers creates major regulatory friction. Take profit at $445.00; cut loss at $496.00 if dip-buyers attempt to defend key technical levels."
+      },
+      {
+        "ticker": "PANW",
+        "direction": "Buy",
+        "raw": "2. PANW - Buy at $355.00 - Palo Alto Networks reported Q1 revenue growth of 39% YoY and raised FY27 guidance today, demonstrating platform consolidation strength that sets it apart from software peers. Take profit at $378.00; cut loss at $343.00 if broad market high-beta selling forces a breakdown below post-earnings support."
+      },
+      {
+        "ticker": "XOM",
+        "direction": "Short",
+        "raw": "3. XOM - Short at market open (~$118.50) - The trilateral U.S.-China-Russia summit joint statement today pledging an oil supply expansion of up to 1.8M bpd severely undermines crude pricing and upstream margins. Take profit at $111.00; cut loss at $122.00 (flipping bias to Short after three failed Bullish calls on Energy as structural oversupply manifests)."
+      },
+      {
+        "ticker": "WMT",
+        "direction": "Buy",
+        "raw": "4. WMT - Buy at market open (~$84.00) - Walmart raised its full-year guidance this morning as high-income shoppers fuel sales growth, offering a proven defensive shelter during a sharp risk-off market sell-off. Take profit at $88.50; cut loss at $81.50 if broad retail liquidations pull down quality consumer staples."
+      },
+      {
+        "ticker": "CRM",
+        "direction": "Short",
+        "raw": "5. CRM - Short at market open (~$183.69) - Fed hawkishness signaling up to 100 bps in additional rate hikes today combined with Anthropic's $1.5T IPO liquidity drain will accelerate multiple compression across legacy SaaS names. Take profit at $170.00; cut loss at $191.00 if oversold tech experiences a short-covering bounce."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Consumer Staples",
+        "etf": "XLP",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-11-19"
   }
 }
