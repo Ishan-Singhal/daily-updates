@@ -4599,6 +4599,54 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-11-19"
+    "date": "2026-11-19",
+    "graded": true
+  },
+  "2026-11-20": {
+    "trade_ideas": [
+      {
+        "ticker": "NVDA",
+        "direction": "Short",
+        "raw": "1. NVDA - Short at market open ($130.20) - Jensen Huang's exit scandal and a $93M institutional put block trade on SMH have broken key $130 support today, signaling structural AI de-rating. Take profit at $115.00 and set a strict cut loss at $137.50."
+      },
+      {
+        "ticker": "FXY",
+        "direction": "Buy",
+        "raw": "2. FXY - Buy at market open - Japan's CPI acceleration to 2.2% alongside a 20.5% surge in October chip export data today paves the way for an imminent hawkish BOJ rate hike and Yen carry trade unwind. Take profit at $68.50 and cut loss if FXY drops 1.5% from entry."
+      },
+      {
+        "ticker": "EQIX",
+        "direction": "Short",
+        "raw": "3. EQIX - Short at market open ($785.00) - Today's White House ban on foreign data center construction combined with Commerce Department SE Asian licensing mandates directly traps international capital investments and squeezes REIT margins. Take profit at $720.00 and cut loss at $810.00."
+      },
+      {
+        "ticker": "VST",
+        "direction": "Watch",
+        "raw": "4. VST - Watch at market open ($112.00) - Today's news that state governors are seizing control over 77% of planned data center grid allocations forces cost re-allocations onto utility balance sheets. Following my recent failed directional calls on VST and Utilities, I am staying on the sidelines until utility commission rate cases provide legal clarity."
+      },
+      {
+        "ticker": "EWU",
+        "direction": "Short",
+        "raw": "5. EWU - Short at market open ($34.50) - U.K. October CPI re-accelerating to 3.6% today shuts the door on Bank of England rate cuts and puts extreme stagflationary pressure on British consumer spending. Take profit at $32.20 and cut loss at $35.40."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Healthcare",
+        "etf": "XLV",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Consumer Staples",
+        "etf": "XLP",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-11-20"
   }
 }

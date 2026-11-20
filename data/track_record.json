@@ -6143,5 +6143,83 @@
     "total_correct": 8,
     "total_calls": 11,
     "accuracy": 72.7
+  },
+  "2026-11-19": {
+    "prediction_date": "2026-11-19",
+    "graded_date": "2026-11-20",
+    "trade_grades": [
+      {
+        "ticker": "AMD",
+        "predicted": "short",
+        "actual_move": "-12.54%",
+        "correct": "True",
+        "graded_against": "2026-11-20"
+      },
+      {
+        "ticker": "PANW",
+        "predicted": "buy",
+        "actual_move": "-4.82%",
+        "correct": false,
+        "graded_against": "2026-11-20"
+      },
+      {
+        "ticker": "XOM",
+        "predicted": "short",
+        "actual_move": "+1.16%",
+        "correct": "False",
+        "graded_against": "2026-11-20"
+      },
+      {
+        "ticker": "WMT",
+        "predicted": "buy",
+        "actual_move": "+2.36%",
+        "correct": "True",
+        "graded_against": "2026-11-20"
+      },
+      {
+        "ticker": "CRM",
+        "predicted": "short",
+        "actual_move": "+0.05%",
+        "correct": "False",
+        "graded_against": "2026-11-20"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Consumer Staples",
+        "etf": "XLP",
+        "predicted": "bullish",
+        "actual_move": "+1.21%",
+        "correct": "True",
+        "graded_against": "2026-11-20"
+      },
+      {
+        "sector": "Utilities",
+        "etf": "XLU",
+        "predicted": "bullish",
+        "actual_move": "-0.14%",
+        "correct": false,
+        "graded_against": "2026-11-20"
+      },
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bearish",
+        "actual_move": "+0.16%",
+        "correct": "False",
+        "graded_against": "2026-11-20"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "-6.12%",
+        "correct": "True",
+        "graded_against": "2026-11-20"
+      }
+    ],
+    "total_correct": 4,
+    "total_calls": 9,
+    "accuracy": 44.4
   }
 }
