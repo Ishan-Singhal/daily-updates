@@ -4648,5 +4648,62 @@
       }
     ],
     "date": "2026-11-20"
+  },
+  "2026-11-21": {
+    "trade_ideas": [
+      {
+        "ticker": "NVDA",
+        "direction": "Short",
+        "raw": "1. NVDA - Short at market open (~$125.50) - The U.S. BIS interim rule issuing mandatory export licensing for Southeast Asian data centers directly freezes an estimated $12B\u2013$15B in AI compute infrastructure orders today, shattering near-term capex visibility. Take profit at $112.00, cut loss at $131.50 if pre-market buyers attempt an initial dip-buy."
+      },
+      {
+        "ticker": "CRWD",
+        "direction": "Buy",
+        "raw": "2. CRWD - Buy at market open (~$310.00) - Confirmed federal breaches of FBI database systems alongside regional power grid outages today are triggering emergency budget reallocations toward FedRAMP High zero-trust software providers. Take profit at $335.00, cut loss at $298.00."
+      },
+      {
+        "ticker": "AVGO",
+        "direction": "Short",
+        "raw": "3. AVGO - Short at market open (~$304.00) - Today's BIS export restriction targeting regional SE Asian data centers severely impacts Broadcom's custom ASIC and networking shipping pipeline, building on yesterday's heavy 1.8x volume breakdown. Take profit at $275.00, cut loss at $315.00."
+      },
+      {
+        "ticker": "XLE",
+        "direction": "Watch",
+        "raw": "4. XLE - Watch at market open (~$88.50) - Calibrating for three consecutive wrong bullish calls on Energy, I am staying on the sidelines as WTI crude ($83.98) remains trapped between Middle East geopolitical risk and expanding 2027 global oversupply forecasts. Watch for a confirmed breakdown below $86.00 before initiating short exposure."
+      },
+      {
+        "ticker": "CCJ",
+        "direction": "Watch",
+        "raw": "5. CCJ - Watch at market open (~$52.00) - Reconsidering past wrong assumptions on CCJ following U.K. nuclear regulatory overhaul headlines, which carry heavy execution risk and offer zero short-term earnings impact given distant Small Modular Reactor build timelines. Watch key technical support at $50.00 for stability before re-evaluating any long thesis."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Healthcare",
+        "etf": "XLV",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Consumer Staples",
+        "etf": "XLP",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Technology",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Industrials",
+        "etf": "XLI",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-11-21"
   }
 }
