@@ -4705,5 +4705,67 @@
       }
     ],
     "date": "2026-11-21"
+  },
+  "2026-11-22": {
+    "trade_ideas": [
+      {
+        "ticker": "NVDA",
+        "direction": "Short",
+        "raw": "1. NVDA - Short at market open (~$125.50) - The Department of Commerce's interim export rules published today target Southeast Asian data center workarounds, immediately freezing AI hardware shipments to key colocation hubs and exacerbating high-multiple tech de-leveraging. Take profit at $114.00, cut loss at $131.50."
+      },
+      {
+        "ticker": "AVGO",
+        "direction": "Short",
+        "raw": "2. AVGO - Short at market open (~$304.40) - New licensing requirements for data centers in Singapore, Malaysia, and Thailand directly impair Broadcom's custom AI and networking shipment pipeline, threatening Q4 revenue visibility. Take profit at $280.00, cut loss at $316.00."
+      },
+      {
+        "ticker": "TSLA",
+        "direction": "Short",
+        "raw": "3. TSLA - Short at market open (~$345.80) - Severe cash constraints and benefit cuts at physical AI venture Foundation Future Industries highlight spreading illiquidity across robotics hardware, accelerating liquidity pulls from high-beta tech. Take profit at $318.00, cut loss at $358.00."
+      },
+      {
+        "ticker": "PANW",
+        "direction": "Watch",
+        "raw": "4. PANW - Watch at market open - Although DNI warnings on systemic infrastructure outages create long-term cybersecurity demand, I called BUY on PANW on Nov 19 and was WRONG (-4.82%), so I am standing aside to confirm if broader market tech liquidation overrides security inflows."
+      },
+      {
+        "ticker": "UAL",
+        "direction": "Watch",
+        "raw": "5. UAL - Watch at market open - Delta's automated system failures in Atlanta and national outage warnings pressure travel sentiment, but given my track record of WRONG calls on UAL and DAL, I am downgrading to WATCH until airline operational stability is confirmed."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Healthcare",
+        "etf": "XLV",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Consumer Staples",
+        "etf": "XLP",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-11-22"
   }
 }
