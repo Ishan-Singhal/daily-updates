@@ -6221,5 +6221,68 @@
     "total_correct": 4,
     "total_calls": 9,
     "accuracy": 44.4
+  },
+  "2026-11-20": {
+    "prediction_date": "2026-11-20",
+    "graded_date": "2026-11-23",
+    "trade_grades": [
+      {
+        "ticker": "NVDA",
+        "predicted": "short",
+        "actual_move": "+31.48%",
+        "correct": "False",
+        "graded_against": "2026-11-23"
+      },
+      {
+        "ticker": "FXY",
+        "predicted": "buy",
+        "actual_move": "-0.29%",
+        "correct": false,
+        "graded_against": "2026-11-23"
+      },
+      {
+        "ticker": "EQIX",
+        "predicted": "short",
+        "actual_move": "+3.22%",
+        "correct": "False",
+        "graded_against": "2026-11-23"
+      },
+      {
+        "ticker": "EWU",
+        "predicted": "short",
+        "actual_move": "+1.74%",
+        "correct": "False",
+        "graded_against": "2026-11-23"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Healthcare",
+        "etf": "XLV",
+        "predicted": "bullish",
+        "actual_move": "+1.23%",
+        "correct": "True",
+        "graded_against": "2026-11-23"
+      },
+      {
+        "sector": "Consumer Staples",
+        "etf": "XLP",
+        "predicted": "bullish",
+        "actual_move": "-0.09%",
+        "correct": false,
+        "graded_against": "2026-11-23"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "+8.97%",
+        "correct": "False",
+        "graded_against": "2026-11-23"
+      }
+    ],
+    "total_correct": 1,
+    "total_calls": 7,
+    "accuracy": 14.3
   }
 }

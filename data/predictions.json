@@ -4647,7 +4647,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-11-20"
+    "date": "2026-11-20",
+    "graded": true
   },
   "2026-11-21": {
     "trade_ideas": [
@@ -4767,5 +4768,62 @@
       }
     ],
     "date": "2026-11-22"
+  },
+  "2026-11-23": {
+    "trade_ideas": [
+      {
+        "ticker": "NVDA",
+        "direction": "Short",
+        "raw": "1. NVDA - Short at market open (~$165.05) - Jensen Huang's reinstatement triggered an unsustainable +31% gap up that ignores today's Commerce Department ASEAN export restrictions and impending bipartisan Congressional subpoenas. Take profit at $148.00; cut loss if price breaks above $172.50."
+      },
+      {
+        "ticker": "SMCI",
+        "direction": "Short",
+        "raw": "2. SMCI - Short at market open (~$24.53) - Today's 10% pre-market sympathy rally creates a prime short opportunity as the Commerce Department's new interim rule directly restricts chip shipments to Southeast Asian data center hubs. Take profit at $21.50; set stop-loss at $26.20."
+      },
+      {
+        "ticker": "CRWD",
+        "direction": "Short",
+        "raw": "3. CRWD - Short at $208.97 - Down 8.9% pre-market following major technology outages, CrowdStrike faces immediate operational SLA financial penalties and mandated infrastructure redundancy costs. Take profit at $194.00; cut loss above $216.00."
+      },
+      {
+        "ticker": "GNRC",
+        "direction": "Buy",
+        "raw": "4. GNRC - Buy at $154.50 - Today's widespread cloud and technology infrastructure failures are driving an immediate pull-forward in enterprise and retail demand for backup power systems and emergency grid equipment. Take profit at $165.00; cut loss strictly at $149.00 due to our calibrated low historical accuracy on bullish calls."
+      },
+      {
+        "ticker": "XLU",
+        "direction": "Watch",
+        "raw": "5. XLU - Watch at market open ($77.50) - Hawkish rate hike signals from NY Fed President Williams today pressure high-yield utilities, but given our 2 recent incorrect directional calls on Utilities, we are downgrading the sector to neutral pending yield curve stabilization."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Industrials",
+        "etf": "XLI",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Real Estate",
+        "etf": "XLRE",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-11-23"
   }
 }
