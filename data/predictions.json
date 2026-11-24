@@ -4705,7 +4705,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-11-21"
+    "date": "2026-11-21",
+    "graded": true
   },
   "2026-11-22": {
     "trade_ideas": [
@@ -4767,7 +4768,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-11-22"
+    "date": "2026-11-22",
+    "graded": true
   },
   "2026-11-23": {
     "trade_ideas": [
@@ -4824,6 +4826,64 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-11-23"
+    "date": "2026-11-23",
+    "graded": true
+  },
+  "2026-11-24": {
+    "trade_ideas": [
+      {
+        "ticker": "NVDA",
+        "direction": "Short",
+        "raw": "1. NVDA - Short at $155.38 - Broad credit spread widening across AI infrastructure debt and impending Congressional probes into Huang's DOJ exoneration negate the emotional relief of his reinstatement. Take profit at $142.00 and cut loss at $164.50."
+      },
+      {
+        "ticker": "LAC",
+        "direction": "Short",
+        "raw": "2. LAC - Short at market open - Thacker Pass Phase 1 construction cost overruns surged 31% to $3.8 billion, severely impairing project internal rate of return and guaranteeing near-term equity dilution. Take profit at $2.35 and cut loss at $3.05."
+      },
+      {
+        "ticker": "DELL",
+        "direction": "Buy",
+        "raw": "3. DELL - Buy at market open - Q3 EPS beat of $9.45 accompanied by a massive $25 billion share repurchase authorization (representing ~25% of market cap) provides a hard corporate price floor. Take profit at +8.0% from open and cut loss at -3.5% to strictly manage risk given our weak track record on tech long calls."
+      },
+      {
+        "ticker": "SNY",
+        "direction": "Short",
+        "raw": "4. SNY - Short at market open - The $41 billion all-cash deal for Insmed forces significant high-yield debt loading into a high-rate environment, immediately diluting return on invested capital. Take profit at -6.0% and cut loss at +3.5%."
+      },
+      {
+        "ticker": "COIN",
+        "direction": "Short",
+        "raw": "5. COIN - Short at $102.35 - Kalshi perpetual derivative volume surpassing prediction markets post-Utah legal relief directly threatens retail crypto trading order flow while Bitcoin breaks below $60k. Take profit at $93.50 and cut loss at $107.50."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Healthcare",
+        "etf": "XLV",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Consumer Staples",
+        "etf": "XLP",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Real Estate",
+        "etf": "XLRE",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-11-24"
   }
 }

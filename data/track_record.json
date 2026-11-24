@@ -6284,5 +6284,236 @@
     "total_correct": 1,
     "total_calls": 7,
     "accuracy": 14.3
+  },
+  "2026-11-21": {
+    "prediction_date": "2026-11-21",
+    "graded_date": "2026-11-24",
+    "trade_grades": [
+      {
+        "ticker": "NVDA",
+        "predicted": "short",
+        "actual_move": "-5.86%",
+        "correct": "True",
+        "graded_against": "2026-11-24"
+      },
+      {
+        "ticker": "CRWD",
+        "predicted": "buy",
+        "actual_move": "+0.90%",
+        "correct": "True",
+        "graded_against": "2026-11-24"
+      },
+      {
+        "ticker": "AVGO",
+        "predicted": "short",
+        "actual_move": "-3.98%",
+        "correct": "True",
+        "graded_against": "2026-11-24"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Healthcare",
+        "etf": "XLV",
+        "predicted": "bullish",
+        "actual_move": "+2.95%",
+        "correct": "True",
+        "graded_against": "2026-11-24"
+      },
+      {
+        "sector": "Consumer Staples",
+        "etf": "XLP",
+        "predicted": "bullish",
+        "actual_move": "+1.66%",
+        "correct": "True",
+        "graded_against": "2026-11-24"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "-3.26%",
+        "correct": "True",
+        "graded_against": "2026-11-24"
+      },
+      {
+        "sector": "Technology",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "-3.26%",
+        "correct": "True",
+        "graded_against": "2026-11-24"
+      },
+      {
+        "sector": "Industrials",
+        "etf": "XLI",
+        "predicted": "bearish",
+        "actual_move": "-0.53%",
+        "correct": "True",
+        "graded_against": "2026-11-24"
+      }
+    ],
+    "total_correct": 8,
+    "total_calls": 8,
+    "accuracy": 100.0
+  },
+  "2026-11-22": {
+    "prediction_date": "2026-11-22",
+    "graded_date": "2026-11-24",
+    "trade_grades": [
+      {
+        "ticker": "NVDA",
+        "predicted": "short",
+        "actual_move": "-5.86%",
+        "correct": "True",
+        "graded_against": "2026-11-24"
+      },
+      {
+        "ticker": "AVGO",
+        "predicted": "short",
+        "actual_move": "-3.98%",
+        "correct": "True",
+        "graded_against": "2026-11-24"
+      },
+      {
+        "ticker": "TSLA",
+        "predicted": "short",
+        "actual_move": "-0.20%",
+        "correct": "True",
+        "graded_against": "2026-11-24"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bullish",
+        "actual_move": "-3.26%",
+        "correct": false,
+        "graded_against": "2026-11-24"
+      },
+      {
+        "sector": "Healthcare",
+        "etf": "XLV",
+        "predicted": "bullish",
+        "actual_move": "+2.95%",
+        "correct": "True",
+        "graded_against": "2026-11-24"
+      },
+      {
+        "sector": "Consumer Staples",
+        "etf": "XLP",
+        "predicted": "bullish",
+        "actual_move": "+1.66%",
+        "correct": "True",
+        "graded_against": "2026-11-24"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "-3.26%",
+        "correct": "True",
+        "graded_against": "2026-11-24"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "+0.68%",
+        "correct": "False",
+        "graded_against": "2026-11-24"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "predicted": "bearish",
+        "actual_move": "+0.68%",
+        "correct": "False",
+        "graded_against": "2026-11-24"
+      }
+    ],
+    "total_correct": 6,
+    "total_calls": 9,
+    "accuracy": 66.7
+  },
+  "2026-11-23": {
+    "prediction_date": "2026-11-23",
+    "graded_date": "2026-11-24",
+    "trade_grades": [
+      {
+        "ticker": "NVDA",
+        "predicted": "short",
+        "actual_move": "-5.86%",
+        "correct": "True",
+        "graded_against": "2026-11-24"
+      },
+      {
+        "ticker": "SMCI",
+        "predicted": "short",
+        "actual_move": "-7.79%",
+        "correct": "True",
+        "graded_against": "2026-11-24"
+      },
+      {
+        "ticker": "CRWD",
+        "predicted": "short",
+        "actual_move": "+0.90%",
+        "correct": "False",
+        "graded_against": "2026-11-24"
+      },
+      {
+        "ticker": "GNRC",
+        "predicted": "buy",
+        "actual_move": "-3.12%",
+        "correct": false,
+        "graded_against": "2026-11-24"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "predicted": "bullish",
+        "actual_move": "+0.68%",
+        "correct": "True",
+        "graded_against": "2026-11-24"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "predicted": "bullish",
+        "actual_move": "+0.68%",
+        "correct": "True",
+        "graded_against": "2026-11-24"
+      },
+      {
+        "sector": "Industrials",
+        "etf": "XLI",
+        "predicted": "bullish",
+        "actual_move": "-0.53%",
+        "correct": false,
+        "graded_against": "2026-11-24"
+      },
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "predicted": "bearish",
+        "actual_move": "+0.97%",
+        "correct": "False",
+        "graded_against": "2026-11-24"
+      },
+      {
+        "sector": "Real Estate",
+        "etf": "XLRE",
+        "predicted": "bearish",
+        "actual_move": "+1.31%",
+        "correct": "False",
+        "graded_against": "2026-11-24"
+      }
+    ],
+    "total_correct": 4,
+    "total_calls": 9,
+    "accuracy": 44.4
   }
 }
