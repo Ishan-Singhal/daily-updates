@@ -6515,5 +6515,91 @@
     "total_correct": 4,
     "total_calls": 9,
     "accuracy": 44.4
+  },
+  "2026-11-24": {
+    "prediction_date": "2026-11-24",
+    "graded_date": "2026-11-25",
+    "trade_grades": [
+      {
+        "ticker": "NVDA",
+        "predicted": "short",
+        "actual_move": "-3.91%",
+        "correct": "True",
+        "graded_against": "2026-11-25"
+      },
+      {
+        "ticker": "LAC",
+        "predicted": "short",
+        "actual_move": "-0.77%",
+        "correct": "True",
+        "graded_against": "2026-11-25"
+      },
+      {
+        "ticker": "DELL",
+        "predicted": "buy",
+        "actual_move": "+0.60%",
+        "correct": "True",
+        "graded_against": "2026-11-25"
+      },
+      {
+        "ticker": "SNY",
+        "predicted": "short",
+        "actual_move": "+4.80%",
+        "correct": "False",
+        "graded_against": "2026-11-25"
+      },
+      {
+        "ticker": "COIN",
+        "predicted": "short",
+        "actual_move": "+1.34%",
+        "correct": "False",
+        "graded_against": "2026-11-25"
+      }
+    ],
+    "sector_grades": [
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bullish",
+        "actual_move": "-0.81%",
+        "correct": false,
+        "graded_against": "2026-11-25"
+      },
+      {
+        "sector": "Healthcare",
+        "etf": "XLV",
+        "predicted": "bullish",
+        "actual_move": "-0.56%",
+        "correct": false,
+        "graded_against": "2026-11-25"
+      },
+      {
+        "sector": "Consumer Staples",
+        "etf": "XLP",
+        "predicted": "bullish",
+        "actual_move": "+0.46%",
+        "correct": "True",
+        "graded_against": "2026-11-25"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "predicted": "bearish",
+        "actual_move": "-0.81%",
+        "correct": "True",
+        "graded_against": "2026-11-25"
+      },
+      {
+        "sector": "Real Estate",
+        "etf": "XLRE",
+        "predicted": "bearish",
+        "actual_move": "+0.92%",
+        "correct": "False",
+        "graded_against": "2026-11-25"
+      }
+    ],
+    "total_correct": 5,
+    "total_calls": 10,
+    "accuracy": 50.0
   }
 }

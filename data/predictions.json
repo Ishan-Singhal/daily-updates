@@ -4884,6 +4884,64 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-11-24"
+    "date": "2026-11-24",
+    "graded": true
+  },
+  "2026-11-25": {
+    "trade_ideas": [
+      {
+        "ticker": "NVDA",
+        "direction": "Short",
+        "raw": "1. NVDA - Short at market open (~$149.30) - Today's failure to hold gains following DOJ clearance confirmation signals institutional seller dominance as Core PCE rising to 3.8% drives tech WACC expansion. Take profit at $139.50, cut loss at $154.80."
+      },
+      {
+        "ticker": "XRT",
+        "direction": "Short",
+        "raw": "2. XRT - Short at market open (~$78.50) - Today's hot Core PCE acceleration to 3.8% combined with proposed broad tariffs across 14 trading partners directly threatens Q4 retail volume and margins. Take profit at $74.50, cut loss at $80.20."
+      },
+      {
+        "ticker": "TLT",
+        "direction": "Short",
+        "raw": "3. TLT - Short at market open (~$88.10) - Accelerating core inflation to 3.8% YoY today eliminates near-term Fed rate-cut flexibility and forces long-end Treasury yields upward. Take profit at $85.50, cut loss at $89.80."
+      },
+      {
+        "ticker": "OXY",
+        "direction": "Watch",
+        "raw": "4. OXY - Watch at market open (~$54.00) - WTI crude surging +4.34% overnight is capped long-term by record U.S. output and flat Baker Hughes rig counts. Acknowledging 3 prior sector errors in Energy (including OXY), I am standing aside until crude price action stabilizes."
+      },
+      {
+        "ticker": "ORCL",
+        "direction": "Watch",
+        "raw": "5. ORCL - Watch at $103.88 - ORCL sits near 52-week lows as tightening AI corporate debt conditions and delayed OpenAI IPO timing weigh on tech capex models today. Given 3 recent sector misses in Tech, I am remaining on Watch to observe support near $103.00 before committing capital."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Real Estate",
+        "etf": "XLRE",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Technology",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-11-25"
   }
 }
