@@ -4943,5 +4943,57 @@
       }
     ],
     "date": "2026-11-25"
+  },
+  "2026-11-26": {
+    "trade_ideas": [
+      {
+        "ticker": "NVDA",
+        "direction": "Short",
+        "raw": "1. NVDA - Short at $149.30 - U.S. regulators today instructed vendors to ban GPU sales to neoclouds renting to Chinese entities, closing a vital off-shore demand channel for high-margin chips. Take profit at $138.00 and cut loss at $154.50, flipping my bias on Tech following recent bullish missteps to leverage my 100% short call accuracy."
+      },
+      {
+        "ticker": "AMZN",
+        "direction": "Short",
+        "raw": "2. AMZN - Short at $244.43 - Norway's grid freeze on data centers through 2027 severely impairs European AWS expansion plans today, compounding pressure from weak Q4 consumer holiday spending data. Take profit at $230.00 and cut loss at $251.50."
+      },
+      {
+        "ticker": "AAPL",
+        "direction": "Short",
+        "raw": "3. AAPL - Short at $355.58 - Fresh US tariff threats announced today target Vietnam and India, directly threatening Apple's primary supply chain diversification hubs while the stock trades near 52-week highs. Take profit at $338.00 and cut loss at $362.50."
+      },
+      {
+        "ticker": "OXY",
+        "direction": "Watch",
+        "raw": "4. OXY - Watch at market open - Crude oil spiked +5.18% to $84.91 today following geopolitical escalations around Ukrainian energy infrastructure. Given three recent trade errors in Energy and OXY specifically, I am downgrading this to Watch until crude establishes price acceptance above $85.00."
+      },
+      {
+        "ticker": "TLT",
+        "direction": "Short",
+        "raw": "5. TLT - Short at market open - October Core PCE accelerated to 3.3% YoY today alongside upward Q3 GDP revisions, completely dismantling market expectations for early Fed rate cuts. Take profit at $88.50 and cut loss at $93.00."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Energy",
+        "etf": "XLE",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-11-26"
   }
 }
