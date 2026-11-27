@@ -4942,7 +4942,8 @@
         "direction": "Bearish"
       }
     ],
-    "date": "2026-11-25"
+    "date": "2026-11-25",
+    "graded": true
   },
   "2026-11-26": {
     "trade_ideas": [
@@ -4995,5 +4996,62 @@
       }
     ],
     "date": "2026-11-26"
+  },
+  "2026-11-27": {
+    "trade_ideas": [
+      {
+        "ticker": "AAPL",
+        "direction": "Short",
+        "raw": "1. AAPL - Short at market open ($358.54) - Today's official U.S. tariff hikes targeting China, Vietnam, and India directly hit Apple's unhedged consumer hardware supply chain and compress gross margins. Take profit at $345.00, cut loss at $363.00."
+      },
+      {
+        "ticker": "JETS",
+        "direction": "Short",
+        "raw": "2. JETS - Short at market open ($21.20) - An Iranian drone strike in Kuwait killing two Italians expands Middle East conflict into key transport hubs today, driving up jet fuel costs and disrupting international routes. Take profit at $20.10, cut loss at $21.75."
+      },
+      {
+        "ticker": "ARKK",
+        "direction": "Short",
+        "raw": "3. ARKK - Short at market open ($54.20) - The 10-Year Treasury yield jumping to 4.936% following Q3 GDP upward revisions and hawkish Fed Warsh expectations triggers rapid valuation compression across unprofitable high-beta growth. Take profit at $51.20, cut loss at $55.40."
+      },
+      {
+        "ticker": "XPEV",
+        "direction": "Short",
+        "raw": "4. XPEV - Short at market open ($11.80) - Xpeng's announcement today of an unfeasible 1-to-2 year commercial deployment timeline for household humanoid robots signals severe CapEx drag and margin dilution in an active EV price war. Take profit at $10.70, cut loss at $12.35."
+      },
+      {
+        "ticker": "TSLA",
+        "direction": "Watch",
+        "raw": "5. TSLA - Watch at $400.00 - Despite TSLA surging +5.05% overnight to $400.00, benchmark yields surging to 4.936% create severe valuation risk for mega-cap tech. Calibrating for my 3x past errors in Tech, I am downgrading TSLA to Watch until it breaks decisively above $405.00 or below $392.00."
+      }
+    ],
+    "sector_calls": [
+      {
+        "sector": "Consumer Staples",
+        "etf": "XLP",
+        "direction": "Bullish"
+      },
+      {
+        "sector": "Tech",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Technology",
+        "etf": "XLK",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Disc",
+        "etf": "XLY",
+        "direction": "Bearish"
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "etf": "XLY",
+        "direction": "Bearish"
+      }
+    ],
+    "date": "2026-11-27"
   }
 }
